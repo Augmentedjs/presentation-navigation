@@ -1,6 +1,6 @@
 {
   "name": "presentation-navigation",
-  "version": "2.6.0",
+  "version": "2.6.1",
   "description": "The Augmented.js Next - Presentation Application Module.",
   "main": "dist/presentation-navigation.js",
   "scripts": {
