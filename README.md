@@ -11,36 +11,36 @@ Augmented.js Next Presentation - Navigation Components
 -   [HamburgerMenu](#hamburgermenu)
     -   [Parameters](#parameters)
     -   [render](#render)
--   [Menu](#menu)
-    -   [Parameters](#parameters-1)
-    -   [render](#render-1)
--   [NavigationMenu](#navigationmenu)
-    -   [Parameters](#parameters-2)
-    -   [render](#render-2)
 -   [AbstractToolbar](#abstracttoolbar)
-    -   [Parameters](#parameters-3)
+    -   [Parameters](#parameters-1)
     -   [addItem](#additem)
-        -   [Parameters](#parameters-4)
+        -   [Parameters](#parameters-2)
         -   [Properties](#properties)
     -   [addItem](#additem-1)
-        -   [Parameters](#parameters-5)
+        -   [Parameters](#parameters-3)
         -   [Properties](#properties-1)
     -   [addItem](#additem-2)
-        -   [Parameters](#parameters-6)
+        -   [Parameters](#parameters-4)
         -   [Properties](#properties-2)
     -   [addItem](#additem-3)
-        -   [Parameters](#parameters-7)
+        -   [Parameters](#parameters-5)
         -   [Properties](#properties-3)
     -   [addItem](#additem-4)
-        -   [Parameters](#parameters-8)
+        -   [Parameters](#parameters-6)
         -   [Examples](#examples)
     -   [addSpacer](#addspacer)
         -   [Examples](#examples-1)
     -   [clearMenuItems](#clearmenuitems)
     -   [select](#select)
-        -   [Parameters](#parameters-9)
+        -   [Parameters](#parameters-7)
     -   [getItem](#getitem)
-        -   [Parameters](#parameters-10)
+        -   [Parameters](#parameters-8)
+-   [Menu](#menu)
+    -   [Parameters](#parameters-9)
+    -   [render](#render-1)
+-   [NavigationMenu](#navigationmenu)
+    -   [Parameters](#parameters-10)
+    -   [render](#render-2)
 -   [NotificationCenter](#notificationcenter)
     -   [Parameters](#parameters-11)
     -   [notifications](#notifications)
@@ -72,38 +72,6 @@ A Hamburger Menu View
 ### render
 
 Render the Hamburger Menu
-
-Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Returns the view context ('this')
-
-## Menu
-
-**Extends Presentation.AbstractToolbar**
-
-A Menu
-
-### Parameters
-
--   `options`  
-
-### render
-
-Renders the Menu
-
-Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Returns the view context ('this')
-
-## NavigationMenu
-
-**Extends Presentation.AbstractToolbar**
-
-A Navigation Menu
-
-### Parameters
-
--   `options`  
-
-### render
-
-Renders the Menu
 
 Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Returns the view context ('this')
 
@@ -232,6 +200,38 @@ Get an item in the menu
 #### Parameters
 
 -   `id` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The id
+
+## Menu
+
+**Extends Presentation.AbstractToolbar**
+
+A Menu
+
+### Parameters
+
+-   `options`  
+
+### render
+
+Renders the Menu
+
+Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Returns the view context ('this')
+
+## NavigationMenu
+
+**Extends Presentation.AbstractToolbar**
+
+A Navigation Menu
+
+### Parameters
+
+-   `options`  
+
+### render
+
+Renders the Menu
+
+Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Returns the view context ('this')
 
 ## NotificationCenter
 
