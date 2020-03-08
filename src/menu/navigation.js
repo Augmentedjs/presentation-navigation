@@ -4,8 +4,7 @@ import buildNavItems from "../functions/buildNavItems.js";
 
 /**
  * A Navigation Menu
- * @memberof Presentation.Component
- * @extends Presentation.AbstractToolbar
+ * @extends AbstractToolbar
  */
 class NavigationMenu extends AbstractToolbar {
   constructor(options) {
@@ -35,12 +34,16 @@ class NavigationMenu extends AbstractToolbar {
         if (e) {
           // the menu
           Dom.addClass(e, "navigation");
-          e.setAttribute("data-" + this.name, "navigation-menu");
+          e.setAttribute(`data-${this.name}`, "navigation-menu");
           e.innerHTML = buildNavItems(this.name, this.menuItems);
         }
         this.delegateEvents();
         this.syncAllBoundElements();
+      } else {
+        console.warn(`AUGMENTED: Navigation "${this.name}" no element anchor, not rendering.`);
       }
+    } else {
+      console.warn(`AUGMENTED: Navigation "${this.name}" Can't render yet, not initialized!`);
     };
     return this;
   };

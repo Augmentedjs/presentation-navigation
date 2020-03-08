@@ -4,8 +4,7 @@ import buildMenuItems from "../functions/buildMenuItems.js";
 
 /**
  * A Toolbar View
- * @memberof Presentation.Component
- * @extends Presentation.AbstractToolbar
+ * @extends AbstractToolbar
  */
 class Toolbar extends AbstractToolbar {
   constructor(options) {
@@ -26,7 +25,7 @@ class Toolbar extends AbstractToolbar {
       if (e) {
         // the menu
         Dom.addClass(e, "toolbar");
-        e.setAttribute("data-" + this.name, "toolbar");
+        e.setAttribute(`data-${this.name}`, "toolbar");
         e.innerHTML = buildMenuItems(this.name, this.menuItems, this.tooltip);
       }
     } else {

@@ -7,8 +7,11 @@ const buildMenuItems = (name, data) => {
       if (data[i].spacer) {
         items = items + '<li class="spacer"></li>';
       } else {
-        items = items + '<li id="' + data[i].id + '" data-' + name + '="' + data[i].id + '" data-click="' + data[i].click + '">' +
-        ( (data[i].icon) ? ('<i class="material-icons md-dark">' + data[i].icon + '</i>') : '' ) + data[i].title + '</li>';
+        items = items + `
+          <li id="${data[i].id}" data-${name}="${data[i].id}" ${(data[i].click) ? 'data-click="' + data[i].click + '"' : ""}>
+            ${( (data[i].icon) ? ('<i class="material-icons md-dark">' + data[i].icon + '</i>') : '' )}${data[i].title}
+          </li>
+        `;
       }
     }
   }

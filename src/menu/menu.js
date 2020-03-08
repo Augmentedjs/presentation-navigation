@@ -27,6 +27,7 @@ class Menu extends AbstractToolbar {
    */
   render() {
     if (!this.isInitalized) {
+      console.warn(`AUGMENTED: Menu "${this.name}" Can't render yet, not initialized!`);
       return this;
     }
     this.template = null;//"notused";
@@ -35,11 +36,11 @@ class Menu extends AbstractToolbar {
       if (e) {
         // the menu
         Dom.addClass(e, "tools");
-        e.setAttribute("data-" + this.name, "menu");
+        e.setAttribute(`data-${this.name}`, "menu");
         e.innerHTML = buildMenu(this.name, this.menuItems);
       }
     } else {
-      //_logger.warn("AUGMENTED: Menu no element anchor, not rendering.");
+      console.warn(`AUGMENTED: Menu "${this.name}" no element anchor, not rendering.`);
       return this;
     }
     this.delegateEvents();

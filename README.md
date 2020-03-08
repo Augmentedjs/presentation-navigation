@@ -11,52 +11,55 @@ Augmented.js Next Presentation - Navigation Components
 -   [HamburgerMenu](#hamburgermenu)
     -   [Parameters](#parameters)
     -   [render](#render)
--   [AbstractToolbar](#abstracttoolbar)
+-   [Menu](#menu)
     -   [Parameters](#parameters-1)
+    -   [render](#render-1)
+-   [AbstractToolbar](#abstracttoolbar)
+    -   [Parameters](#parameters-2)
     -   [addItem](#additem)
-        -   [Parameters](#parameters-2)
+        -   [Parameters](#parameters-3)
         -   [Properties](#properties)
     -   [addItem](#additem-1)
-        -   [Parameters](#parameters-3)
+        -   [Parameters](#parameters-4)
         -   [Properties](#properties-1)
     -   [addItem](#additem-2)
-        -   [Parameters](#parameters-4)
+        -   [Parameters](#parameters-5)
         -   [Properties](#properties-2)
     -   [addItem](#additem-3)
-        -   [Parameters](#parameters-5)
+        -   [Parameters](#parameters-6)
         -   [Properties](#properties-3)
     -   [addItem](#additem-4)
-        -   [Parameters](#parameters-6)
+        -   [Parameters](#parameters-7)
         -   [Examples](#examples)
-    -   [addSpacer](#addspacer)
+    -   [addLabel](#addlabel)
+        -   [Parameters](#parameters-8)
         -   [Examples](#examples-1)
+    -   [addSpacer](#addspacer)
+        -   [Examples](#examples-2)
     -   [clearMenuItems](#clearmenuitems)
     -   [select](#select)
-        -   [Parameters](#parameters-7)
+        -   [Parameters](#parameters-9)
     -   [getItem](#getitem)
-        -   [Parameters](#parameters-8)
--   [Menu](#menu)
-    -   [Parameters](#parameters-9)
-    -   [render](#render-1)
+        -   [Parameters](#parameters-10)
+-   [toggle](#toggle)
 -   [NavigationMenu](#navigationmenu)
-    -   [Parameters](#parameters-10)
+    -   [Parameters](#parameters-11)
     -   [render](#render-2)
 -   [NotificationCenter](#notificationcenter)
-    -   [Parameters](#parameters-11)
+    -   [Parameters](#parameters-12)
     -   [notifications](#notifications)
     -   [showNotification](#shownotification)
     -   [hideNotification](#hidenotification)
     -   [clearNotifications](#clearnotifications)
     -   [render](#render-3)
 -   [Toolbar](#toolbar)
-    -   [Parameters](#parameters-12)
-    -   [render](#render-4)
--   [toggle](#toggle)
--   [Iconbar](#iconbar)
     -   [Parameters](#parameters-13)
+    -   [render](#render-4)
+-   [Iconbar](#iconbar)
+    -   [Parameters](#parameters-14)
     -   [addIcon](#addicon)
-        -   [Parameters](#parameters-14)
-        -   [Examples](#examples-2)
+        -   [Parameters](#parameters-15)
+        -   [Examples](#examples-3)
     -   [render](#render-5)
 
 ## HamburgerMenu
@@ -72,6 +75,22 @@ A Hamburger Menu View
 ### render
 
 Render the Hamburger Menu
+
+Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Returns the view context ('this')
+
+## Menu
+
+**Extends Presentation.AbstractToolbar**
+
+A Menu
+
+### Parameters
+
+-   `options`  
+
+### render
+
+Renders the Menu
 
 Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Returns the view context ('this')
 
@@ -171,6 +190,22 @@ addItem({"itemID", "event", "web", "something", false });
 addItem({"space", null, null, null, true });
 ```
 
+### addLabel
+
+Adds a label (no click) to the menu
+
+#### Parameters
+
+-   `id`  {string} The id of the itemID
+-   `icon`  {string} The icon name (webfont)
+-   `title`  {string} The title of the itemID
+
+#### Examples
+
+```javascript
+addLabel({"itemID", "web", "something"});
+```
+
 ### addSpacer
 
 Adds a spacer item to the menu
@@ -201,25 +236,13 @@ Get an item in the menu
 
 -   `id` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The id
 
-## Menu
+## toggle
 
-**Extends Presentation.AbstractToolbar**
-
-A Menu
-
-### Parameters
-
--   `options`  
-
-### render
-
-Renders the Menu
-
-Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Returns the view context ('this')
+Toggle the Hamburger menu view
 
 ## NavigationMenu
 
-**Extends Presentation.AbstractToolbar**
+**Extends AbstractToolbar**
 
 A Navigation Menu
 
@@ -235,7 +258,7 @@ Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/G
 
 ## NotificationCenter
 
-**Extends Presentation.Component.AbstractToolbar**
+**Extends AbstractToolbar**
 
 A Notfication Center Component
 
@@ -265,7 +288,7 @@ Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/G
 
 ## Toolbar
 
-**Extends Presentation.AbstractToolbar**
+**Extends AbstractToolbar**
 
 A Toolbar View
 
@@ -278,10 +301,6 @@ A Toolbar View
 Render the Toolbar
 
 Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Returns the view context ('this')
-
-## toggle
-
-Toggle the Hamburger menu view
 
 ## Iconbar
 

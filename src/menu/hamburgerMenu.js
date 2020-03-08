@@ -3,7 +3,7 @@ import Dom from "presentation-dom";
 import AbstractToolbar from "../toolbar/abstractToolbar.js";
 
 const buildMenu = (name, title, menuItems) => {
-  return `
+  return /*html*/`
     <section class="material-design-hamburger" data-${name}="hamburgerClickRegion">
       <div class="material-design-hamburger__icon" data-${name}="hamburgerIcon" data-click="toggle">
         <i class="material-icons md-light">menu</i>

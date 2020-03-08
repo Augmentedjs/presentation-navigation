@@ -26,7 +26,14 @@ class Iconbar extends AbstractToolbar {
    * @example addIcon({"itemID", "event", "/images/blah.png", "something", true });
    */
   addIcon(id, click, icon, toolTip, isImageLink) {
-    this._menuItems.push({ "id": id, "click": click, "icon": icon, "title": toolTip, "spacer": false, "isImageLink": isImageLink });
+    this._menuItems.push({
+      "id": id,
+      "click": click,
+      "icon": icon,
+      "title": toolTip,
+      "spacer": false,
+      "isImageLink": isImageLink
+    });
   };
 
   /**
@@ -35,7 +42,7 @@ class Iconbar extends AbstractToolbar {
    */
   render() {
     if (!this.isInitalized) {
-      //_logger.warn("AUGMENTED: Toolbar Can't render yet, not initialized!");
+      console.warn(`AUGMENTED: Toolbar "${this.name}" Can't render yet, not initialized!`);
       return this;
     }
     this.template = null;//"notused";
@@ -45,11 +52,11 @@ class Iconbar extends AbstractToolbar {
         // the menu
         Dom.addClass(e, "toolbar");
         Dom.addClass(e, "iconbar");
-        e.setAttribute("data-" + this.name, "iconbar");
+        e.setAttribute(`data-${this.name}`, "iconbar");
         e.innerHTML = buildIconItems(this.name, this.menuItems, this.tooltip);
       }
     } else {
-      //_logger.warn("AUGMENTED: Toolbar no element anchor, not rendering.");
+      console.warn(`AUGMENTED: Toolbar "${this.name}" no element anchor, not rendering.`);
       return this;
     }
     this.delegateEvents();

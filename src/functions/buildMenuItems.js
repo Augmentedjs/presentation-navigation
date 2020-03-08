@@ -8,11 +8,11 @@ const buildMenuItems = (name, data, tooltip) => {
       if (data[i].spacer) {
         items = items + '<div class="spacer"></div>';
       } else {
-        items = items + `<div id="${data[i].id}" data-${name}="${data[i].id}" data-click="${data[i].click}"${(tooltip) ? ' title="' + data[i].title + '"' : ''}>${( (data[i].icon) ? ('<i class="material-icons md-dark">' + data[i].icon + '</i>') : '' )}${(tooltip) ? "" : data[i].title}</div>`;
-        /*
-        items = items + '<div id="' + data[i].id + '" data-' + name + '="' + data[i].id + '" data-click="' + data[i].click + '">' +
-        ( (data[i].icon) ? ('<i class="material-icons md-dark">' + data[i].icon + '</i>') : '' ) + data[i].title + '</div>';
-        */
+        items = items + `
+          <div id="${data[i].id}" data-${name}="${data[i].id}" ${(data[i].click) ? 'data-click="' + data[i].click + '"' : ""} ${(tooltip) ? ' title="' + data[i].title + '"' : ''}>
+            ${( (data[i].icon) ? ('<i class="material-icons md-dark">' + data[i].icon + '</i>') : '' )}${(tooltip) ? "" : data[i].title}
+          </div>
+        `;
       }
     }
   }

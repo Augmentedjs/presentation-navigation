@@ -4,8 +4,7 @@ import buildMenuItems from "../functions/buildMenuItems.js";
 
 /**
  * A Notfication Center Component
- * @memberof Presentation.Component
- * @extends Presentation.Component.AbstractToolbar
+ * @extends AbstractToolbar
  */
 class NotificationCenter extends AbstractToolbar {
   constructor(options) {
@@ -43,7 +42,6 @@ class NotificationCenter extends AbstractToolbar {
     this.clearMenuItems();
   };
 
-
   /**
    * Renders the Menu
    * @returns {object} Returns the view context ('this')
@@ -55,7 +53,7 @@ class NotificationCenter extends AbstractToolbar {
       if (e) {
         // the menu
         Dom.addClass(e, "notify");
-        e.setAttribute("data-" + this.name, "notify");
+        e.setAttribute(`data-${this.name}`, "notify");
         e.innerHTML = `<ul>${buildMenuItems(this.name, this.menuItems)}</ul>`;
       }
       this.delegateEvents();
