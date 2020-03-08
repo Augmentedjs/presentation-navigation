@@ -1,5 +1,5 @@
-import AbstractToolbar from "../toolbar/abstractToolbar.js";
 import Dom from "presentation-dom";
+import AbstractToolbar from "../toolbar/abstractToolbar.js";
 import buildNavItems from "../functions/buildNavItems.js";
 
 /**

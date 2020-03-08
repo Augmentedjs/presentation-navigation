@@ -11,37 +11,37 @@ Augmented.js Next Presentation - Navigation Components
 -   [HamburgerMenu](#hamburgermenu)
     -   [Parameters](#parameters)
     -   [render](#render)
--   [AbstractToolbar](#abstracttoolbar)
+-   [Menu](#menu)
     -   [Parameters](#parameters-1)
+    -   [render](#render-1)
+-   [toggle](#toggle)
+-   [AbstractToolbar](#abstracttoolbar)
+    -   [Parameters](#parameters-2)
     -   [addItem](#additem)
-        -   [Parameters](#parameters-2)
+        -   [Parameters](#parameters-3)
         -   [Properties](#properties)
     -   [addItem](#additem-1)
-        -   [Parameters](#parameters-3)
+        -   [Parameters](#parameters-4)
         -   [Properties](#properties-1)
     -   [addItem](#additem-2)
-        -   [Parameters](#parameters-4)
+        -   [Parameters](#parameters-5)
         -   [Properties](#properties-2)
     -   [addItem](#additem-3)
-        -   [Parameters](#parameters-5)
+        -   [Parameters](#parameters-6)
         -   [Properties](#properties-3)
     -   [addItem](#additem-4)
-        -   [Parameters](#parameters-6)
+        -   [Parameters](#parameters-7)
         -   [Examples](#examples)
     -   [addLabel](#addlabel)
-        -   [Parameters](#parameters-7)
+        -   [Parameters](#parameters-8)
         -   [Examples](#examples-1)
     -   [addSpacer](#addspacer)
         -   [Examples](#examples-2)
     -   [clearMenuItems](#clearmenuitems)
     -   [select](#select)
-        -   [Parameters](#parameters-8)
-    -   [getItem](#getitem)
         -   [Parameters](#parameters-9)
--   [Menu](#menu)
-    -   [Parameters](#parameters-10)
-    -   [render](#render-1)
--   [toggle](#toggle)
+    -   [getItem](#getitem)
+        -   [Parameters](#parameters-10)
 -   [NavigationMenu](#navigationmenu)
     -   [Parameters](#parameters-11)
     -   [render](#render-2)
@@ -78,15 +78,45 @@ Render the Hamburger Menu
 
 Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Returns the view context ('this')
 
-## AbstractToolbar
+## Menu
 
-**Extends Presentation.DecoratorView**
+**Extends Presentation.AbstractToolbar**
 
-An abstract tooldbar Component, designed to be extended
+A Menu
 
 ### Parameters
 
 -   `options`  
+
+### render
+
+Renders the Menu
+
+Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Returns the view context ('this')
+
+## toggle
+
+Toggle the Hamburger menu view
+
+## AbstractToolbar
+
+**Extends DecoratorView**
+
+An abstract tooldbar Component, designed to be extended<br/>
+As an abstract it's not intented to use directly, most of the api creates
+the toolbars and no need to pass to constructor.<br/>
+Supported Options: <br/>
+
+<ul>
+<li>title : The title of the toolbar (most cases displays)</li>
+<li>data : Data to pass to the toolbar as object</li>
+<li>menuItems : The menuItems of the toolbar</li>
+<li>tooltip : adds a tooltip</li>
+</ul>
+
+### Parameters
+
+-   `options` **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Options to pass
 
 ### addItem
 
@@ -98,7 +128,7 @@ The model property
 -   `click`  
 -   `icon`  
 -   `title`  
--   `spacer`  
+-   `spacer`   (optional, default `false`)
 
 #### Properties
 
@@ -114,7 +144,7 @@ The initialized property
 -   `click`  
 -   `icon`  
 -   `title`  
--   `spacer`  
+-   `spacer`   (optional, default `false`)
 
 #### Properties
 
@@ -130,7 +160,7 @@ The menuItems property
 -   `click`  
 -   `icon`  
 -   `title`  
--   `spacer`  
+-   `spacer`   (optional, default `false`)
 
 #### Properties
 
@@ -146,7 +176,7 @@ The title property
 -   `click`  
 -   `icon`  
 -   `title`  
--   `spacer`  
+-   `spacer`   (optional, default `false`)
 
 #### Properties
 
@@ -162,7 +192,7 @@ Adds an item to the menu
 -   `click`  {string} The bound click method to call
 -   `icon`  {string} The icon name (webfont)
 -   `title`  {string} The title of the itemID
--   `spacer`  {boolean} Sets a spacer item vs text (not clickable)
+-   `spacer`  {boolean} Sets a spacer item vs text (not clickable) (optional, default `false`)
 
 #### Examples
 
@@ -181,13 +211,18 @@ Adds a label (no click) to the menu
 #### Parameters
 
 -   `id`  {string} The id of the itemID
--   `icon`  {string} The icon name (webfont)
+-   `icon`  {string} The icon name (webfont) (optional, default `null`)
 -   `title`  {string} The title of the itemID
+-   `level`  {number} Set the level of the title (1 = h1, 2 = h2, etc. 0 is default and just text) (optional, default `0`)
 
 #### Examples
 
 ```javascript
 addLabel({"itemID", "web", "something"});
+```
+
+```javascript
+addLabel({"itemID", "mail", "something", 1});
 ```
 
 ### addSpacer
@@ -210,7 +245,7 @@ Select an item in the menu
 
 #### Parameters
 
--   `id` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The id
+-   `id` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The id to select
 
 ### getItem
 
@@ -218,27 +253,7 @@ Get an item in the menu
 
 #### Parameters
 
--   `id` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The id
-
-## Menu
-
-**Extends Presentation.AbstractToolbar**
-
-A Menu
-
-### Parameters
-
--   `options`  
-
-### render
-
-Renders the Menu
-
-Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Returns the view context ('this')
-
-## toggle
-
-Toggle the Hamburger menu view
+-   `id` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The id to get
 
 ## NavigationMenu
 

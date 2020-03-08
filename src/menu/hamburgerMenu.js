@@ -1,5 +1,5 @@
-import buildMenuItems from "../functions/buildMenuItems.js";
 import Dom from "presentation-dom";
+import buildMenuItems from "../functions/buildMenuItems.js";
 import AbstractToolbar from "../toolbar/abstractToolbar.js";
 
 const buildMenu = (name, title, menuItems) => {

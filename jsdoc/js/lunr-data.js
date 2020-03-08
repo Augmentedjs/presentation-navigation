@@ -70,6 +70,65 @@ window.lunrData = {
           "navigationmenu#rend",
           "render"
         ],
+        "NavigationMenu.html#addItem": [
+          "add",
+          "additem",
+          "click",
+          "function",
+          "icon",
+          "id",
+          "item",
+          "menu",
+          "navigationmenu#additem",
+          "spacer",
+          "titl"
+        ],
+        "NavigationMenu.html#addLabel": [
+          "add",
+          "addlabel",
+          "click",
+          "function",
+          "icon",
+          "id",
+          "label",
+          "level",
+          "menu",
+          "navigationmenu#addlabel",
+          "titl"
+        ],
+        "NavigationMenu.html#addSpacer": [
+          "add",
+          "addspac",
+          "function",
+          "item",
+          "menu",
+          "navigationmenu#addspac",
+          "spacer"
+        ],
+        "NavigationMenu.html#clearMenuItems": [
+          "clear",
+          "clearmenuitem",
+          "function",
+          "item",
+          "menu",
+          "navigationmenu#clearmenuitem"
+        ],
+        "NavigationMenu.html#select": [
+          "function",
+          "id",
+          "item",
+          "menu",
+          "navigationmenu#select",
+          "select"
+        ],
+        "NavigationMenu.html#getItem": [
+          "function",
+          "getitem",
+          "id",
+          "item",
+          "menu",
+          "navigationmenu#getitem"
+        ],
         "NotificationCenter.html": [
           "center",
           "class",
@@ -109,6 +168,65 @@ window.lunrData = {
           "notificationcenter#rend",
           "render"
         ],
+        "NotificationCenter.html#addItem": [
+          "add",
+          "additem",
+          "click",
+          "function",
+          "icon",
+          "id",
+          "item",
+          "menu",
+          "notificationcenter#additem",
+          "spacer",
+          "titl"
+        ],
+        "NotificationCenter.html#addLabel": [
+          "add",
+          "addlabel",
+          "click",
+          "function",
+          "icon",
+          "id",
+          "label",
+          "level",
+          "menu",
+          "notificationcenter#addlabel",
+          "titl"
+        ],
+        "NotificationCenter.html#addSpacer": [
+          "add",
+          "addspac",
+          "function",
+          "item",
+          "menu",
+          "notificationcenter#addspac",
+          "spacer"
+        ],
+        "NotificationCenter.html#clearMenuItems": [
+          "clear",
+          "clearmenuitem",
+          "function",
+          "item",
+          "menu",
+          "notificationcenter#clearmenuitem"
+        ],
+        "NotificationCenter.html#select": [
+          "function",
+          "id",
+          "item",
+          "menu",
+          "notificationcenter#select",
+          "select"
+        ],
+        "NotificationCenter.html#getItem": [
+          "function",
+          "getitem",
+          "id",
+          "item",
+          "menu",
+          "notificationcenter#getitem"
+        ],
         "Iconbar.html": [
           "class",
           "iconbar",
@@ -133,6 +251,65 @@ window.lunrData = {
           "render",
           "toolbar"
         ],
+        "Iconbar.html#addItem": [
+          "add",
+          "additem",
+          "click",
+          "function",
+          "icon",
+          "iconbar#additem",
+          "id",
+          "item",
+          "menu",
+          "spacer",
+          "titl"
+        ],
+        "Iconbar.html#addLabel": [
+          "add",
+          "addlabel",
+          "click",
+          "function",
+          "icon",
+          "iconbar#addlabel",
+          "id",
+          "label",
+          "level",
+          "menu",
+          "titl"
+        ],
+        "Iconbar.html#addSpacer": [
+          "add",
+          "addspac",
+          "function",
+          "iconbar#addspac",
+          "item",
+          "menu",
+          "spacer"
+        ],
+        "Iconbar.html#clearMenuItems": [
+          "clear",
+          "clearmenuitem",
+          "function",
+          "iconbar#clearmenuitem",
+          "item",
+          "menu"
+        ],
+        "Iconbar.html#select": [
+          "function",
+          "iconbar#select",
+          "id",
+          "item",
+          "menu",
+          "select"
+        ],
+        "Iconbar.html#getItem": [
+          "function",
+          "getitem",
+          "iconbar#getitem",
+          "id",
+          "item",
+          "menu"
+        ],
         "Toolbar.html": [
           "class",
           "toolbar",
@@ -144,87 +321,64 @@ window.lunrData = {
           "toolbar",
           "toolbar#rend"
         ],
-        "Presentation.Component.AbstractToolbar.html": [
-          "abstract",
-          "abstracttoolbar",
-          "class",
-          "compon",
-          "component.abstracttoolbar",
-          "design",
-          "extend",
-          "lt;abstract&gt",
-          "presentation.component.abstracttoolbar",
-          "tooldbar"
-        ],
-        "Presentation.Component.AbstractToolbar.html#addItem": [
-          "abstracttoolbar#additem",
+        "Toolbar.html#addItem": [
           "add",
           "additem",
           "click",
-          "component.abstracttoolbar#additem",
           "function",
           "icon",
           "id",
           "item",
           "menu",
-          "presentation.component.abstracttoolbar#additem",
           "spacer",
-          "titl"
+          "titl",
+          "toolbar#additem"
         ],
-        "Presentation.Component.AbstractToolbar.html#addLabel": [
-          "abstracttoolbar#addlabel",
+        "Toolbar.html#addLabel": [
           "add",
           "addlabel",
           "click",
-          "component.abstracttoolbar#addlabel",
           "function",
           "icon",
           "id",
           "label",
+          "level",
           "menu",
-          "presentation.component.abstracttoolbar#addlabel",
-          "titl"
+          "titl",
+          "toolbar#addlabel"
         ],
-        "Presentation.Component.AbstractToolbar.html#addSpacer": [
-          "abstracttoolbar#addspac",
+        "Toolbar.html#addSpacer": [
           "add",
           "addspac",
-          "component.abstracttoolbar#addspac",
           "function",
           "item",
           "menu",
-          "presentation.component.abstracttoolbar#addspac",
-          "spacer"
+          "spacer",
+          "toolbar#addspac"
         ],
-        "Presentation.Component.AbstractToolbar.html#clearMenuItems": [
-          "abstracttoolbar#clearmenuitem",
+        "Toolbar.html#clearMenuItems": [
           "clear",
           "clearmenuitem",
-          "component.abstracttoolbar#clearmenuitem",
           "function",
           "item",
           "menu",
-          "presentation.component.abstracttoolbar#clearmenuitem"
+          "toolbar#clearmenuitem"
         ],
-        "Presentation.Component.AbstractToolbar.html#select": [
-          "abstracttoolbar#select",
-          "component.abstracttoolbar#select",
+        "Toolbar.html#select": [
           "function",
           "id",
           "item",
           "menu",
-          "presentation.component.abstracttoolbar#select",
-          "select"
+          "select",
+          "toolbar#select"
         ],
-        "Presentation.Component.AbstractToolbar.html#getItem": [
-          "abstracttoolbar#getitem",
-          "component.abstracttoolbar#getitem",
+        "Toolbar.html#getItem": [
           "function",
           "getitem",
           "id",
           "item",
           "menu",
-          "presentation.component.abstracttoolbar#getitem"
+          "toolbar#getitem"
         ],
         "Presentation.Component.Menu.html": [
           "class",
@@ -240,6 +394,95 @@ window.lunrData = {
           "presentation.component.menu#rend",
           "render"
         ],
+        "AbstractToolbar.html": [
+          "abstract",
+          "abstracttoolbar",
+          "add",
+          "api",
+          "case",
+          "class",
+          "compon",
+          "constructor",
+          "creat",
+          "data",
+          "design",
+          "directli",
+          "display",
+          "extend",
+          "intent",
+          "it'",
+          "lt;abstract&gt",
+          "menuitem",
+          "need",
+          "object",
+          "option",
+          "pass",
+          "support",
+          "titl",
+          "toolbar",
+          "tooldbar",
+          "tooltip",
+          "us"
+        ],
+        "AbstractToolbar.html#addItem": [
+          "abstracttoolbar#additem",
+          "add",
+          "additem",
+          "click",
+          "function",
+          "icon",
+          "id",
+          "item",
+          "menu",
+          "spacer",
+          "titl"
+        ],
+        "AbstractToolbar.html#addLabel": [
+          "abstracttoolbar#addlabel",
+          "add",
+          "addlabel",
+          "click",
+          "function",
+          "icon",
+          "id",
+          "label",
+          "level",
+          "menu",
+          "titl"
+        ],
+        "AbstractToolbar.html#addSpacer": [
+          "abstracttoolbar#addspac",
+          "add",
+          "addspac",
+          "function",
+          "item",
+          "menu",
+          "spacer"
+        ],
+        "AbstractToolbar.html#clearMenuItems": [
+          "abstracttoolbar#clearmenuitem",
+          "clear",
+          "clearmenuitem",
+          "function",
+          "item",
+          "menu"
+        ],
+        "AbstractToolbar.html#select": [
+          "abstracttoolbar#select",
+          "function",
+          "id",
+          "item",
+          "menu",
+          "select"
+        ],
+        "AbstractToolbar.html#getItem": [
+          "abstracttoolbar#getitem",
+          "function",
+          "getitem",
+          "id",
+          "item",
+          "menu"
+        ],
         "Presentation.Component.HamburgerMenu.html": [
           "class",
           "component.hamburgermenu",
@@ -250,7 +493,7 @@ window.lunrData = {
           "view"
         ]
       },
-      "length": 26
+      "length": 50
     },
     "tokenStore": {
       "root": {
@@ -296,25 +539,107 @@ window.lunrData = {
             "docs": {},
             "d": {
               "docs": {
+                "NavigationMenu.html#addItem": {
+                  "ref": "NavigationMenu.html#addItem",
+                  "tf": 16.666666666666664
+                },
+                "NavigationMenu.html#addLabel": {
+                  "ref": "NavigationMenu.html#addLabel",
+                  "tf": 12.5
+                },
+                "NavigationMenu.html#addSpacer": {
+                  "ref": "NavigationMenu.html#addSpacer",
+                  "tf": 12.5
+                },
+                "NotificationCenter.html#addItem": {
+                  "ref": "NotificationCenter.html#addItem",
+                  "tf": 16.666666666666664
+                },
+                "NotificationCenter.html#addLabel": {
+                  "ref": "NotificationCenter.html#addLabel",
+                  "tf": 12.5
+                },
+                "NotificationCenter.html#addSpacer": {
+                  "ref": "NotificationCenter.html#addSpacer",
+                  "tf": 12.5
+                },
                 "Iconbar.html#addIcon": {
                   "ref": "Iconbar.html#addIcon",
                   "tf": 16.666666666666664
                 },
-                "Presentation.Component.AbstractToolbar.html#addItem": {
-                  "ref": "Presentation.Component.AbstractToolbar.html#addItem",
+                "Iconbar.html#addItem": {
+                  "ref": "Iconbar.html#addItem",
                   "tf": 16.666666666666664
                 },
-                "Presentation.Component.AbstractToolbar.html#addLabel": {
-                  "ref": "Presentation.Component.AbstractToolbar.html#addLabel",
+                "Iconbar.html#addLabel": {
+                  "ref": "Iconbar.html#addLabel",
                   "tf": 12.5
                 },
-                "Presentation.Component.AbstractToolbar.html#addSpacer": {
-                  "ref": "Presentation.Component.AbstractToolbar.html#addSpacer",
+                "Iconbar.html#addSpacer": {
+                  "ref": "Iconbar.html#addSpacer",
+                  "tf": 12.5
+                },
+                "Toolbar.html#addItem": {
+                  "ref": "Toolbar.html#addItem",
+                  "tf": 16.666666666666664
+                },
+                "Toolbar.html#addLabel": {
+                  "ref": "Toolbar.html#addLabel",
+                  "tf": 12.5
+                },
+                "Toolbar.html#addSpacer": {
+                  "ref": "Toolbar.html#addSpacer",
+                  "tf": 12.5
+                },
+                "AbstractToolbar.html": {
+                  "ref": "AbstractToolbar.html",
+                  "tf": 1.4705882352941175
+                },
+                "AbstractToolbar.html#addItem": {
+                  "ref": "AbstractToolbar.html#addItem",
+                  "tf": 16.666666666666664
+                },
+                "AbstractToolbar.html#addLabel": {
+                  "ref": "AbstractToolbar.html#addLabel",
+                  "tf": 12.5
+                },
+                "AbstractToolbar.html#addSpacer": {
+                  "ref": "AbstractToolbar.html#addSpacer",
                   "tf": 12.5
                 }
               },
               "i": {
                 "docs": {},
+                "t": {
+                  "docs": {},
+                  "e": {
+                    "docs": {},
+                    "m": {
+                      "docs": {
+                        "NavigationMenu.html#addItem": {
+                          "ref": "NavigationMenu.html#addItem",
+                          "tf": 666.6666666666666
+                        },
+                        "NotificationCenter.html#addItem": {
+                          "ref": "NotificationCenter.html#addItem",
+                          "tf": 666.6666666666666
+                        },
+                        "Iconbar.html#addItem": {
+                          "ref": "Iconbar.html#addItem",
+                          "tf": 666.6666666666666
+                        },
+                        "Toolbar.html#addItem": {
+                          "ref": "Toolbar.html#addItem",
+                          "tf": 666.6666666666666
+                        },
+                        "AbstractToolbar.html#addItem": {
+                          "ref": "AbstractToolbar.html#addItem",
+                          "tf": 666.6666666666666
+                        }
+                      }
+                    }
+                  }
+                },
                 "c": {
                   "docs": {},
                   "o": {
@@ -324,20 +649,6 @@ window.lunrData = {
                         "Iconbar.html#addIcon": {
                           "ref": "Iconbar.html#addIcon",
                           "tf": 666.6666666666666
-                        }
-                      }
-                    }
-                  }
-                },
-                "t": {
-                  "docs": {},
-                  "e": {
-                    "docs": {},
-                    "m": {
-                      "docs": {
-                        "Presentation.Component.AbstractToolbar.html#addItem": {
-                          "ref": "Presentation.Component.AbstractToolbar.html#addItem",
-                          "tf": 591.6666666666666
                         }
                       }
                     }
@@ -354,9 +665,25 @@ window.lunrData = {
                       "docs": {},
                       "l": {
                         "docs": {
-                          "Presentation.Component.AbstractToolbar.html#addLabel": {
-                            "ref": "Presentation.Component.AbstractToolbar.html#addLabel",
-                            "tf": 600
+                          "NavigationMenu.html#addLabel": {
+                            "ref": "NavigationMenu.html#addLabel",
+                            "tf": 670
+                          },
+                          "NotificationCenter.html#addLabel": {
+                            "ref": "NotificationCenter.html#addLabel",
+                            "tf": 670
+                          },
+                          "Iconbar.html#addLabel": {
+                            "ref": "Iconbar.html#addLabel",
+                            "tf": 670
+                          },
+                          "Toolbar.html#addLabel": {
+                            "ref": "Toolbar.html#addLabel",
+                            "tf": 670
+                          },
+                          "AbstractToolbar.html#addLabel": {
+                            "ref": "AbstractToolbar.html#addLabel",
+                            "tf": 670
                           }
                         }
                       }
@@ -372,9 +699,25 @@ window.lunrData = {
                     "docs": {},
                     "c": {
                       "docs": {
-                        "Presentation.Component.AbstractToolbar.html#addSpacer": {
-                          "ref": "Presentation.Component.AbstractToolbar.html#addSpacer",
-                          "tf": 675
+                        "NavigationMenu.html#addSpacer": {
+                          "ref": "NavigationMenu.html#addSpacer",
+                          "tf": 750
+                        },
+                        "NotificationCenter.html#addSpacer": {
+                          "ref": "NotificationCenter.html#addSpacer",
+                          "tf": 750
+                        },
+                        "Iconbar.html#addSpacer": {
+                          "ref": "Iconbar.html#addSpacer",
+                          "tf": 750
+                        },
+                        "Toolbar.html#addSpacer": {
+                          "ref": "Toolbar.html#addSpacer",
+                          "tf": 750
+                        },
+                        "AbstractToolbar.html#addSpacer": {
+                          "ref": "AbstractToolbar.html#addSpacer",
+                          "tf": 750
                         }
                       }
                     }
@@ -397,9 +740,9 @@ window.lunrData = {
                       "docs": {},
                       "t": {
                         "docs": {
-                          "Presentation.Component.AbstractToolbar.html": {
-                            "ref": "Presentation.Component.AbstractToolbar.html",
-                            "tf": 10
+                          "AbstractToolbar.html": {
+                            "ref": "AbstractToolbar.html",
+                            "tf": 2.941176470588235
                           }
                         },
                         "t": {
@@ -416,9 +759,9 @@ window.lunrData = {
                                     "docs": {},
                                     "r": {
                                       "docs": {
-                                        "Presentation.Component.AbstractToolbar.html": {
-                                          "ref": "Presentation.Component.AbstractToolbar.html",
-                                          "tf": 650
+                                        "AbstractToolbar.html": {
+                                          "ref": "AbstractToolbar.html",
+                                          "tf": 1850
                                         }
                                       },
                                       "#": {
@@ -437,9 +780,9 @@ window.lunrData = {
                                                     "docs": {},
                                                     "m": {
                                                       "docs": {
-                                                        "Presentation.Component.AbstractToolbar.html#addItem": {
-                                                          "ref": "Presentation.Component.AbstractToolbar.html#addItem",
-                                                          "tf": 75
+                                                        "AbstractToolbar.html#addItem": {
+                                                          "ref": "AbstractToolbar.html#addItem",
+                                                          "tf": 1150
                                                         }
                                                       }
                                                     }
@@ -456,9 +799,9 @@ window.lunrData = {
                                                       "docs": {},
                                                       "l": {
                                                         "docs": {
-                                                          "Presentation.Component.AbstractToolbar.html#addLabel": {
-                                                            "ref": "Presentation.Component.AbstractToolbar.html#addLabel",
-                                                            "tf": 75
+                                                          "AbstractToolbar.html#addLabel": {
+                                                            "ref": "AbstractToolbar.html#addLabel",
+                                                            "tf": 1150
                                                           }
                                                         }
                                                       }
@@ -474,9 +817,9 @@ window.lunrData = {
                                                     "docs": {},
                                                     "c": {
                                                       "docs": {
-                                                        "Presentation.Component.AbstractToolbar.html#addSpacer": {
-                                                          "ref": "Presentation.Component.AbstractToolbar.html#addSpacer",
-                                                          "tf": 75
+                                                        "AbstractToolbar.html#addSpacer": {
+                                                          "ref": "AbstractToolbar.html#addSpacer",
+                                                          "tf": 1150
                                                         }
                                                       }
                                                     }
@@ -512,9 +855,9 @@ window.lunrData = {
                                                                 "docs": {},
                                                                 "m": {
                                                                   "docs": {
-                                                                    "Presentation.Component.AbstractToolbar.html#clearMenuItems": {
-                                                                      "ref": "Presentation.Component.AbstractToolbar.html#clearMenuItems",
-                                                                      "tf": 75
+                                                                    "AbstractToolbar.html#clearMenuItems": {
+                                                                      "ref": "AbstractToolbar.html#clearMenuItems",
+                                                                      "tf": 1150
                                                                     }
                                                                   }
                                                                 }
@@ -542,9 +885,9 @@ window.lunrData = {
                                                   "docs": {},
                                                   "t": {
                                                     "docs": {
-                                                      "Presentation.Component.AbstractToolbar.html#select": {
-                                                        "ref": "Presentation.Component.AbstractToolbar.html#select",
-                                                        "tf": 75
+                                                      "AbstractToolbar.html#select": {
+                                                        "ref": "AbstractToolbar.html#select",
+                                                        "tf": 1150
                                                       }
                                                     }
                                                   }
@@ -567,9 +910,9 @@ window.lunrData = {
                                                     "docs": {},
                                                     "m": {
                                                       "docs": {
-                                                        "Presentation.Component.AbstractToolbar.html#getItem": {
-                                                          "ref": "Presentation.Component.AbstractToolbar.html#getItem",
-                                                          "tf": 75
+                                                        "AbstractToolbar.html#getItem": {
+                                                          "ref": "AbstractToolbar.html#getItem",
+                                                          "tf": 1150
                                                         }
                                                       }
                                                     }
@@ -590,6 +933,17 @@ window.lunrData = {
                       }
                     }
                   }
+                }
+              }
+            }
+          },
+          "p": {
+            "docs": {},
+            "i": {
+              "docs": {
+                "AbstractToolbar.html": {
+                  "ref": "AbstractToolbar.html",
+                  "tf": 1.4705882352941175
                 }
               }
             }
@@ -627,9 +981,9 @@ window.lunrData = {
                   "docs": {},
                   "n": {
                     "docs": {
-                      "Presentation.Component.AbstractToolbar.html": {
-                        "ref": "Presentation.Component.AbstractToolbar.html",
-                        "tf": 10
+                      "AbstractToolbar.html": {
+                        "ref": "AbstractToolbar.html",
+                        "tf": 1.4705882352941175
                       }
                     }
                   }
@@ -666,6 +1020,66 @@ window.lunrData = {
                 }
               }
             }
+          },
+          "a": {
+            "docs": {},
+            "t": {
+              "docs": {},
+              "a": {
+                "docs": {
+                  "AbstractToolbar.html": {
+                    "ref": "AbstractToolbar.html",
+                    "tf": 2.941176470588235
+                  }
+                }
+              }
+            }
+          },
+          "i": {
+            "docs": {},
+            "r": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "c": {
+                  "docs": {},
+                  "t": {
+                    "docs": {},
+                    "l": {
+                      "docs": {},
+                      "i": {
+                        "docs": {
+                          "AbstractToolbar.html": {
+                            "ref": "AbstractToolbar.html",
+                            "tf": 1.4705882352941175
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "s": {
+              "docs": {},
+              "p": {
+                "docs": {},
+                "l": {
+                  "docs": {},
+                  "a": {
+                    "docs": {},
+                    "y": {
+                      "docs": {
+                        "AbstractToolbar.html": {
+                          "ref": "AbstractToolbar.html",
+                          "tf": 1.4705882352941175
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
         },
         "i": {
@@ -685,6 +1099,23 @@ window.lunrData = {
                   }
                 }
               }
+            },
+            "t": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "n": {
+                  "docs": {},
+                  "t": {
+                    "docs": {
+                      "AbstractToolbar.html": {
+                        "ref": "AbstractToolbar.html",
+                        "tf": 1.4705882352941175
+                      }
+                    }
+                  }
+                }
+              }
             }
           },
           "c": {
@@ -693,17 +1124,49 @@ window.lunrData = {
               "docs": {},
               "n": {
                 "docs": {
+                  "NavigationMenu.html#addItem": {
+                    "ref": "NavigationMenu.html#addItem",
+                    "tf": 16.666666666666664
+                  },
+                  "NavigationMenu.html#addLabel": {
+                    "ref": "NavigationMenu.html#addLabel",
+                    "tf": 20
+                  },
+                  "NotificationCenter.html#addItem": {
+                    "ref": "NotificationCenter.html#addItem",
+                    "tf": 16.666666666666664
+                  },
+                  "NotificationCenter.html#addLabel": {
+                    "ref": "NotificationCenter.html#addLabel",
+                    "tf": 20
+                  },
                   "Iconbar.html#addIcon": {
                     "ref": "Iconbar.html#addIcon",
                     "tf": 16.666666666666664
                   },
-                  "Presentation.Component.AbstractToolbar.html#addItem": {
-                    "ref": "Presentation.Component.AbstractToolbar.html#addItem",
+                  "Iconbar.html#addItem": {
+                    "ref": "Iconbar.html#addItem",
                     "tf": 16.666666666666664
                   },
-                  "Presentation.Component.AbstractToolbar.html#addLabel": {
-                    "ref": "Presentation.Component.AbstractToolbar.html#addLabel",
-                    "tf": 25
+                  "Iconbar.html#addLabel": {
+                    "ref": "Iconbar.html#addLabel",
+                    "tf": 20
+                  },
+                  "Toolbar.html#addItem": {
+                    "ref": "Toolbar.html#addItem",
+                    "tf": 16.666666666666664
+                  },
+                  "Toolbar.html#addLabel": {
+                    "ref": "Toolbar.html#addLabel",
+                    "tf": 20
+                  },
+                  "AbstractToolbar.html#addItem": {
+                    "ref": "AbstractToolbar.html#addItem",
+                    "tf": 16.666666666666664
+                  },
+                  "AbstractToolbar.html#addLabel": {
+                    "ref": "AbstractToolbar.html#addLabel",
+                    "tf": 20
                   }
                 },
                 "b": {
@@ -740,6 +1203,57 @@ window.lunrData = {
                                       }
                                     }
                                   }
+                                },
+                                "t": {
+                                  "docs": {},
+                                  "e": {
+                                    "docs": {},
+                                    "m": {
+                                      "docs": {
+                                        "Iconbar.html#addItem": {
+                                          "ref": "Iconbar.html#addItem",
+                                          "tf": 1150
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "l": {
+                                "docs": {},
+                                "a": {
+                                  "docs": {},
+                                  "b": {
+                                    "docs": {},
+                                    "e": {
+                                      "docs": {},
+                                      "l": {
+                                        "docs": {
+                                          "Iconbar.html#addLabel": {
+                                            "ref": "Iconbar.html#addLabel",
+                                            "tf": 1150
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "s": {
+                                "docs": {},
+                                "p": {
+                                  "docs": {},
+                                  "a": {
+                                    "docs": {},
+                                    "c": {
+                                      "docs": {
+                                        "Iconbar.html#addSpacer": {
+                                          "ref": "Iconbar.html#addSpacer",
+                                          "tf": 1150
+                                        }
+                                      }
+                                    }
+                                  }
                                 }
                               }
                             }
@@ -761,6 +1275,99 @@ window.lunrData = {
                               }
                             }
                           }
+                        },
+                        "c": {
+                          "docs": {},
+                          "l": {
+                            "docs": {},
+                            "e": {
+                              "docs": {},
+                              "a": {
+                                "docs": {},
+                                "r": {
+                                  "docs": {},
+                                  "m": {
+                                    "docs": {},
+                                    "e": {
+                                      "docs": {},
+                                      "n": {
+                                        "docs": {},
+                                        "u": {
+                                          "docs": {},
+                                          "i": {
+                                            "docs": {},
+                                            "t": {
+                                              "docs": {},
+                                              "e": {
+                                                "docs": {},
+                                                "m": {
+                                                  "docs": {
+                                                    "Iconbar.html#clearMenuItems": {
+                                                      "ref": "Iconbar.html#clearMenuItems",
+                                                      "tf": 1150
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "s": {
+                          "docs": {},
+                          "e": {
+                            "docs": {},
+                            "l": {
+                              "docs": {},
+                              "e": {
+                                "docs": {},
+                                "c": {
+                                  "docs": {},
+                                  "t": {
+                                    "docs": {
+                                      "Iconbar.html#select": {
+                                        "ref": "Iconbar.html#select",
+                                        "tf": 1150
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "g": {
+                          "docs": {},
+                          "e": {
+                            "docs": {},
+                            "t": {
+                              "docs": {},
+                              "i": {
+                                "docs": {},
+                                "t": {
+                                  "docs": {},
+                                  "e": {
+                                    "docs": {},
+                                    "m": {
+                                      "docs": {
+                                        "Iconbar.html#getItem": {
+                                          "ref": "Iconbar.html#getItem",
+                                          "tf": 1150
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
                         }
                       }
                     }
@@ -771,25 +1378,211 @@ window.lunrData = {
           },
           "d": {
             "docs": {
+              "NavigationMenu.html#addItem": {
+                "ref": "NavigationMenu.html#addItem",
+                "tf": 16.666666666666664
+              },
+              "NavigationMenu.html#addLabel": {
+                "ref": "NavigationMenu.html#addLabel",
+                "tf": 20
+              },
+              "NavigationMenu.html#select": {
+                "ref": "NavigationMenu.html#select",
+                "tf": 50
+              },
+              "NavigationMenu.html#getItem": {
+                "ref": "NavigationMenu.html#getItem",
+                "tf": 50
+              },
+              "NotificationCenter.html#addItem": {
+                "ref": "NotificationCenter.html#addItem",
+                "tf": 16.666666666666664
+              },
+              "NotificationCenter.html#addLabel": {
+                "ref": "NotificationCenter.html#addLabel",
+                "tf": 20
+              },
+              "NotificationCenter.html#select": {
+                "ref": "NotificationCenter.html#select",
+                "tf": 50
+              },
+              "NotificationCenter.html#getItem": {
+                "ref": "NotificationCenter.html#getItem",
+                "tf": 50
+              },
               "Iconbar.html#addIcon": {
                 "ref": "Iconbar.html#addIcon",
                 "tf": 16.666666666666664
               },
-              "Presentation.Component.AbstractToolbar.html#addItem": {
-                "ref": "Presentation.Component.AbstractToolbar.html#addItem",
+              "Iconbar.html#addItem": {
+                "ref": "Iconbar.html#addItem",
                 "tf": 16.666666666666664
               },
-              "Presentation.Component.AbstractToolbar.html#addLabel": {
-                "ref": "Presentation.Component.AbstractToolbar.html#addLabel",
-                "tf": 25
+              "Iconbar.html#addLabel": {
+                "ref": "Iconbar.html#addLabel",
+                "tf": 20
               },
-              "Presentation.Component.AbstractToolbar.html#select": {
-                "ref": "Presentation.Component.AbstractToolbar.html#select",
+              "Iconbar.html#select": {
+                "ref": "Iconbar.html#select",
                 "tf": 50
               },
-              "Presentation.Component.AbstractToolbar.html#getItem": {
-                "ref": "Presentation.Component.AbstractToolbar.html#getItem",
+              "Iconbar.html#getItem": {
+                "ref": "Iconbar.html#getItem",
                 "tf": 50
+              },
+              "Toolbar.html#addItem": {
+                "ref": "Toolbar.html#addItem",
+                "tf": 16.666666666666664
+              },
+              "Toolbar.html#addLabel": {
+                "ref": "Toolbar.html#addLabel",
+                "tf": 20
+              },
+              "Toolbar.html#select": {
+                "ref": "Toolbar.html#select",
+                "tf": 50
+              },
+              "Toolbar.html#getItem": {
+                "ref": "Toolbar.html#getItem",
+                "tf": 50
+              },
+              "AbstractToolbar.html#addItem": {
+                "ref": "AbstractToolbar.html#addItem",
+                "tf": 16.666666666666664
+              },
+              "AbstractToolbar.html#addLabel": {
+                "ref": "AbstractToolbar.html#addLabel",
+                "tf": 20
+              },
+              "AbstractToolbar.html#select": {
+                "ref": "AbstractToolbar.html#select",
+                "tf": 50
+              },
+              "AbstractToolbar.html#getItem": {
+                "ref": "AbstractToolbar.html#getItem",
+                "tf": 50
+              }
+            }
+          },
+          "t": {
+            "docs": {},
+            "e": {
+              "docs": {},
+              "m": {
+                "docs": {
+                  "NavigationMenu.html#addItem": {
+                    "ref": "NavigationMenu.html#addItem",
+                    "tf": 16.666666666666664
+                  },
+                  "NavigationMenu.html#addSpacer": {
+                    "ref": "NavigationMenu.html#addSpacer",
+                    "tf": 12.5
+                  },
+                  "NavigationMenu.html#clearMenuItems": {
+                    "ref": "NavigationMenu.html#clearMenuItems",
+                    "tf": 16.666666666666664
+                  },
+                  "NavigationMenu.html#select": {
+                    "ref": "NavigationMenu.html#select",
+                    "tf": 16.666666666666664
+                  },
+                  "NavigationMenu.html#getItem": {
+                    "ref": "NavigationMenu.html#getItem",
+                    "tf": 25
+                  },
+                  "NotificationCenter.html#addItem": {
+                    "ref": "NotificationCenter.html#addItem",
+                    "tf": 16.666666666666664
+                  },
+                  "NotificationCenter.html#addSpacer": {
+                    "ref": "NotificationCenter.html#addSpacer",
+                    "tf": 12.5
+                  },
+                  "NotificationCenter.html#clearMenuItems": {
+                    "ref": "NotificationCenter.html#clearMenuItems",
+                    "tf": 16.666666666666664
+                  },
+                  "NotificationCenter.html#select": {
+                    "ref": "NotificationCenter.html#select",
+                    "tf": 16.666666666666664
+                  },
+                  "NotificationCenter.html#getItem": {
+                    "ref": "NotificationCenter.html#getItem",
+                    "tf": 25
+                  },
+                  "Iconbar.html#addIcon": {
+                    "ref": "Iconbar.html#addIcon",
+                    "tf": 16.666666666666664
+                  },
+                  "Iconbar.html#addItem": {
+                    "ref": "Iconbar.html#addItem",
+                    "tf": 16.666666666666664
+                  },
+                  "Iconbar.html#addSpacer": {
+                    "ref": "Iconbar.html#addSpacer",
+                    "tf": 12.5
+                  },
+                  "Iconbar.html#clearMenuItems": {
+                    "ref": "Iconbar.html#clearMenuItems",
+                    "tf": 16.666666666666664
+                  },
+                  "Iconbar.html#select": {
+                    "ref": "Iconbar.html#select",
+                    "tf": 16.666666666666664
+                  },
+                  "Iconbar.html#getItem": {
+                    "ref": "Iconbar.html#getItem",
+                    "tf": 25
+                  },
+                  "Toolbar.html#addItem": {
+                    "ref": "Toolbar.html#addItem",
+                    "tf": 16.666666666666664
+                  },
+                  "Toolbar.html#addSpacer": {
+                    "ref": "Toolbar.html#addSpacer",
+                    "tf": 12.5
+                  },
+                  "Toolbar.html#clearMenuItems": {
+                    "ref": "Toolbar.html#clearMenuItems",
+                    "tf": 16.666666666666664
+                  },
+                  "Toolbar.html#select": {
+                    "ref": "Toolbar.html#select",
+                    "tf": 16.666666666666664
+                  },
+                  "Toolbar.html#getItem": {
+                    "ref": "Toolbar.html#getItem",
+                    "tf": 25
+                  },
+                  "AbstractToolbar.html#addItem": {
+                    "ref": "AbstractToolbar.html#addItem",
+                    "tf": 16.666666666666664
+                  },
+                  "AbstractToolbar.html#addSpacer": {
+                    "ref": "AbstractToolbar.html#addSpacer",
+                    "tf": 12.5
+                  },
+                  "AbstractToolbar.html#clearMenuItems": {
+                    "ref": "AbstractToolbar.html#clearMenuItems",
+                    "tf": 16.666666666666664
+                  },
+                  "AbstractToolbar.html#select": {
+                    "ref": "AbstractToolbar.html#select",
+                    "tf": 16.666666666666664
+                  },
+                  "AbstractToolbar.html#getItem": {
+                    "ref": "AbstractToolbar.html#getItem",
+                    "tf": 25
+                  }
+                }
+              }
+            },
+            "'": {
+              "docs": {
+                "AbstractToolbar.html": {
+                  "ref": "AbstractToolbar.html",
+                  "tf": 1.4705882352941175
+                }
               }
             }
           },
@@ -827,40 +1620,6 @@ window.lunrData = {
                 }
               }
             }
-          },
-          "t": {
-            "docs": {},
-            "e": {
-              "docs": {},
-              "m": {
-                "docs": {
-                  "Iconbar.html#addIcon": {
-                    "ref": "Iconbar.html#addIcon",
-                    "tf": 16.666666666666664
-                  },
-                  "Presentation.Component.AbstractToolbar.html#addItem": {
-                    "ref": "Presentation.Component.AbstractToolbar.html#addItem",
-                    "tf": 16.666666666666664
-                  },
-                  "Presentation.Component.AbstractToolbar.html#addSpacer": {
-                    "ref": "Presentation.Component.AbstractToolbar.html#addSpacer",
-                    "tf": 12.5
-                  },
-                  "Presentation.Component.AbstractToolbar.html#clearMenuItems": {
-                    "ref": "Presentation.Component.AbstractToolbar.html#clearMenuItems",
-                    "tf": 16.666666666666664
-                  },
-                  "Presentation.Component.AbstractToolbar.html#select": {
-                    "ref": "Presentation.Component.AbstractToolbar.html#select",
-                    "tf": 16.666666666666664
-                  },
-                  "Presentation.Component.AbstractToolbar.html#getItem": {
-                    "ref": "Presentation.Component.AbstractToolbar.html#getItem",
-                    "tf": 25
-                  }
-                }
-              }
-            }
           }
         },
         "n": {
@@ -874,6 +1633,17 @@ window.lunrData = {
                   "index.html": {
                     "ref": "index.html",
                     "tf": 214
+                  }
+                }
+              }
+            },
+            "e": {
+              "docs": {},
+              "d": {
+                "docs": {
+                  "AbstractToolbar.html": {
+                    "ref": "AbstractToolbar.html",
+                    "tf": 1.4705882352941175
                   }
                 }
               }
@@ -928,6 +1698,162 @@ window.lunrData = {
                                                 "NavigationMenu.html#render": {
                                                   "ref": "NavigationMenu.html#render",
                                                   "tf": 1150
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "a": {
+                                        "docs": {},
+                                        "d": {
+                                          "docs": {},
+                                          "d": {
+                                            "docs": {},
+                                            "i": {
+                                              "docs": {},
+                                              "t": {
+                                                "docs": {},
+                                                "e": {
+                                                  "docs": {},
+                                                  "m": {
+                                                    "docs": {
+                                                      "NavigationMenu.html#addItem": {
+                                                        "ref": "NavigationMenu.html#addItem",
+                                                        "tf": 1150
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "l": {
+                                              "docs": {},
+                                              "a": {
+                                                "docs": {},
+                                                "b": {
+                                                  "docs": {},
+                                                  "e": {
+                                                    "docs": {},
+                                                    "l": {
+                                                      "docs": {
+                                                        "NavigationMenu.html#addLabel": {
+                                                          "ref": "NavigationMenu.html#addLabel",
+                                                          "tf": 1150
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "s": {
+                                              "docs": {},
+                                              "p": {
+                                                "docs": {},
+                                                "a": {
+                                                  "docs": {},
+                                                  "c": {
+                                                    "docs": {
+                                                      "NavigationMenu.html#addSpacer": {
+                                                        "ref": "NavigationMenu.html#addSpacer",
+                                                        "tf": 1150
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "c": {
+                                        "docs": {},
+                                        "l": {
+                                          "docs": {},
+                                          "e": {
+                                            "docs": {},
+                                            "a": {
+                                              "docs": {},
+                                              "r": {
+                                                "docs": {},
+                                                "m": {
+                                                  "docs": {},
+                                                  "e": {
+                                                    "docs": {},
+                                                    "n": {
+                                                      "docs": {},
+                                                      "u": {
+                                                        "docs": {},
+                                                        "i": {
+                                                          "docs": {},
+                                                          "t": {
+                                                            "docs": {},
+                                                            "e": {
+                                                              "docs": {},
+                                                              "m": {
+                                                                "docs": {
+                                                                  "NavigationMenu.html#clearMenuItems": {
+                                                                    "ref": "NavigationMenu.html#clearMenuItems",
+                                                                    "tf": 1150
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "s": {
+                                        "docs": {},
+                                        "e": {
+                                          "docs": {},
+                                          "l": {
+                                            "docs": {},
+                                            "e": {
+                                              "docs": {},
+                                              "c": {
+                                                "docs": {},
+                                                "t": {
+                                                  "docs": {
+                                                    "NavigationMenu.html#select": {
+                                                      "ref": "NavigationMenu.html#select",
+                                                      "tf": 1150
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "g": {
+                                        "docs": {},
+                                        "e": {
+                                          "docs": {},
+                                          "t": {
+                                            "docs": {},
+                                            "i": {
+                                              "docs": {},
+                                              "t": {
+                                                "docs": {},
+                                                "e": {
+                                                  "docs": {},
+                                                  "m": {
+                                                    "docs": {
+                                                      "NavigationMenu.html#getItem": {
+                                                        "ref": "NavigationMenu.html#getItem",
+                                                        "tf": 1150
+                                                      }
+                                                    }
+                                                  }
                                                 }
                                               }
                                             }
@@ -1070,6 +1996,26 @@ window.lunrData = {
                                                       }
                                                     }
                                                   }
+                                                },
+                                                "e": {
+                                                  "docs": {},
+                                                  "l": {
+                                                    "docs": {},
+                                                    "e": {
+                                                      "docs": {},
+                                                      "c": {
+                                                        "docs": {},
+                                                        "t": {
+                                                          "docs": {
+                                                            "NotificationCenter.html#select": {
+                                                              "ref": "NotificationCenter.html#select",
+                                                              "tf": 1150
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
                                                 }
                                               },
                                               "h": {
@@ -1133,6 +2079,35 @@ window.lunrData = {
                                                               }
                                                             }
                                                           }
+                                                        },
+                                                        "m": {
+                                                          "docs": {},
+                                                          "e": {
+                                                            "docs": {},
+                                                            "n": {
+                                                              "docs": {},
+                                                              "u": {
+                                                                "docs": {},
+                                                                "i": {
+                                                                  "docs": {},
+                                                                  "t": {
+                                                                    "docs": {},
+                                                                    "e": {
+                                                                      "docs": {},
+                                                                      "m": {
+                                                                        "docs": {
+                                                                          "NotificationCenter.html#clearMenuItems": {
+                                                                            "ref": "NotificationCenter.html#clearMenuItems",
+                                                                            "tf": 1150
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
                                                         }
                                                       }
                                                     }
@@ -1150,6 +2125,95 @@ window.lunrData = {
                                                         "NotificationCenter.html#render": {
                                                           "ref": "NotificationCenter.html#render",
                                                           "tf": 1150
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "a": {
+                                                "docs": {},
+                                                "d": {
+                                                  "docs": {},
+                                                  "d": {
+                                                    "docs": {},
+                                                    "i": {
+                                                      "docs": {},
+                                                      "t": {
+                                                        "docs": {},
+                                                        "e": {
+                                                          "docs": {},
+                                                          "m": {
+                                                            "docs": {
+                                                              "NotificationCenter.html#addItem": {
+                                                                "ref": "NotificationCenter.html#addItem",
+                                                                "tf": 1150
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    "l": {
+                                                      "docs": {},
+                                                      "a": {
+                                                        "docs": {},
+                                                        "b": {
+                                                          "docs": {},
+                                                          "e": {
+                                                            "docs": {},
+                                                            "l": {
+                                                              "docs": {
+                                                                "NotificationCenter.html#addLabel": {
+                                                                  "ref": "NotificationCenter.html#addLabel",
+                                                                  "tf": 1150
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    "s": {
+                                                      "docs": {},
+                                                      "p": {
+                                                        "docs": {},
+                                                        "a": {
+                                                          "docs": {},
+                                                          "c": {
+                                                            "docs": {
+                                                              "NotificationCenter.html#addSpacer": {
+                                                                "ref": "NotificationCenter.html#addSpacer",
+                                                                "tf": 1150
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "g": {
+                                                "docs": {},
+                                                "e": {
+                                                  "docs": {},
+                                                  "t": {
+                                                    "docs": {},
+                                                    "i": {
+                                                      "docs": {},
+                                                      "t": {
+                                                        "docs": {},
+                                                        "e": {
+                                                          "docs": {},
+                                                          "m": {
+                                                            "docs": {
+                                                              "NotificationCenter.html#getItem": {
+                                                                "ref": "NotificationCenter.html#getItem",
+                                                                "tf": 1150
+                                                              }
+                                                            }
+                                                          }
                                                         }
                                                       }
                                                     }
@@ -1226,215 +2290,6 @@ window.lunrData = {
                                                     "docs": {},
                                                     ".": {
                                                       "docs": {},
-                                                      "a": {
-                                                        "docs": {},
-                                                        "b": {
-                                                          "docs": {},
-                                                          "s": {
-                                                            "docs": {},
-                                                            "t": {
-                                                              "docs": {},
-                                                              "r": {
-                                                                "docs": {},
-                                                                "a": {
-                                                                  "docs": {},
-                                                                  "c": {
-                                                                    "docs": {},
-                                                                    "t": {
-                                                                      "docs": {},
-                                                                      "t": {
-                                                                        "docs": {},
-                                                                        "o": {
-                                                                          "docs": {},
-                                                                          "o": {
-                                                                            "docs": {},
-                                                                            "l": {
-                                                                              "docs": {},
-                                                                              "b": {
-                                                                                "docs": {},
-                                                                                "a": {
-                                                                                  "docs": {},
-                                                                                  "r": {
-                                                                                    "docs": {
-                                                                                      "Presentation.Component.AbstractToolbar.html": {
-                                                                                        "ref": "Presentation.Component.AbstractToolbar.html",
-                                                                                        "tf": 1100
-                                                                                      }
-                                                                                    },
-                                                                                    "#": {
-                                                                                      "docs": {},
-                                                                                      "a": {
-                                                                                        "docs": {},
-                                                                                        "d": {
-                                                                                          "docs": {},
-                                                                                          "d": {
-                                                                                            "docs": {},
-                                                                                            "i": {
-                                                                                              "docs": {},
-                                                                                              "t": {
-                                                                                                "docs": {},
-                                                                                                "e": {
-                                                                                                  "docs": {},
-                                                                                                  "m": {
-                                                                                                    "docs": {
-                                                                                                      "Presentation.Component.AbstractToolbar.html#addItem": {
-                                                                                                        "ref": "Presentation.Component.AbstractToolbar.html#addItem",
-                                                                                                        "tf": 1075
-                                                                                                      }
-                                                                                                    }
-                                                                                                  }
-                                                                                                }
-                                                                                              }
-                                                                                            },
-                                                                                            "l": {
-                                                                                              "docs": {},
-                                                                                              "a": {
-                                                                                                "docs": {},
-                                                                                                "b": {
-                                                                                                  "docs": {},
-                                                                                                  "e": {
-                                                                                                    "docs": {},
-                                                                                                    "l": {
-                                                                                                      "docs": {
-                                                                                                        "Presentation.Component.AbstractToolbar.html#addLabel": {
-                                                                                                          "ref": "Presentation.Component.AbstractToolbar.html#addLabel",
-                                                                                                          "tf": 1075
-                                                                                                        }
-                                                                                                      }
-                                                                                                    }
-                                                                                                  }
-                                                                                                }
-                                                                                              }
-                                                                                            },
-                                                                                            "s": {
-                                                                                              "docs": {},
-                                                                                              "p": {
-                                                                                                "docs": {},
-                                                                                                "a": {
-                                                                                                  "docs": {},
-                                                                                                  "c": {
-                                                                                                    "docs": {
-                                                                                                      "Presentation.Component.AbstractToolbar.html#addSpacer": {
-                                                                                                        "ref": "Presentation.Component.AbstractToolbar.html#addSpacer",
-                                                                                                        "tf": 1075
-                                                                                                      }
-                                                                                                    }
-                                                                                                  }
-                                                                                                }
-                                                                                              }
-                                                                                            }
-                                                                                          }
-                                                                                        }
-                                                                                      },
-                                                                                      "c": {
-                                                                                        "docs": {},
-                                                                                        "l": {
-                                                                                          "docs": {},
-                                                                                          "e": {
-                                                                                            "docs": {},
-                                                                                            "a": {
-                                                                                              "docs": {},
-                                                                                              "r": {
-                                                                                                "docs": {},
-                                                                                                "m": {
-                                                                                                  "docs": {},
-                                                                                                  "e": {
-                                                                                                    "docs": {},
-                                                                                                    "n": {
-                                                                                                      "docs": {},
-                                                                                                      "u": {
-                                                                                                        "docs": {},
-                                                                                                        "i": {
-                                                                                                          "docs": {},
-                                                                                                          "t": {
-                                                                                                            "docs": {},
-                                                                                                            "e": {
-                                                                                                              "docs": {},
-                                                                                                              "m": {
-                                                                                                                "docs": {
-                                                                                                                  "Presentation.Component.AbstractToolbar.html#clearMenuItems": {
-                                                                                                                    "ref": "Presentation.Component.AbstractToolbar.html#clearMenuItems",
-                                                                                                                    "tf": 1075
-                                                                                                                  }
-                                                                                                                }
-                                                                                                              }
-                                                                                                            }
-                                                                                                          }
-                                                                                                        }
-                                                                                                      }
-                                                                                                    }
-                                                                                                  }
-                                                                                                }
-                                                                                              }
-                                                                                            }
-                                                                                          }
-                                                                                        }
-                                                                                      },
-                                                                                      "s": {
-                                                                                        "docs": {},
-                                                                                        "e": {
-                                                                                          "docs": {},
-                                                                                          "l": {
-                                                                                            "docs": {},
-                                                                                            "e": {
-                                                                                              "docs": {},
-                                                                                              "c": {
-                                                                                                "docs": {},
-                                                                                                "t": {
-                                                                                                  "docs": {
-                                                                                                    "Presentation.Component.AbstractToolbar.html#select": {
-                                                                                                      "ref": "Presentation.Component.AbstractToolbar.html#select",
-                                                                                                      "tf": 1075
-                                                                                                    }
-                                                                                                  }
-                                                                                                }
-                                                                                              }
-                                                                                            }
-                                                                                          }
-                                                                                        }
-                                                                                      },
-                                                                                      "g": {
-                                                                                        "docs": {},
-                                                                                        "e": {
-                                                                                          "docs": {},
-                                                                                          "t": {
-                                                                                            "docs": {},
-                                                                                            "i": {
-                                                                                              "docs": {},
-                                                                                              "t": {
-                                                                                                "docs": {},
-                                                                                                "e": {
-                                                                                                  "docs": {},
-                                                                                                  "m": {
-                                                                                                    "docs": {
-                                                                                                      "Presentation.Component.AbstractToolbar.html#getItem": {
-                                                                                                        "ref": "Presentation.Component.AbstractToolbar.html#getItem",
-                                                                                                        "tf": 1075
-                                                                                                      }
-                                                                                                    }
-                                                                                                  }
-                                                                                                }
-                                                                                              }
-                                                                                            }
-                                                                                          }
-                                                                                        }
-                                                                                      }
-                                                                                    }
-                                                                                  }
-                                                                                }
-                                                                              }
-                                                                            }
-                                                                          }
-                                                                        }
-                                                                      }
-                                                                    }
-                                                                  }
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      },
                                                       "m": {
                                                         "docs": {},
                                                         "e": {
@@ -1537,6 +2392,20 @@ window.lunrData = {
                 }
               }
             }
+          },
+          "a": {
+            "docs": {},
+            "s": {
+              "docs": {},
+              "s": {
+                "docs": {
+                  "AbstractToolbar.html": {
+                    "ref": "AbstractToolbar.html",
+                    "tf": 2.941176470588235
+                  }
+                }
+              }
+            }
           }
         },
         "r": {
@@ -1614,6 +2483,98 @@ window.lunrData = {
               }
             }
           },
+          "p": {
+            "docs": {},
+            "a": {
+              "docs": {},
+              "c": {
+                "docs": {},
+                "e": {
+                  "docs": {},
+                  "r": {
+                    "docs": {
+                      "NavigationMenu.html#addItem": {
+                        "ref": "NavigationMenu.html#addItem",
+                        "tf": 16.666666666666664
+                      },
+                      "NavigationMenu.html#addSpacer": {
+                        "ref": "NavigationMenu.html#addSpacer",
+                        "tf": 12.5
+                      },
+                      "NotificationCenter.html#addItem": {
+                        "ref": "NotificationCenter.html#addItem",
+                        "tf": 16.666666666666664
+                      },
+                      "NotificationCenter.html#addSpacer": {
+                        "ref": "NotificationCenter.html#addSpacer",
+                        "tf": 12.5
+                      },
+                      "Iconbar.html#addItem": {
+                        "ref": "Iconbar.html#addItem",
+                        "tf": 16.666666666666664
+                      },
+                      "Iconbar.html#addSpacer": {
+                        "ref": "Iconbar.html#addSpacer",
+                        "tf": 12.5
+                      },
+                      "Toolbar.html#addItem": {
+                        "ref": "Toolbar.html#addItem",
+                        "tf": 16.666666666666664
+                      },
+                      "Toolbar.html#addSpacer": {
+                        "ref": "Toolbar.html#addSpacer",
+                        "tf": 12.5
+                      },
+                      "AbstractToolbar.html#addItem": {
+                        "ref": "AbstractToolbar.html#addItem",
+                        "tf": 16.666666666666664
+                      },
+                      "AbstractToolbar.html#addSpacer": {
+                        "ref": "AbstractToolbar.html#addSpacer",
+                        "tf": 12.5
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "e": {
+            "docs": {},
+            "l": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "c": {
+                  "docs": {},
+                  "t": {
+                    "docs": {
+                      "NavigationMenu.html#select": {
+                        "ref": "NavigationMenu.html#select",
+                        "tf": 716.6666666666666
+                      },
+                      "NotificationCenter.html#select": {
+                        "ref": "NotificationCenter.html#select",
+                        "tf": 716.6666666666666
+                      },
+                      "Iconbar.html#select": {
+                        "ref": "Iconbar.html#select",
+                        "tf": 716.6666666666666
+                      },
+                      "Toolbar.html#select": {
+                        "ref": "Toolbar.html#select",
+                        "tf": 716.6666666666666
+                      },
+                      "AbstractToolbar.html#select": {
+                        "ref": "AbstractToolbar.html#select",
+                        "tf": 716.6666666666666
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
           "h": {
             "docs": {},
             "o": {
@@ -1648,43 +2609,22 @@ window.lunrData = {
               }
             }
           },
-          "p": {
+          "u": {
             "docs": {},
-            "a": {
+            "p": {
               "docs": {},
-              "c": {
+              "p": {
                 "docs": {},
-                "e": {
+                "o": {
                   "docs": {},
                   "r": {
-                    "docs": {
-                      "Presentation.Component.AbstractToolbar.html#addItem": {
-                        "ref": "Presentation.Component.AbstractToolbar.html#addItem",
-                        "tf": 16.666666666666664
-                      },
-                      "Presentation.Component.AbstractToolbar.html#addSpacer": {
-                        "ref": "Presentation.Component.AbstractToolbar.html#addSpacer",
-                        "tf": 12.5
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "e": {
-            "docs": {},
-            "l": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "c": {
-                  "docs": {},
-                  "t": {
-                    "docs": {
-                      "Presentation.Component.AbstractToolbar.html#select": {
-                        "ref": "Presentation.Component.AbstractToolbar.html#select",
-                        "tf": 641.6666666666666
+                    "docs": {},
+                    "t": {
+                      "docs": {
+                        "AbstractToolbar.html": {
+                          "ref": "AbstractToolbar.html",
+                          "tf": 1.4705882352941175
+                        }
                       }
                     }
                   }
@@ -1727,9 +2667,25 @@ window.lunrData = {
                     "docs": {},
                     "m": {
                       "docs": {
-                        "Presentation.Component.AbstractToolbar.html#getItem": {
-                          "ref": "Presentation.Component.AbstractToolbar.html#getItem",
-                          "tf": 625
+                        "NavigationMenu.html#getItem": {
+                          "ref": "NavigationMenu.html#getItem",
+                          "tf": 700
+                        },
+                        "NotificationCenter.html#getItem": {
+                          "ref": "NotificationCenter.html#getItem",
+                          "tf": 700
+                        },
+                        "Iconbar.html#getItem": {
+                          "ref": "Iconbar.html#getItem",
+                          "tf": 700
+                        },
+                        "Toolbar.html#getItem": {
+                          "ref": "Toolbar.html#getItem",
+                          "tf": 700
+                        },
+                        "AbstractToolbar.html#getItem": {
+                          "ref": "AbstractToolbar.html#getItem",
+                          "tf": 700
                         }
                       }
                     }
@@ -1769,17 +2725,71 @@ window.lunrData = {
                       "ref": "Toolbar.html",
                       "tf": 110
                     },
-                    "Presentation.Component.AbstractToolbar.html": {
-                      "ref": "Presentation.Component.AbstractToolbar.html",
-                      "tf": 110
-                    },
                     "Presentation.Component.Menu.html": {
                       "ref": "Presentation.Component.Menu.html",
+                      "tf": 110
+                    },
+                    "AbstractToolbar.html": {
+                      "ref": "AbstractToolbar.html",
                       "tf": 110
                     },
                     "Presentation.Component.HamburgerMenu.html": {
                       "ref": "Presentation.Component.HamburgerMenu.html",
                       "tf": 110
+                    }
+                  }
+                }
+              }
+            },
+            "i": {
+              "docs": {},
+              "c": {
+                "docs": {},
+                "k": {
+                  "docs": {
+                    "NavigationMenu.html#addItem": {
+                      "ref": "NavigationMenu.html#addItem",
+                      "tf": 16.666666666666664
+                    },
+                    "NavigationMenu.html#addLabel": {
+                      "ref": "NavigationMenu.html#addLabel",
+                      "tf": 12.5
+                    },
+                    "NotificationCenter.html#addItem": {
+                      "ref": "NotificationCenter.html#addItem",
+                      "tf": 16.666666666666664
+                    },
+                    "NotificationCenter.html#addLabel": {
+                      "ref": "NotificationCenter.html#addLabel",
+                      "tf": 12.5
+                    },
+                    "Iconbar.html#addIcon": {
+                      "ref": "Iconbar.html#addIcon",
+                      "tf": 16.666666666666664
+                    },
+                    "Iconbar.html#addItem": {
+                      "ref": "Iconbar.html#addItem",
+                      "tf": 16.666666666666664
+                    },
+                    "Iconbar.html#addLabel": {
+                      "ref": "Iconbar.html#addLabel",
+                      "tf": 12.5
+                    },
+                    "Toolbar.html#addItem": {
+                      "ref": "Toolbar.html#addItem",
+                      "tf": 16.666666666666664
+                    },
+                    "Toolbar.html#addLabel": {
+                      "ref": "Toolbar.html#addLabel",
+                      "tf": 12.5
+                    },
+                    "AbstractToolbar.html#addItem": {
+                      "ref": "AbstractToolbar.html#addItem",
+                      "tf": 16.666666666666664
+                    },
+                    "AbstractToolbar.html#addLabel": {
+                      "ref": "AbstractToolbar.html#addLabel",
+                      "tf": 12.5
                     }
                   }
                 }
@@ -1791,13 +2801,74 @@ window.lunrData = {
                 "docs": {},
                 "r": {
                   "docs": {
+                    "NavigationMenu.html#clearMenuItems": {
+                      "ref": "NavigationMenu.html#clearMenuItems",
+                      "tf": 16.666666666666664
+                    },
                     "NotificationCenter.html#clearNotifications": {
                       "ref": "NotificationCenter.html#clearNotifications",
                       "tf": 25
                     },
-                    "Presentation.Component.AbstractToolbar.html#clearMenuItems": {
-                      "ref": "Presentation.Component.AbstractToolbar.html#clearMenuItems",
+                    "NotificationCenter.html#clearMenuItems": {
+                      "ref": "NotificationCenter.html#clearMenuItems",
                       "tf": 16.666666666666664
+                    },
+                    "Iconbar.html#clearMenuItems": {
+                      "ref": "Iconbar.html#clearMenuItems",
+                      "tf": 16.666666666666664
+                    },
+                    "Toolbar.html#clearMenuItems": {
+                      "ref": "Toolbar.html#clearMenuItems",
+                      "tf": 16.666666666666664
+                    },
+                    "AbstractToolbar.html#clearMenuItems": {
+                      "ref": "AbstractToolbar.html#clearMenuItems",
+                      "tf": 16.666666666666664
+                    }
+                  },
+                  "m": {
+                    "docs": {},
+                    "e": {
+                      "docs": {},
+                      "n": {
+                        "docs": {},
+                        "u": {
+                          "docs": {},
+                          "i": {
+                            "docs": {},
+                            "t": {
+                              "docs": {},
+                              "e": {
+                                "docs": {},
+                                "m": {
+                                  "docs": {
+                                    "NavigationMenu.html#clearMenuItems": {
+                                      "ref": "NavigationMenu.html#clearMenuItems",
+                                      "tf": 750
+                                    },
+                                    "NotificationCenter.html#clearMenuItems": {
+                                      "ref": "NotificationCenter.html#clearMenuItems",
+                                      "tf": 750
+                                    },
+                                    "Iconbar.html#clearMenuItems": {
+                                      "ref": "Iconbar.html#clearMenuItems",
+                                      "tf": 750
+                                    },
+                                    "Toolbar.html#clearMenuItems": {
+                                      "ref": "Toolbar.html#clearMenuItems",
+                                      "tf": 750
+                                    },
+                                    "AbstractToolbar.html#clearMenuItems": {
+                                      "ref": "AbstractToolbar.html#clearMenuItems",
+                                      "tf": 750
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
                     }
                   },
                   "n": {
@@ -1818,57 +2889,6 @@ window.lunrData = {
                           }
                         }
                       }
-                    }
-                  },
-                  "m": {
-                    "docs": {},
-                    "e": {
-                      "docs": {},
-                      "n": {
-                        "docs": {},
-                        "u": {
-                          "docs": {},
-                          "i": {
-                            "docs": {},
-                            "t": {
-                              "docs": {},
-                              "e": {
-                                "docs": {},
-                                "m": {
-                                  "docs": {
-                                    "Presentation.Component.AbstractToolbar.html#clearMenuItems": {
-                                      "ref": "Presentation.Component.AbstractToolbar.html#clearMenuItems",
-                                      "tf": 675
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "i": {
-              "docs": {},
-              "c": {
-                "docs": {},
-                "k": {
-                  "docs": {
-                    "Iconbar.html#addIcon": {
-                      "ref": "Iconbar.html#addIcon",
-                      "tf": 16.666666666666664
-                    },
-                    "Presentation.Component.AbstractToolbar.html#addItem": {
-                      "ref": "Presentation.Component.AbstractToolbar.html#addItem",
-                      "tf": 16.666666666666664
-                    },
-                    "Presentation.Component.AbstractToolbar.html#addLabel": {
-                      "ref": "Presentation.Component.AbstractToolbar.html#addLabel",
-                      "tf": 12.5
                     }
                   }
                 }
@@ -1909,9 +2929,9 @@ window.lunrData = {
                         "ref": "NotificationCenter.html",
                         "tf": 16.666666666666664
                       },
-                      "Presentation.Component.AbstractToolbar.html": {
-                        "ref": "Presentation.Component.AbstractToolbar.html",
-                        "tf": 10
+                      "AbstractToolbar.html": {
+                        "ref": "AbstractToolbar.html",
+                        "tf": 1.4705882352941175
                       }
                     },
                     "e": {
@@ -1922,215 +2942,6 @@ window.lunrData = {
                           "docs": {},
                           ".": {
                             "docs": {},
-                            "a": {
-                              "docs": {},
-                              "b": {
-                                "docs": {},
-                                "s": {
-                                  "docs": {},
-                                  "t": {
-                                    "docs": {},
-                                    "r": {
-                                      "docs": {},
-                                      "a": {
-                                        "docs": {},
-                                        "c": {
-                                          "docs": {},
-                                          "t": {
-                                            "docs": {},
-                                            "t": {
-                                              "docs": {},
-                                              "o": {
-                                                "docs": {},
-                                                "o": {
-                                                  "docs": {},
-                                                  "l": {
-                                                    "docs": {},
-                                                    "b": {
-                                                      "docs": {},
-                                                      "a": {
-                                                        "docs": {},
-                                                        "r": {
-                                                          "docs": {
-                                                            "Presentation.Component.AbstractToolbar.html": {
-                                                              "ref": "Presentation.Component.AbstractToolbar.html",
-                                                              "tf": 100
-                                                            }
-                                                          },
-                                                          "#": {
-                                                            "docs": {},
-                                                            "a": {
-                                                              "docs": {},
-                                                              "d": {
-                                                                "docs": {},
-                                                                "d": {
-                                                                  "docs": {},
-                                                                  "i": {
-                                                                    "docs": {},
-                                                                    "t": {
-                                                                      "docs": {},
-                                                                      "e": {
-                                                                        "docs": {},
-                                                                        "m": {
-                                                                          "docs": {
-                                                                            "Presentation.Component.AbstractToolbar.html#addItem": {
-                                                                              "ref": "Presentation.Component.AbstractToolbar.html#addItem",
-                                                                              "tf": 75
-                                                                            }
-                                                                          }
-                                                                        }
-                                                                      }
-                                                                    }
-                                                                  },
-                                                                  "l": {
-                                                                    "docs": {},
-                                                                    "a": {
-                                                                      "docs": {},
-                                                                      "b": {
-                                                                        "docs": {},
-                                                                        "e": {
-                                                                          "docs": {},
-                                                                          "l": {
-                                                                            "docs": {
-                                                                              "Presentation.Component.AbstractToolbar.html#addLabel": {
-                                                                                "ref": "Presentation.Component.AbstractToolbar.html#addLabel",
-                                                                                "tf": 75
-                                                                              }
-                                                                            }
-                                                                          }
-                                                                        }
-                                                                      }
-                                                                    }
-                                                                  },
-                                                                  "s": {
-                                                                    "docs": {},
-                                                                    "p": {
-                                                                      "docs": {},
-                                                                      "a": {
-                                                                        "docs": {},
-                                                                        "c": {
-                                                                          "docs": {
-                                                                            "Presentation.Component.AbstractToolbar.html#addSpacer": {
-                                                                              "ref": "Presentation.Component.AbstractToolbar.html#addSpacer",
-                                                                              "tf": 75
-                                                                            }
-                                                                          }
-                                                                        }
-                                                                      }
-                                                                    }
-                                                                  }
-                                                                }
-                                                              }
-                                                            },
-                                                            "c": {
-                                                              "docs": {},
-                                                              "l": {
-                                                                "docs": {},
-                                                                "e": {
-                                                                  "docs": {},
-                                                                  "a": {
-                                                                    "docs": {},
-                                                                    "r": {
-                                                                      "docs": {},
-                                                                      "m": {
-                                                                        "docs": {},
-                                                                        "e": {
-                                                                          "docs": {},
-                                                                          "n": {
-                                                                            "docs": {},
-                                                                            "u": {
-                                                                              "docs": {},
-                                                                              "i": {
-                                                                                "docs": {},
-                                                                                "t": {
-                                                                                  "docs": {},
-                                                                                  "e": {
-                                                                                    "docs": {},
-                                                                                    "m": {
-                                                                                      "docs": {
-                                                                                        "Presentation.Component.AbstractToolbar.html#clearMenuItems": {
-                                                                                          "ref": "Presentation.Component.AbstractToolbar.html#clearMenuItems",
-                                                                                          "tf": 75
-                                                                                        }
-                                                                                      }
-                                                                                    }
-                                                                                  }
-                                                                                }
-                                                                              }
-                                                                            }
-                                                                          }
-                                                                        }
-                                                                      }
-                                                                    }
-                                                                  }
-                                                                }
-                                                              }
-                                                            },
-                                                            "s": {
-                                                              "docs": {},
-                                                              "e": {
-                                                                "docs": {},
-                                                                "l": {
-                                                                  "docs": {},
-                                                                  "e": {
-                                                                    "docs": {},
-                                                                    "c": {
-                                                                      "docs": {},
-                                                                      "t": {
-                                                                        "docs": {
-                                                                          "Presentation.Component.AbstractToolbar.html#select": {
-                                                                            "ref": "Presentation.Component.AbstractToolbar.html#select",
-                                                                            "tf": 75
-                                                                          }
-                                                                        }
-                                                                      }
-                                                                    }
-                                                                  }
-                                                                }
-                                                              }
-                                                            },
-                                                            "g": {
-                                                              "docs": {},
-                                                              "e": {
-                                                                "docs": {},
-                                                                "t": {
-                                                                  "docs": {},
-                                                                  "i": {
-                                                                    "docs": {},
-                                                                    "t": {
-                                                                      "docs": {},
-                                                                      "e": {
-                                                                        "docs": {},
-                                                                        "m": {
-                                                                          "docs": {
-                                                                            "Presentation.Component.AbstractToolbar.html#getItem": {
-                                                                              "ref": "Presentation.Component.AbstractToolbar.html#getItem",
-                                                                              "tf": 75
-                                                                            }
-                                                                          }
-                                                                        }
-                                                                      }
-                                                                    }
-                                                                  }
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            },
                             "m": {
                               "docs": {},
                               "e": {
@@ -2219,6 +3030,69 @@ window.lunrData = {
                   }
                 }
               }
+            },
+            "n": {
+              "docs": {},
+              "s": {
+                "docs": {},
+                "t": {
+                  "docs": {},
+                  "r": {
+                    "docs": {},
+                    "u": {
+                      "docs": {},
+                      "c": {
+                        "docs": {},
+                        "t": {
+                          "docs": {},
+                          "o": {
+                            "docs": {},
+                            "r": {
+                              "docs": {
+                                "AbstractToolbar.html": {
+                                  "ref": "AbstractToolbar.html",
+                                  "tf": 1.4705882352941175
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "a": {
+            "docs": {},
+            "s": {
+              "docs": {},
+              "e": {
+                "docs": {
+                  "AbstractToolbar.html": {
+                    "ref": "AbstractToolbar.html",
+                    "tf": 1.4705882352941175
+                  }
+                }
+              }
+            }
+          },
+          "r": {
+            "docs": {},
+            "e": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "t": {
+                  "docs": {
+                    "AbstractToolbar.html": {
+                      "ref": "AbstractToolbar.html",
+                      "tf": 1.4705882352941175
+                    }
+                  }
+                }
+              }
             }
           }
         },
@@ -2261,6 +3135,72 @@ window.lunrData = {
               }
             }
           },
+          "a": {
+            "docs": {},
+            "b": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "l": {
+                  "docs": {
+                    "NavigationMenu.html#addLabel": {
+                      "ref": "NavigationMenu.html#addLabel",
+                      "tf": 12.5
+                    },
+                    "NotificationCenter.html#addLabel": {
+                      "ref": "NotificationCenter.html#addLabel",
+                      "tf": 12.5
+                    },
+                    "Iconbar.html#addLabel": {
+                      "ref": "Iconbar.html#addLabel",
+                      "tf": 12.5
+                    },
+                    "Toolbar.html#addLabel": {
+                      "ref": "Toolbar.html#addLabel",
+                      "tf": 12.5
+                    },
+                    "AbstractToolbar.html#addLabel": {
+                      "ref": "AbstractToolbar.html#addLabel",
+                      "tf": 12.5
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "e": {
+            "docs": {},
+            "v": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "l": {
+                  "docs": {
+                    "NavigationMenu.html#addLabel": {
+                      "ref": "NavigationMenu.html#addLabel",
+                      "tf": 20
+                    },
+                    "NotificationCenter.html#addLabel": {
+                      "ref": "NotificationCenter.html#addLabel",
+                      "tf": 20
+                    },
+                    "Iconbar.html#addLabel": {
+                      "ref": "Iconbar.html#addLabel",
+                      "tf": 20
+                    },
+                    "Toolbar.html#addLabel": {
+                      "ref": "Toolbar.html#addLabel",
+                      "tf": 20
+                    },
+                    "AbstractToolbar.html#addLabel": {
+                      "ref": "AbstractToolbar.html#addLabel",
+                      "tf": 20
+                    }
+                  }
+                }
+              }
+            }
+          },
           "t": {
             "docs": {},
             ";": {
@@ -2287,8 +3227,8 @@ window.lunrData = {
                                   "docs": {},
                                   "t": {
                                     "docs": {
-                                      "Presentation.Component.AbstractToolbar.html": {
-                                        "ref": "Presentation.Component.AbstractToolbar.html",
+                                      "AbstractToolbar.html": {
+                                        "ref": "AbstractToolbar.html",
                                         "tf": 50
                                       }
                                     }
@@ -2299,23 +3239,6 @@ window.lunrData = {
                           }
                         }
                       }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "a": {
-            "docs": {},
-            "b": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "l": {
-                  "docs": {
-                    "Presentation.Component.AbstractToolbar.html#addLabel": {
-                      "ref": "Presentation.Component.AbstractToolbar.html#addLabel",
-                      "tf": 12.5
                     }
                   }
                 }
@@ -2339,36 +3262,108 @@ window.lunrData = {
                     "ref": "NavigationMenu.html#render",
                     "tf": 25
                   },
+                  "NavigationMenu.html#addItem": {
+                    "ref": "NavigationMenu.html#addItem",
+                    "tf": 16.666666666666664
+                  },
+                  "NavigationMenu.html#addLabel": {
+                    "ref": "NavigationMenu.html#addLabel",
+                    "tf": 12.5
+                  },
+                  "NavigationMenu.html#addSpacer": {
+                    "ref": "NavigationMenu.html#addSpacer",
+                    "tf": 12.5
+                  },
+                  "NavigationMenu.html#clearMenuItems": {
+                    "ref": "NavigationMenu.html#clearMenuItems",
+                    "tf": 16.666666666666664
+                  },
+                  "NavigationMenu.html#select": {
+                    "ref": "NavigationMenu.html#select",
+                    "tf": 16.666666666666664
+                  },
+                  "NavigationMenu.html#getItem": {
+                    "ref": "NavigationMenu.html#getItem",
+                    "tf": 25
+                  },
                   "NotificationCenter.html#render": {
                     "ref": "NotificationCenter.html#render",
+                    "tf": 25
+                  },
+                  "NotificationCenter.html#addItem": {
+                    "ref": "NotificationCenter.html#addItem",
+                    "tf": 16.666666666666664
+                  },
+                  "NotificationCenter.html#addLabel": {
+                    "ref": "NotificationCenter.html#addLabel",
+                    "tf": 12.5
+                  },
+                  "NotificationCenter.html#addSpacer": {
+                    "ref": "NotificationCenter.html#addSpacer",
+                    "tf": 12.5
+                  },
+                  "NotificationCenter.html#clearMenuItems": {
+                    "ref": "NotificationCenter.html#clearMenuItems",
+                    "tf": 16.666666666666664
+                  },
+                  "NotificationCenter.html#select": {
+                    "ref": "NotificationCenter.html#select",
+                    "tf": 16.666666666666664
+                  },
+                  "NotificationCenter.html#getItem": {
+                    "ref": "NotificationCenter.html#getItem",
                     "tf": 25
                   },
                   "Iconbar.html#addIcon": {
                     "ref": "Iconbar.html#addIcon",
                     "tf": 16.666666666666664
                   },
-                  "Presentation.Component.AbstractToolbar.html#addItem": {
-                    "ref": "Presentation.Component.AbstractToolbar.html#addItem",
+                  "Iconbar.html#addItem": {
+                    "ref": "Iconbar.html#addItem",
                     "tf": 16.666666666666664
                   },
-                  "Presentation.Component.AbstractToolbar.html#addLabel": {
-                    "ref": "Presentation.Component.AbstractToolbar.html#addLabel",
+                  "Iconbar.html#addLabel": {
+                    "ref": "Iconbar.html#addLabel",
                     "tf": 12.5
                   },
-                  "Presentation.Component.AbstractToolbar.html#addSpacer": {
-                    "ref": "Presentation.Component.AbstractToolbar.html#addSpacer",
+                  "Iconbar.html#addSpacer": {
+                    "ref": "Iconbar.html#addSpacer",
                     "tf": 12.5
                   },
-                  "Presentation.Component.AbstractToolbar.html#clearMenuItems": {
-                    "ref": "Presentation.Component.AbstractToolbar.html#clearMenuItems",
+                  "Iconbar.html#clearMenuItems": {
+                    "ref": "Iconbar.html#clearMenuItems",
                     "tf": 16.666666666666664
                   },
-                  "Presentation.Component.AbstractToolbar.html#select": {
-                    "ref": "Presentation.Component.AbstractToolbar.html#select",
+                  "Iconbar.html#select": {
+                    "ref": "Iconbar.html#select",
                     "tf": 16.666666666666664
                   },
-                  "Presentation.Component.AbstractToolbar.html#getItem": {
-                    "ref": "Presentation.Component.AbstractToolbar.html#getItem",
+                  "Iconbar.html#getItem": {
+                    "ref": "Iconbar.html#getItem",
+                    "tf": 25
+                  },
+                  "Toolbar.html#addItem": {
+                    "ref": "Toolbar.html#addItem",
+                    "tf": 16.666666666666664
+                  },
+                  "Toolbar.html#addLabel": {
+                    "ref": "Toolbar.html#addLabel",
+                    "tf": 12.5
+                  },
+                  "Toolbar.html#addSpacer": {
+                    "ref": "Toolbar.html#addSpacer",
+                    "tf": 12.5
+                  },
+                  "Toolbar.html#clearMenuItems": {
+                    "ref": "Toolbar.html#clearMenuItems",
+                    "tf": 16.666666666666664
+                  },
+                  "Toolbar.html#select": {
+                    "ref": "Toolbar.html#select",
+                    "tf": 16.666666666666664
+                  },
+                  "Toolbar.html#getItem": {
+                    "ref": "Toolbar.html#getItem",
                     "tf": 25
                   },
                   "Presentation.Component.Menu.html": {
@@ -2377,6 +3372,30 @@ window.lunrData = {
                   },
                   "Presentation.Component.Menu.html#render": {
                     "ref": "Presentation.Component.Menu.html#render",
+                    "tf": 25
+                  },
+                  "AbstractToolbar.html#addItem": {
+                    "ref": "AbstractToolbar.html#addItem",
+                    "tf": 16.666666666666664
+                  },
+                  "AbstractToolbar.html#addLabel": {
+                    "ref": "AbstractToolbar.html#addLabel",
+                    "tf": 12.5
+                  },
+                  "AbstractToolbar.html#addSpacer": {
+                    "ref": "AbstractToolbar.html#addSpacer",
+                    "tf": 12.5
+                  },
+                  "AbstractToolbar.html#clearMenuItems": {
+                    "ref": "AbstractToolbar.html#clearMenuItems",
+                    "tf": 16.666666666666664
+                  },
+                  "AbstractToolbar.html#select": {
+                    "ref": "AbstractToolbar.html#select",
+                    "tf": 16.666666666666664
+                  },
+                  "AbstractToolbar.html#getItem": {
+                    "ref": "AbstractToolbar.html#getItem",
                     "tf": 25
                   },
                   "Presentation.Component.HamburgerMenu.html": {
@@ -2398,6 +3417,23 @@ window.lunrData = {
                               "ref": "Presentation.Component.Menu.html#render",
                               "tf": 75
                             }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "i": {
+                  "docs": {},
+                  "t": {
+                    "docs": {},
+                    "e": {
+                      "docs": {},
+                      "m": {
+                        "docs": {
+                          "AbstractToolbar.html": {
+                            "ref": "AbstractToolbar.html",
+                            "tf": 2.941176470588235
                           }
                         }
                       }
@@ -2445,6 +3481,30 @@ window.lunrData = {
                             "ref": "NavigationMenu.html#render",
                             "tf": 110
                           },
+                          "NavigationMenu.html#addItem": {
+                            "ref": "NavigationMenu.html#addItem",
+                            "tf": 110
+                          },
+                          "NavigationMenu.html#addLabel": {
+                            "ref": "NavigationMenu.html#addLabel",
+                            "tf": 110
+                          },
+                          "NavigationMenu.html#addSpacer": {
+                            "ref": "NavigationMenu.html#addSpacer",
+                            "tf": 110
+                          },
+                          "NavigationMenu.html#clearMenuItems": {
+                            "ref": "NavigationMenu.html#clearMenuItems",
+                            "tf": 110
+                          },
+                          "NavigationMenu.html#select": {
+                            "ref": "NavigationMenu.html#select",
+                            "tf": 110
+                          },
+                          "NavigationMenu.html#getItem": {
+                            "ref": "NavigationMenu.html#getItem",
+                            "tf": 110
+                          },
                           "NotificationCenter.html#showNotification": {
                             "ref": "NotificationCenter.html#showNotification",
                             "tf": 110
@@ -2461,6 +3521,30 @@ window.lunrData = {
                             "ref": "NotificationCenter.html#render",
                             "tf": 110
                           },
+                          "NotificationCenter.html#addItem": {
+                            "ref": "NotificationCenter.html#addItem",
+                            "tf": 110
+                          },
+                          "NotificationCenter.html#addLabel": {
+                            "ref": "NotificationCenter.html#addLabel",
+                            "tf": 110
+                          },
+                          "NotificationCenter.html#addSpacer": {
+                            "ref": "NotificationCenter.html#addSpacer",
+                            "tf": 110
+                          },
+                          "NotificationCenter.html#clearMenuItems": {
+                            "ref": "NotificationCenter.html#clearMenuItems",
+                            "tf": 110
+                          },
+                          "NotificationCenter.html#select": {
+                            "ref": "NotificationCenter.html#select",
+                            "tf": 110
+                          },
+                          "NotificationCenter.html#getItem": {
+                            "ref": "NotificationCenter.html#getItem",
+                            "tf": 110
+                          },
                           "Iconbar.html#addIcon": {
                             "ref": "Iconbar.html#addIcon",
                             "tf": 110
@@ -2469,37 +3553,388 @@ window.lunrData = {
                             "ref": "Iconbar.html#render",
                             "tf": 110
                           },
+                          "Iconbar.html#addItem": {
+                            "ref": "Iconbar.html#addItem",
+                            "tf": 110
+                          },
+                          "Iconbar.html#addLabel": {
+                            "ref": "Iconbar.html#addLabel",
+                            "tf": 110
+                          },
+                          "Iconbar.html#addSpacer": {
+                            "ref": "Iconbar.html#addSpacer",
+                            "tf": 110
+                          },
+                          "Iconbar.html#clearMenuItems": {
+                            "ref": "Iconbar.html#clearMenuItems",
+                            "tf": 110
+                          },
+                          "Iconbar.html#select": {
+                            "ref": "Iconbar.html#select",
+                            "tf": 110
+                          },
+                          "Iconbar.html#getItem": {
+                            "ref": "Iconbar.html#getItem",
+                            "tf": 110
+                          },
                           "Toolbar.html#render": {
                             "ref": "Toolbar.html#render",
                             "tf": 110
                           },
-                          "Presentation.Component.AbstractToolbar.html#addItem": {
-                            "ref": "Presentation.Component.AbstractToolbar.html#addItem",
+                          "Toolbar.html#addItem": {
+                            "ref": "Toolbar.html#addItem",
                             "tf": 110
                           },
-                          "Presentation.Component.AbstractToolbar.html#addLabel": {
-                            "ref": "Presentation.Component.AbstractToolbar.html#addLabel",
+                          "Toolbar.html#addLabel": {
+                            "ref": "Toolbar.html#addLabel",
                             "tf": 110
                           },
-                          "Presentation.Component.AbstractToolbar.html#addSpacer": {
-                            "ref": "Presentation.Component.AbstractToolbar.html#addSpacer",
+                          "Toolbar.html#addSpacer": {
+                            "ref": "Toolbar.html#addSpacer",
                             "tf": 110
                           },
-                          "Presentation.Component.AbstractToolbar.html#clearMenuItems": {
-                            "ref": "Presentation.Component.AbstractToolbar.html#clearMenuItems",
+                          "Toolbar.html#clearMenuItems": {
+                            "ref": "Toolbar.html#clearMenuItems",
                             "tf": 110
                           },
-                          "Presentation.Component.AbstractToolbar.html#select": {
-                            "ref": "Presentation.Component.AbstractToolbar.html#select",
+                          "Toolbar.html#select": {
+                            "ref": "Toolbar.html#select",
                             "tf": 110
                           },
-                          "Presentation.Component.AbstractToolbar.html#getItem": {
-                            "ref": "Presentation.Component.AbstractToolbar.html#getItem",
+                          "Toolbar.html#getItem": {
+                            "ref": "Toolbar.html#getItem",
                             "tf": 110
                           },
                           "Presentation.Component.Menu.html#render": {
                             "ref": "Presentation.Component.Menu.html#render",
                             "tf": 110
+                          },
+                          "AbstractToolbar.html#addItem": {
+                            "ref": "AbstractToolbar.html#addItem",
+                            "tf": 110
+                          },
+                          "AbstractToolbar.html#addLabel": {
+                            "ref": "AbstractToolbar.html#addLabel",
+                            "tf": 110
+                          },
+                          "AbstractToolbar.html#addSpacer": {
+                            "ref": "AbstractToolbar.html#addSpacer",
+                            "tf": 110
+                          },
+                          "AbstractToolbar.html#clearMenuItems": {
+                            "ref": "AbstractToolbar.html#clearMenuItems",
+                            "tf": 110
+                          },
+                          "AbstractToolbar.html#select": {
+                            "ref": "AbstractToolbar.html#select",
+                            "tf": 110
+                          },
+                          "AbstractToolbar.html#getItem": {
+                            "ref": "AbstractToolbar.html#getItem",
+                            "tf": 110
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "t": {
+          "docs": {},
+          "i": {
+            "docs": {},
+            "t": {
+              "docs": {},
+              "l": {
+                "docs": {
+                  "NavigationMenu.html#addItem": {
+                    "ref": "NavigationMenu.html#addItem",
+                    "tf": 16.666666666666664
+                  },
+                  "NavigationMenu.html#addLabel": {
+                    "ref": "NavigationMenu.html#addLabel",
+                    "tf": 20
+                  },
+                  "NotificationCenter.html#addItem": {
+                    "ref": "NotificationCenter.html#addItem",
+                    "tf": 16.666666666666664
+                  },
+                  "NotificationCenter.html#addLabel": {
+                    "ref": "NotificationCenter.html#addLabel",
+                    "tf": 20
+                  },
+                  "Iconbar.html#addItem": {
+                    "ref": "Iconbar.html#addItem",
+                    "tf": 16.666666666666664
+                  },
+                  "Iconbar.html#addLabel": {
+                    "ref": "Iconbar.html#addLabel",
+                    "tf": 20
+                  },
+                  "Toolbar.html#addItem": {
+                    "ref": "Toolbar.html#addItem",
+                    "tf": 16.666666666666664
+                  },
+                  "Toolbar.html#addLabel": {
+                    "ref": "Toolbar.html#addLabel",
+                    "tf": 20
+                  },
+                  "AbstractToolbar.html": {
+                    "ref": "AbstractToolbar.html",
+                    "tf": 2.941176470588235
+                  },
+                  "AbstractToolbar.html#addItem": {
+                    "ref": "AbstractToolbar.html#addItem",
+                    "tf": 16.666666666666664
+                  },
+                  "AbstractToolbar.html#addLabel": {
+                    "ref": "AbstractToolbar.html#addLabel",
+                    "tf": 20
+                  }
+                }
+              }
+            }
+          },
+          "o": {
+            "docs": {},
+            "o": {
+              "docs": {},
+              "l": {
+                "docs": {},
+                "t": {
+                  "docs": {},
+                  "i": {
+                    "docs": {},
+                    "p": {
+                      "docs": {
+                        "Iconbar.html#addIcon": {
+                          "ref": "Iconbar.html#addIcon",
+                          "tf": 16.666666666666664
+                        },
+                        "AbstractToolbar.html": {
+                          "ref": "AbstractToolbar.html",
+                          "tf": 2.941176470588235
+                        }
+                      }
+                    }
+                  }
+                },
+                "b": {
+                  "docs": {},
+                  "a": {
+                    "docs": {},
+                    "r": {
+                      "docs": {
+                        "Iconbar.html#render": {
+                          "ref": "Iconbar.html#render",
+                          "tf": 25
+                        },
+                        "Toolbar.html": {
+                          "ref": "Toolbar.html",
+                          "tf": 1925
+                        },
+                        "Toolbar.html#render": {
+                          "ref": "Toolbar.html#render",
+                          "tf": 25
+                        },
+                        "AbstractToolbar.html": {
+                          "ref": "AbstractToolbar.html",
+                          "tf": 5.88235294117647
+                        }
+                      },
+                      "#": {
+                        "docs": {},
+                        "r": {
+                          "docs": {},
+                          "e": {
+                            "docs": {},
+                            "n": {
+                              "docs": {},
+                              "d": {
+                                "docs": {
+                                  "Toolbar.html#render": {
+                                    "ref": "Toolbar.html#render",
+                                    "tf": 1150
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "a": {
+                          "docs": {},
+                          "d": {
+                            "docs": {},
+                            "d": {
+                              "docs": {},
+                              "i": {
+                                "docs": {},
+                                "t": {
+                                  "docs": {},
+                                  "e": {
+                                    "docs": {},
+                                    "m": {
+                                      "docs": {
+                                        "Toolbar.html#addItem": {
+                                          "ref": "Toolbar.html#addItem",
+                                          "tf": 1150
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "l": {
+                                "docs": {},
+                                "a": {
+                                  "docs": {},
+                                  "b": {
+                                    "docs": {},
+                                    "e": {
+                                      "docs": {},
+                                      "l": {
+                                        "docs": {
+                                          "Toolbar.html#addLabel": {
+                                            "ref": "Toolbar.html#addLabel",
+                                            "tf": 1150
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "s": {
+                                "docs": {},
+                                "p": {
+                                  "docs": {},
+                                  "a": {
+                                    "docs": {},
+                                    "c": {
+                                      "docs": {
+                                        "Toolbar.html#addSpacer": {
+                                          "ref": "Toolbar.html#addSpacer",
+                                          "tf": 1150
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "c": {
+                          "docs": {},
+                          "l": {
+                            "docs": {},
+                            "e": {
+                              "docs": {},
+                              "a": {
+                                "docs": {},
+                                "r": {
+                                  "docs": {},
+                                  "m": {
+                                    "docs": {},
+                                    "e": {
+                                      "docs": {},
+                                      "n": {
+                                        "docs": {},
+                                        "u": {
+                                          "docs": {},
+                                          "i": {
+                                            "docs": {},
+                                            "t": {
+                                              "docs": {},
+                                              "e": {
+                                                "docs": {},
+                                                "m": {
+                                                  "docs": {
+                                                    "Toolbar.html#clearMenuItems": {
+                                                      "ref": "Toolbar.html#clearMenuItems",
+                                                      "tf": 1150
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "s": {
+                          "docs": {},
+                          "e": {
+                            "docs": {},
+                            "l": {
+                              "docs": {},
+                              "e": {
+                                "docs": {},
+                                "c": {
+                                  "docs": {},
+                                  "t": {
+                                    "docs": {
+                                      "Toolbar.html#select": {
+                                        "ref": "Toolbar.html#select",
+                                        "tf": 1150
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "g": {
+                          "docs": {},
+                          "e": {
+                            "docs": {},
+                            "t": {
+                              "docs": {},
+                              "i": {
+                                "docs": {},
+                                "t": {
+                                  "docs": {},
+                                  "e": {
+                                    "docs": {},
+                                    "m": {
+                                      "docs": {
+                                        "Toolbar.html#getItem": {
+                                          "ref": "Toolbar.html#getItem",
+                                          "tf": 1150
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "d": {
+                  "docs": {},
+                  "b": {
+                    "docs": {},
+                    "a": {
+                      "docs": {},
+                      "r": {
+                        "docs": {
+                          "AbstractToolbar.html": {
+                            "ref": "AbstractToolbar.html",
+                            "tf": 1.4705882352941175
                           }
                         }
                       }
@@ -2618,109 +4053,6 @@ window.lunrData = {
             }
           }
         },
-        "t": {
-          "docs": {},
-          "o": {
-            "docs": {},
-            "o": {
-              "docs": {},
-              "l": {
-                "docs": {},
-                "t": {
-                  "docs": {},
-                  "i": {
-                    "docs": {},
-                    "p": {
-                      "docs": {
-                        "Iconbar.html#addIcon": {
-                          "ref": "Iconbar.html#addIcon",
-                          "tf": 16.666666666666664
-                        }
-                      }
-                    }
-                  }
-                },
-                "b": {
-                  "docs": {},
-                  "a": {
-                    "docs": {},
-                    "r": {
-                      "docs": {
-                        "Iconbar.html#render": {
-                          "ref": "Iconbar.html#render",
-                          "tf": 25
-                        },
-                        "Toolbar.html": {
-                          "ref": "Toolbar.html",
-                          "tf": 1925
-                        },
-                        "Toolbar.html#render": {
-                          "ref": "Toolbar.html#render",
-                          "tf": 25
-                        }
-                      },
-                      "#": {
-                        "docs": {},
-                        "r": {
-                          "docs": {},
-                          "e": {
-                            "docs": {},
-                            "n": {
-                              "docs": {},
-                              "d": {
-                                "docs": {
-                                  "Toolbar.html#render": {
-                                    "ref": "Toolbar.html#render",
-                                    "tf": 1150
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                },
-                "d": {
-                  "docs": {},
-                  "b": {
-                    "docs": {},
-                    "a": {
-                      "docs": {},
-                      "r": {
-                        "docs": {
-                          "Presentation.Component.AbstractToolbar.html": {
-                            "ref": "Presentation.Component.AbstractToolbar.html",
-                            "tf": 10
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "i": {
-            "docs": {},
-            "t": {
-              "docs": {},
-              "l": {
-                "docs": {
-                  "Presentation.Component.AbstractToolbar.html#addItem": {
-                    "ref": "Presentation.Component.AbstractToolbar.html#addItem",
-                    "tf": 16.666666666666664
-                  },
-                  "Presentation.Component.AbstractToolbar.html#addLabel": {
-                    "ref": "Presentation.Component.AbstractToolbar.html#addLabel",
-                    "tf": 25
-                  }
-                }
-              }
-            }
-          }
-        },
         "e": {
           "docs": {},
           "x": {
@@ -2733,9 +4065,9 @@ window.lunrData = {
                   "docs": {},
                   "d": {
                     "docs": {
-                      "Presentation.Component.AbstractToolbar.html": {
-                        "ref": "Presentation.Component.AbstractToolbar.html",
-                        "tf": 10
+                      "AbstractToolbar.html": {
+                        "ref": "AbstractToolbar.html",
+                        "tf": 1.4705882352941175
                       }
                     }
                   }
@@ -2743,9 +4075,63 @@ window.lunrData = {
               }
             }
           }
+        },
+        "o": {
+          "docs": {},
+          "b": {
+            "docs": {},
+            "j": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "c": {
+                  "docs": {},
+                  "t": {
+                    "docs": {
+                      "AbstractToolbar.html": {
+                        "ref": "AbstractToolbar.html",
+                        "tf": 1.4705882352941175
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "p": {
+            "docs": {},
+            "t": {
+              "docs": {},
+              "i": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "n": {
+                    "docs": {
+                      "AbstractToolbar.html": {
+                        "ref": "AbstractToolbar.html",
+                        "tf": 1.4705882352941175
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "u": {
+          "docs": {},
+          "s": {
+            "docs": {
+              "AbstractToolbar.html": {
+                "ref": "AbstractToolbar.html",
+                "tf": 1.4705882352941175
+              }
+            }
+          }
         }
       },
-      "length": 158
+      "length": 353
     },
     "corpusTokens": [
       "abstract",
@@ -2761,7 +4147,9 @@ window.lunrData = {
       "additem",
       "addlabel",
       "addspac",
+      "api",
       "augmented.j",
+      "case",
       "center",
       "class",
       "clear",
@@ -2769,18 +4157,16 @@ window.lunrData = {
       "clearnotif",
       "click",
       "compon",
-      "component.abstracttoolbar",
-      "component.abstracttoolbar#additem",
-      "component.abstracttoolbar#addlabel",
-      "component.abstracttoolbar#addspac",
-      "component.abstracttoolbar#clearmenuitem",
-      "component.abstracttoolbar#getitem",
-      "component.abstracttoolbar#select",
       "component.hamburgermenu",
       "component.menu",
       "component.menu#rend",
+      "constructor",
+      "creat",
+      "data",
       "design",
       "develop",
+      "directli",
+      "display",
       "document",
       "extend",
       "function",
@@ -2793,38 +4179,57 @@ window.lunrData = {
       "icon",
       "iconbar",
       "iconbar#addicon",
+      "iconbar#additem",
+      "iconbar#addlabel",
+      "iconbar#addspac",
+      "iconbar#clearmenuitem",
+      "iconbar#getitem",
       "iconbar#rend",
+      "iconbar#select",
       "id",
       "index",
+      "intent",
       "isimagelink",
+      "it'",
       "item",
       "label",
+      "level",
       "list",
       "list:class",
       "lt;abstract&gt",
       "member",
       "menu",
       "menu#rend",
+      "menuitem",
       "navig",
       "navigationmenu",
+      "navigationmenu#additem",
+      "navigationmenu#addlabel",
+      "navigationmenu#addspac",
+      "navigationmenu#clearmenuitem",
+      "navigationmenu#getitem",
       "navigationmenu#rend",
+      "navigationmenu#select",
+      "need",
       "next",
       "notfic",
       "notif",
       "notificationcent",
+      "notificationcenter#additem",
+      "notificationcenter#addlabel",
+      "notificationcenter#addspac",
+      "notificationcenter#clearmenuitem",
       "notificationcenter#clearnotif",
+      "notificationcenter#getitem",
       "notificationcenter#hidenotif",
       "notificationcenter#notif",
       "notificationcenter#rend",
+      "notificationcenter#select",
       "notificationcenter#shownotif",
+      "object",
+      "option",
+      "pass",
       "present",
-      "presentation.component.abstracttoolbar",
-      "presentation.component.abstracttoolbar#additem",
-      "presentation.component.abstracttoolbar#addlabel",
-      "presentation.component.abstracttoolbar#addspac",
-      "presentation.component.abstracttoolbar#clearmenuitem",
-      "presentation.component.abstracttoolbar#getitem",
-      "presentation.component.abstracttoolbar#select",
       "presentation.component.hamburgermenu",
       "presentation.component.menu",
       "presentation.component.menu#rend",
@@ -2835,11 +4240,19 @@ window.lunrData = {
       "shownotif",
       "simpli",
       "spacer",
+      "support",
       "titl",
       "toolbar",
+      "toolbar#additem",
+      "toolbar#addlabel",
+      "toolbar#addspac",
+      "toolbar#clearmenuitem",
+      "toolbar#getitem",
       "toolbar#rend",
+      "toolbar#select",
       "tooldbar",
       "tooltip",
+      "us",
       "view"
     ],
     "pipeline": [
@@ -2903,6 +4316,66 @@ window.lunrData = {
       "summary": "",
       "description": "Renders the Menu"
     },
+    "NavigationMenu.html#addItem": {
+      "id": "NavigationMenu.html#addItem",
+      "kind": "function",
+      "title": "addItem( id, click, icon, title, spacer )",
+      "longname": "NavigationMenu#addItem",
+      "name": "addItem",
+      "tags": "NavigationMenu#addItem addItem",
+      "summary": "",
+      "description": "Adds an item to the menu"
+    },
+    "NavigationMenu.html#addLabel": {
+      "id": "NavigationMenu.html#addLabel",
+      "kind": "function",
+      "title": "addLabel( id, icon, title, level )",
+      "longname": "NavigationMenu#addLabel",
+      "name": "addLabel",
+      "tags": "NavigationMenu#addLabel addLabel",
+      "summary": "",
+      "description": "Adds a label (no click) to the menu"
+    },
+    "NavigationMenu.html#addSpacer": {
+      "id": "NavigationMenu.html#addSpacer",
+      "kind": "function",
+      "title": "addSpacer()",
+      "longname": "NavigationMenu#addSpacer",
+      "name": "addSpacer",
+      "tags": "NavigationMenu#addSpacer addSpacer",
+      "summary": "",
+      "description": "Adds a spacer item to the menu"
+    },
+    "NavigationMenu.html#clearMenuItems": {
+      "id": "NavigationMenu.html#clearMenuItems",
+      "kind": "function",
+      "title": "clearMenuItems()",
+      "longname": "NavigationMenu#clearMenuItems",
+      "name": "clearMenuItems",
+      "tags": "NavigationMenu#clearMenuItems clearMenuItems",
+      "summary": "",
+      "description": "Clear all items in the menu"
+    },
+    "NavigationMenu.html#select": {
+      "id": "NavigationMenu.html#select",
+      "kind": "function",
+      "title": "select( id )",
+      "longname": "NavigationMenu#select",
+      "name": "select",
+      "tags": "NavigationMenu#select select",
+      "summary": "",
+      "description": "Select an item in the menu"
+    },
+    "NavigationMenu.html#getItem": {
+      "id": "NavigationMenu.html#getItem",
+      "kind": "function",
+      "title": "getItem( id )",
+      "longname": "NavigationMenu#getItem",
+      "name": "getItem",
+      "tags": "NavigationMenu#getItem getItem",
+      "summary": "",
+      "description": "Get an item in the menu"
+    },
     "NotificationCenter.html": {
       "id": "NotificationCenter.html",
       "kind": "class",
@@ -2964,6 +4437,66 @@ window.lunrData = {
       "summary": "",
       "description": "Renders the Menu"
     },
+    "NotificationCenter.html#addItem": {
+      "id": "NotificationCenter.html#addItem",
+      "kind": "function",
+      "title": "addItem( id, click, icon, title, spacer )",
+      "longname": "NotificationCenter#addItem",
+      "name": "addItem",
+      "tags": "NotificationCenter#addItem addItem",
+      "summary": "",
+      "description": "Adds an item to the menu"
+    },
+    "NotificationCenter.html#addLabel": {
+      "id": "NotificationCenter.html#addLabel",
+      "kind": "function",
+      "title": "addLabel( id, icon, title, level )",
+      "longname": "NotificationCenter#addLabel",
+      "name": "addLabel",
+      "tags": "NotificationCenter#addLabel addLabel",
+      "summary": "",
+      "description": "Adds a label (no click) to the menu"
+    },
+    "NotificationCenter.html#addSpacer": {
+      "id": "NotificationCenter.html#addSpacer",
+      "kind": "function",
+      "title": "addSpacer()",
+      "longname": "NotificationCenter#addSpacer",
+      "name": "addSpacer",
+      "tags": "NotificationCenter#addSpacer addSpacer",
+      "summary": "",
+      "description": "Adds a spacer item to the menu"
+    },
+    "NotificationCenter.html#clearMenuItems": {
+      "id": "NotificationCenter.html#clearMenuItems",
+      "kind": "function",
+      "title": "clearMenuItems()",
+      "longname": "NotificationCenter#clearMenuItems",
+      "name": "clearMenuItems",
+      "tags": "NotificationCenter#clearMenuItems clearMenuItems",
+      "summary": "",
+      "description": "Clear all items in the menu"
+    },
+    "NotificationCenter.html#select": {
+      "id": "NotificationCenter.html#select",
+      "kind": "function",
+      "title": "select( id )",
+      "longname": "NotificationCenter#select",
+      "name": "select",
+      "tags": "NotificationCenter#select select",
+      "summary": "",
+      "description": "Select an item in the menu"
+    },
+    "NotificationCenter.html#getItem": {
+      "id": "NotificationCenter.html#getItem",
+      "kind": "function",
+      "title": "getItem( id )",
+      "longname": "NotificationCenter#getItem",
+      "name": "getItem",
+      "tags": "NotificationCenter#getItem getItem",
+      "summary": "",
+      "description": "Get an item in the menu"
+    },
     "Iconbar.html": {
       "id": "Iconbar.html",
       "kind": "class",
@@ -2995,6 +4528,66 @@ window.lunrData = {
       "summary": "",
       "description": "Render the Toolbar"
     },
+    "Iconbar.html#addItem": {
+      "id": "Iconbar.html#addItem",
+      "kind": "function",
+      "title": "addItem( id, click, icon, title, spacer )",
+      "longname": "Iconbar#addItem",
+      "name": "addItem",
+      "tags": "Iconbar#addItem addItem",
+      "summary": "",
+      "description": "Adds an item to the menu"
+    },
+    "Iconbar.html#addLabel": {
+      "id": "Iconbar.html#addLabel",
+      "kind": "function",
+      "title": "addLabel( id, icon, title, level )",
+      "longname": "Iconbar#addLabel",
+      "name": "addLabel",
+      "tags": "Iconbar#addLabel addLabel",
+      "summary": "",
+      "description": "Adds a label (no click) to the menu"
+    },
+    "Iconbar.html#addSpacer": {
+      "id": "Iconbar.html#addSpacer",
+      "kind": "function",
+      "title": "addSpacer()",
+      "longname": "Iconbar#addSpacer",
+      "name": "addSpacer",
+      "tags": "Iconbar#addSpacer addSpacer",
+      "summary": "",
+      "description": "Adds a spacer item to the menu"
+    },
+    "Iconbar.html#clearMenuItems": {
+      "id": "Iconbar.html#clearMenuItems",
+      "kind": "function",
+      "title": "clearMenuItems()",
+      "longname": "Iconbar#clearMenuItems",
+      "name": "clearMenuItems",
+      "tags": "Iconbar#clearMenuItems clearMenuItems",
+      "summary": "",
+      "description": "Clear all items in the menu"
+    },
+    "Iconbar.html#select": {
+      "id": "Iconbar.html#select",
+      "kind": "function",
+      "title": "select( id )",
+      "longname": "Iconbar#select",
+      "name": "select",
+      "tags": "Iconbar#select select",
+      "summary": "",
+      "description": "Select an item in the menu"
+    },
+    "Iconbar.html#getItem": {
+      "id": "Iconbar.html#getItem",
+      "kind": "function",
+      "title": "getItem( id )",
+      "longname": "Iconbar#getItem",
+      "name": "getItem",
+      "tags": "Iconbar#getItem getItem",
+      "summary": "",
+      "description": "Get an item in the menu"
+    },
     "Toolbar.html": {
       "id": "Toolbar.html",
       "kind": "class",
@@ -3016,74 +4609,63 @@ window.lunrData = {
       "summary": "",
       "description": "Render the Toolbar"
     },
-    "Presentation.Component.AbstractToolbar.html": {
-      "id": "Presentation.Component.AbstractToolbar.html",
-      "kind": "class",
-      "title": "&lt;abstract&gt; AbstractToolbar",
-      "longname": "Presentation.Component.AbstractToolbar",
-      "name": "AbstractToolbar",
-      "tags": "Presentation.Component.AbstractToolbar Component.AbstractToolbar AbstractToolbar",
-      "summary": "",
-      "description": "An abstract tooldbar Component, designed to be extended",
-      "body": ""
-    },
-    "Presentation.Component.AbstractToolbar.html#addItem": {
-      "id": "Presentation.Component.AbstractToolbar.html#addItem",
+    "Toolbar.html#addItem": {
+      "id": "Toolbar.html#addItem",
       "kind": "function",
       "title": "addItem( id, click, icon, title, spacer )",
-      "longname": "Presentation.Component.AbstractToolbar#addItem",
+      "longname": "Toolbar#addItem",
       "name": "addItem",
-      "tags": "Presentation.Component.AbstractToolbar#addItem Component.AbstractToolbar#addItem AbstractToolbar#addItem addItem",
+      "tags": "Toolbar#addItem addItem",
       "summary": "",
       "description": "Adds an item to the menu"
     },
-    "Presentation.Component.AbstractToolbar.html#addLabel": {
-      "id": "Presentation.Component.AbstractToolbar.html#addLabel",
+    "Toolbar.html#addLabel": {
+      "id": "Toolbar.html#addLabel",
       "kind": "function",
-      "title": "addLabel( id, icon, title )",
-      "longname": "Presentation.Component.AbstractToolbar#addLabel",
+      "title": "addLabel( id, icon, title, level )",
+      "longname": "Toolbar#addLabel",
       "name": "addLabel",
-      "tags": "Presentation.Component.AbstractToolbar#addLabel Component.AbstractToolbar#addLabel AbstractToolbar#addLabel addLabel",
+      "tags": "Toolbar#addLabel addLabel",
       "summary": "",
       "description": "Adds a label (no click) to the menu"
     },
-    "Presentation.Component.AbstractToolbar.html#addSpacer": {
-      "id": "Presentation.Component.AbstractToolbar.html#addSpacer",
+    "Toolbar.html#addSpacer": {
+      "id": "Toolbar.html#addSpacer",
       "kind": "function",
       "title": "addSpacer()",
-      "longname": "Presentation.Component.AbstractToolbar#addSpacer",
+      "longname": "Toolbar#addSpacer",
       "name": "addSpacer",
-      "tags": "Presentation.Component.AbstractToolbar#addSpacer Component.AbstractToolbar#addSpacer AbstractToolbar#addSpacer addSpacer",
+      "tags": "Toolbar#addSpacer addSpacer",
       "summary": "",
       "description": "Adds a spacer item to the menu"
     },
-    "Presentation.Component.AbstractToolbar.html#clearMenuItems": {
-      "id": "Presentation.Component.AbstractToolbar.html#clearMenuItems",
+    "Toolbar.html#clearMenuItems": {
+      "id": "Toolbar.html#clearMenuItems",
       "kind": "function",
       "title": "clearMenuItems()",
-      "longname": "Presentation.Component.AbstractToolbar#clearMenuItems",
+      "longname": "Toolbar#clearMenuItems",
       "name": "clearMenuItems",
-      "tags": "Presentation.Component.AbstractToolbar#clearMenuItems Component.AbstractToolbar#clearMenuItems AbstractToolbar#clearMenuItems clearMenuItems",
+      "tags": "Toolbar#clearMenuItems clearMenuItems",
       "summary": "",
       "description": "Clear all items in the menu"
     },
-    "Presentation.Component.AbstractToolbar.html#select": {
-      "id": "Presentation.Component.AbstractToolbar.html#select",
+    "Toolbar.html#select": {
+      "id": "Toolbar.html#select",
       "kind": "function",
       "title": "select( id )",
-      "longname": "Presentation.Component.AbstractToolbar#select",
+      "longname": "Toolbar#select",
       "name": "select",
-      "tags": "Presentation.Component.AbstractToolbar#select Component.AbstractToolbar#select AbstractToolbar#select select",
+      "tags": "Toolbar#select select",
       "summary": "",
       "description": "Select an item in the menu"
     },
-    "Presentation.Component.AbstractToolbar.html#getItem": {
-      "id": "Presentation.Component.AbstractToolbar.html#getItem",
+    "Toolbar.html#getItem": {
+      "id": "Toolbar.html#getItem",
       "kind": "function",
       "title": "getItem( id )",
-      "longname": "Presentation.Component.AbstractToolbar#getItem",
+      "longname": "Toolbar#getItem",
       "name": "getItem",
-      "tags": "Presentation.Component.AbstractToolbar#getItem Component.AbstractToolbar#getItem AbstractToolbar#getItem getItem",
+      "tags": "Toolbar#getItem getItem",
       "summary": "",
       "description": "Get an item in the menu"
     },
@@ -3107,6 +4689,77 @@ window.lunrData = {
       "tags": "Presentation.Component.Menu#render Component.Menu#render Menu#render render",
       "summary": "",
       "description": "Renders the Menu"
+    },
+    "AbstractToolbar.html": {
+      "id": "AbstractToolbar.html",
+      "kind": "class",
+      "title": "&lt;abstract&gt; AbstractToolbar",
+      "longname": "AbstractToolbar",
+      "name": "AbstractToolbar",
+      "tags": "AbstractToolbar",
+      "summary": "",
+      "description": "An abstract tooldbar Component, designed to be extended As an abstract it's not intented to use directly, most of the api creates the toolbars and no need to pass to constructor. Supported Options: title : The title of the toolbar (most cases displays) data : Data to pass to the toolbar as object menuItems : The menuItems of the toolbar tooltip : adds a tooltip",
+      "body": ""
+    },
+    "AbstractToolbar.html#addItem": {
+      "id": "AbstractToolbar.html#addItem",
+      "kind": "function",
+      "title": "addItem( id, click, icon, title, spacer )",
+      "longname": "AbstractToolbar#addItem",
+      "name": "addItem",
+      "tags": "AbstractToolbar#addItem addItem",
+      "summary": "",
+      "description": "Adds an item to the menu"
+    },
+    "AbstractToolbar.html#addLabel": {
+      "id": "AbstractToolbar.html#addLabel",
+      "kind": "function",
+      "title": "addLabel( id, icon, title, level )",
+      "longname": "AbstractToolbar#addLabel",
+      "name": "addLabel",
+      "tags": "AbstractToolbar#addLabel addLabel",
+      "summary": "",
+      "description": "Adds a label (no click) to the menu"
+    },
+    "AbstractToolbar.html#addSpacer": {
+      "id": "AbstractToolbar.html#addSpacer",
+      "kind": "function",
+      "title": "addSpacer()",
+      "longname": "AbstractToolbar#addSpacer",
+      "name": "addSpacer",
+      "tags": "AbstractToolbar#addSpacer addSpacer",
+      "summary": "",
+      "description": "Adds a spacer item to the menu"
+    },
+    "AbstractToolbar.html#clearMenuItems": {
+      "id": "AbstractToolbar.html#clearMenuItems",
+      "kind": "function",
+      "title": "clearMenuItems()",
+      "longname": "AbstractToolbar#clearMenuItems",
+      "name": "clearMenuItems",
+      "tags": "AbstractToolbar#clearMenuItems clearMenuItems",
+      "summary": "",
+      "description": "Clear all items in the menu"
+    },
+    "AbstractToolbar.html#select": {
+      "id": "AbstractToolbar.html#select",
+      "kind": "function",
+      "title": "select( id )",
+      "longname": "AbstractToolbar#select",
+      "name": "select",
+      "tags": "AbstractToolbar#select select",
+      "summary": "",
+      "description": "Select an item in the menu"
+    },
+    "AbstractToolbar.html#getItem": {
+      "id": "AbstractToolbar.html#getItem",
+      "kind": "function",
+      "title": "getItem( id )",
+      "longname": "AbstractToolbar#getItem",
+      "name": "getItem",
+      "tags": "AbstractToolbar#getItem getItem",
+      "summary": "",
+      "description": "Get an item in the menu"
     },
     "Presentation.Component.HamburgerMenu.html": {
       "id": "Presentation.Component.HamburgerMenu.html",
