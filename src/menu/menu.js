@@ -3,7 +3,10 @@ import Dom from "presentation-dom";
 import buildNavItems from "../functions/buildNavItems.js";
 
 const buildMenu = (name, menuItems) => {
-  return `<i class="material-icons md-dark">more_vert</i><ul>${buildNavItems(name, menuItems)}</ul>`;
+  return /*html*/`
+    <i class="material-icons md-dark">more_vert</i>
+    <ul>${buildNavItems(name, menuItems)}</ul>
+  `;
 };
 
 /**

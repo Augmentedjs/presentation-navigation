@@ -114,7 +114,10 @@ import Dom from "presentation-dom";
 import buildNavItems from "../functions/buildNavItems.js";
 
 const buildMenu = (name, menuItems) => {
-  return `&lt;i class="material-icons md-dark">more_vert&lt;/i>&lt;ul>${buildNavItems(name, menuItems)}&lt;/ul>`;
+  return /*html*/`
+    &lt;i class="material-icons md-dark">more_vert&lt;/i>
+    &lt;ul>${buildNavItems(name, menuItems)}&lt;/ul>
+  `;
 };
 
 /**

@@ -16,7 +16,7 @@ class Toolbar extends AbstractToolbar {
    */
   render() {
     if (!this.isInitalized) {
-      //_logger.warn("AUGMENTED: Toolbar Can't render yet, not initialized!");
+      console.warn(`AUGMENTED: Toolbar "${this.name}" Can't render yet, not initialized!`);
       return this;
     }
     this.template = null;//"notused";
@@ -29,7 +29,7 @@ class Toolbar extends AbstractToolbar {
         e.innerHTML = buildMenuItems(this.name, this.menuItems, this.tooltip);
       }
     } else {
-      //_logger.warn("AUGMENTED: Toolbar no element anchor, not rendering.");
+      console.warn(`AUGMENTED: Toolbar "${this.name}" no element anchor, not rendering.`);
       return this;
     }
     this.delegateEvents();

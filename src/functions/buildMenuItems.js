@@ -9,7 +9,7 @@ const buildMenuItems = (name, data, tooltip) => {
         items = items + '<div class="spacer"></div>';
       } else {
         items = items + `
-          <div id="${data[i].id}" data-${name}="${data[i].id}" ${(data[i].click) ? 'data-click="' + data[i].click + '"' : ""} ${(tooltip) ? ' title="' + data[i].title + '"' : ''}>
+          <div ${(data[i].label) ? 'class="label"' : ""} id="${data[i].id}" data-${name}="${data[i].id}" ${(data[i].click) ? 'data-click="' + data[i].click + '"' : ""} ${(tooltip) ? ' title="' + data[i].title + '"' : ''}>
             ${( (data[i].icon) ? ('<i class="material-icons md-dark">' + data[i].icon + '</i>') : '' )}${(tooltip) ? "" : data[i].title}
           </div>
         `;

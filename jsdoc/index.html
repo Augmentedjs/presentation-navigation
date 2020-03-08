@@ -153,39 +153,46 @@
 <li><a href="#examples">Examples</a></li>
 </ul>
 </li>
+<li><a href="#addlabel">addLabel</a>
+<ul>
+<li><a href="#parameters-7">Parameters</a></li>
+<li><a href="#examples-1">Examples</a></li>
+</ul>
+</li>
 <li><a href="#addspacer">addSpacer</a>
 <ul>
-<li><a href="#examples-1">Examples</a></li>
+<li><a href="#examples-2">Examples</a></li>
 </ul>
 </li>
 <li><a href="#clearmenuitems">clearMenuItems</a></li>
 <li><a href="#select">select</a>
 <ul>
-<li><a href="#parameters-7">Parameters</a></li>
+<li><a href="#parameters-8">Parameters</a></li>
 </ul>
 </li>
 <li><a href="#getitem">getItem</a>
 <ul>
-<li><a href="#parameters-8">Parameters</a></li>
+<li><a href="#parameters-9">Parameters</a></li>
 </ul>
 </li>
 </ul>
 </li>
 <li><a href="#menu">Menu</a>
 <ul>
-<li><a href="#parameters-9">Parameters</a></li>
+<li><a href="#parameters-10">Parameters</a></li>
 <li><a href="#render-1">render</a></li>
 </ul>
 </li>
+<li><a href="#toggle">toggle</a></li>
 <li><a href="#navigationmenu">NavigationMenu</a>
 <ul>
-<li><a href="#parameters-10">Parameters</a></li>
+<li><a href="#parameters-11">Parameters</a></li>
 <li><a href="#render-2">render</a></li>
 </ul>
 </li>
 <li><a href="#notificationcenter">NotificationCenter</a>
 <ul>
-<li><a href="#parameters-11">Parameters</a></li>
+<li><a href="#parameters-12">Parameters</a></li>
 <li><a href="#notifications">notifications</a></li>
 <li><a href="#shownotification">showNotification</a></li>
 <li><a href="#hidenotification">hideNotification</a></li>
@@ -195,18 +202,17 @@
 </li>
 <li><a href="#toolbar">Toolbar</a>
 <ul>
-<li><a href="#parameters-12">Parameters</a></li>
+<li><a href="#parameters-13">Parameters</a></li>
 <li><a href="#render-4">render</a></li>
 </ul>
 </li>
-<li><a href="#toggle">toggle</a></li>
 <li><a href="#iconbar">Iconbar</a>
 <ul>
-<li><a href="#parameters-13">Parameters</a></li>
+<li><a href="#parameters-14">Parameters</a></li>
 <li><a href="#addicon">addIcon</a>
 <ul>
-<li><a href="#parameters-14">Parameters</a></li>
-<li><a href="#examples-2">Examples</a></li>
+<li><a href="#parameters-15">Parameters</a></li>
+<li><a href="#examples-3">Examples</a></li>
 </ul>
 </li>
 <li><a href="#render-5">render</a></li>
@@ -301,6 +307,17 @@
 </code></pre>
 <pre class="prettyprint source lang-javascript"><code>addItem({&quot;space&quot;, null, null, null, true });
 </code></pre>
+<h3>addLabel</h3>
+<p>Adds a label (no click) to the menu</p>
+<h4>Parameters</h4>
+<ul>
+<li><code>id</code>  {string} The id of the itemID</li>
+<li><code>icon</code>  {string} The icon name (webfont)</li>
+<li><code>title</code>  {string} The title of the itemID</li>
+</ul>
+<h4>Examples</h4>
+<pre class="prettyprint source lang-javascript"><code>addLabel({&quot;itemID&quot;, &quot;web&quot;, &quot;something&quot;});
+</code></pre>
 <h3>addSpacer</h3>
 <p>Adds a spacer item to the menu</p>
 <h4>Examples</h4>
@@ -330,8 +347,10 @@
 <h3>render</h3>
 <p>Renders the Menu</p>
 <p>Returns <strong><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">object</a></strong> Returns the view context ('this')</p>
+<h2>toggle</h2>
+<p>Toggle the Hamburger menu view</p>
 <h2>NavigationMenu</h2>
-<p><strong>Extends Presentation.AbstractToolbar</strong></p>
+<p><strong>Extends AbstractToolbar</strong></p>
 <p>A Navigation Menu</p>
 <h3>Parameters</h3>
 <ul>
@@ -341,7 +360,7 @@
 <p>Renders the Menu</p>
 <p>Returns <strong><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">object</a></strong> Returns the view context ('this')</p>
 <h2>NotificationCenter</h2>
-<p><strong>Extends Presentation.Component.AbstractToolbar</strong></p>
+<p><strong>Extends AbstractToolbar</strong></p>
 <p>A Notfication Center Component</p>
 <h3>Parameters</h3>
 <ul>
@@ -358,7 +377,7 @@
 <p>Renders the Menu</p>
 <p>Returns <strong><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">object</a></strong> Returns the view context ('this')</p>
 <h2>Toolbar</h2>
-<p><strong>Extends Presentation.AbstractToolbar</strong></p>
+<p><strong>Extends AbstractToolbar</strong></p>
 <p>A Toolbar View</p>
 <h3>Parameters</h3>
 <ul>
@@ -367,8 +386,6 @@
 <h3>render</h3>
 <p>Render the Toolbar</p>
 <p>Returns <strong><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">object</a></strong> Returns the view context ('this')</p>
-<h2>toggle</h2>
-<p>Toggle the Hamburger menu view</p>
 <h2>Iconbar</h2>
 <p><strong>Extends AbstractToolbar</strong></p>
 <p>An Iconbar View</p>

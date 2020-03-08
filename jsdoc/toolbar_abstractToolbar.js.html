@@ -200,7 +200,7 @@ class AbstractToolbar extends DecoratorView {
     * @example addLabel({"itemID", "web", "something"});
     */
   addLabel(id, icon, title) {
-    this._menuItems.push({ "id": id, "click": null, "icon": icon, "title": title, "spacer": false });
+    this._menuItems.push({ "id": id, "click": null, "icon": icon, "title": title, "spacer": false, "label": true});
   };
   /**
     * Adds a spacer item to the menu
