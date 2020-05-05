@@ -1,6 +1,6 @@
 {
   "name": "presentation-navigation",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "The Augmented.js Next - Presentation Application Module.",
   "main": "dist/presentation-navigation.js",
   "scripts": {
@@ -26,23 +26,23 @@
   "author": "Bob Warren <jedi.master@augmentedjs.com> (http://www.augmentedjs.com)",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@babel/core": "^7.8.7",
-    "@babel/register": "^7.8.6",
-    "babel-loader": "^8.0.6",
+    "@babel/core": "^7.9.6",
+    "@babel/register": "^7.9.0",
+    "babel-loader": "^8.1.0",
     "babel-preset-env": "^1.7.0",
     "chai": "^4.2.0",
-    "documentation": "^12.1.4",
+    "documentation": "^12.3.0",
     "foodoc": "0.0.9",
-    "jsdoc": "^3.6.3",
-    "jsdom": "^16.2.0",
-    "mocha": "^7.1.0",
+    "jsdoc": "^3.6.4",
+    "jsdom": "^16.2.2",
+    "mocha": "^7.1.2",
     "mocha-jsdom": "^2.0.0",
-    "webpack": "^4.42.0",
+    "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
-    "next-core-utilities": "^2.8.0",
-    "presentation-decorator": "^2.6.8",
+    "next-core-utilities": "^2.9.0",
+    "presentation-decorator": "^3.0.2",
     "presentation-dom": "^2.8.2"
   },
   "bugs": {

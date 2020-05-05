@@ -120,42 +120,49 @@
 <li><a href="#render">render</a></li>
 </ul>
 </li>
-<li><a href="#abstracttoolbar">AbstractToolbar</a>
+<li><a href="#menu">Menu</a>
 <ul>
 <li><a href="#parameters-1">Parameters</a></li>
-<li><a href="#additem">addItem</a>
+<li><a href="#render-1">render</a></li>
+</ul>
+</li>
+<li><a href="#toggle">toggle</a></li>
+<li><a href="#abstracttoolbar">AbstractToolbar</a>
 <ul>
 <li><a href="#parameters-2">Parameters</a></li>
+<li><a href="#additem">addItem</a>
+<ul>
+<li><a href="#parameters-3">Parameters</a></li>
 <li><a href="#properties">Properties</a></li>
 </ul>
 </li>
 <li><a href="#additem-1">addItem</a>
 <ul>
-<li><a href="#parameters-3">Parameters</a></li>
+<li><a href="#parameters-4">Parameters</a></li>
 <li><a href="#properties-1">Properties</a></li>
 </ul>
 </li>
 <li><a href="#additem-2">addItem</a>
 <ul>
-<li><a href="#parameters-4">Parameters</a></li>
+<li><a href="#parameters-5">Parameters</a></li>
 <li><a href="#properties-2">Properties</a></li>
 </ul>
 </li>
 <li><a href="#additem-3">addItem</a>
 <ul>
-<li><a href="#parameters-5">Parameters</a></li>
+<li><a href="#parameters-6">Parameters</a></li>
 <li><a href="#properties-3">Properties</a></li>
 </ul>
 </li>
 <li><a href="#additem-4">addItem</a>
 <ul>
-<li><a href="#parameters-6">Parameters</a></li>
+<li><a href="#parameters-7">Parameters</a></li>
 <li><a href="#examples">Examples</a></li>
 </ul>
 </li>
 <li><a href="#addlabel">addLabel</a>
 <ul>
-<li><a href="#parameters-7">Parameters</a></li>
+<li><a href="#parameters-8">Parameters</a></li>
 <li><a href="#examples-1">Examples</a></li>
 </ul>
 </li>
@@ -167,23 +174,16 @@
 <li><a href="#clearmenuitems">clearMenuItems</a></li>
 <li><a href="#select">select</a>
 <ul>
-<li><a href="#parameters-8">Parameters</a></li>
+<li><a href="#parameters-9">Parameters</a></li>
 </ul>
 </li>
 <li><a href="#getitem">getItem</a>
 <ul>
-<li><a href="#parameters-9">Parameters</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#menu">Menu</a>
-<ul>
 <li><a href="#parameters-10">Parameters</a></li>
-<li><a href="#render-1">render</a></li>
 </ul>
 </li>
-<li><a href="#toggle">toggle</a></li>
+</ul>
+</li>
 <li><a href="#navigationmenu">NavigationMenu</a>
 <ul>
 <li><a href="#parameters-11">Parameters</a></li>
@@ -229,12 +229,33 @@
 <h3>render</h3>
 <p>Render the Hamburger Menu</p>
 <p>Returns <strong><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">object</a></strong> Returns the view context ('this')</p>
-<h2>AbstractToolbar</h2>
-<p><strong>Extends Presentation.DecoratorView</strong></p>
-<p>An abstract tooldbar Component, designed to be extended</p>
+<h2>Menu</h2>
+<p><strong>Extends Presentation.AbstractToolbar</strong></p>
+<p>A Menu</p>
 <h3>Parameters</h3>
 <ul>
 <li><code>options</code></li>
+</ul>
+<h3>render</h3>
+<p>Renders the Menu</p>
+<p>Returns <strong><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">object</a></strong> Returns the view context ('this')</p>
+<h2>toggle</h2>
+<p>Toggle the Hamburger menu view</p>
+<h2>AbstractToolbar</h2>
+<p><strong>Extends DecoratorView</strong></p>
+<p>An abstract tooldbar Component, designed to be extended<br/><br>
+As an abstract it's not intented to use directly, most of the api creates<br>
+the toolbars and no need to pass to constructor.<br/><br>
+Supported Options: <br/></p>
+<ul>
+<li>title : The title of the toolbar (most cases displays)</li>
+<li>data : Data to pass to the toolbar as object</li>
+<li>menuItems : The menuItems of the toolbar</li>
+<li>tooltip : adds a tooltip</li>
+</ul>
+<h3>Parameters</h3>
+<ul>
+<li><code>options</code> <strong><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">object</a></strong> Options to pass</li>
 </ul>
 <h3>addItem</h3>
 <p>The model property</p>
@@ -244,7 +265,7 @@
 <li><code>click</code></li>
 <li><code>icon</code></li>
 <li><code>title</code></li>
-<li><code>spacer</code></li>
+<li><code>spacer</code>   (optional, default <code>false</code>)</li>
 </ul>
 <h4>Properties</h4>
 <ul>
@@ -258,7 +279,7 @@
 <li><code>click</code></li>
 <li><code>icon</code></li>
 <li><code>title</code></li>
-<li><code>spacer</code></li>
+<li><code>spacer</code>   (optional, default <code>false</code>)</li>
 </ul>
 <h4>Properties</h4>
 <ul>
@@ -272,7 +293,7 @@
 <li><code>click</code></li>
 <li><code>icon</code></li>
 <li><code>title</code></li>
-<li><code>spacer</code></li>
+<li><code>spacer</code>   (optional, default <code>false</code>)</li>
 </ul>
 <h4>Properties</h4>
 <ul>
@@ -286,7 +307,7 @@
 <li><code>click</code></li>
 <li><code>icon</code></li>
 <li><code>title</code></li>
-<li><code>spacer</code></li>
+<li><code>spacer</code>   (optional, default <code>false</code>)</li>
 </ul>
 <h4>Properties</h4>
 <ul>
@@ -300,7 +321,7 @@
 <li><code>click</code>  {string} The bound click method to call</li>
 <li><code>icon</code>  {string} The icon name (webfont)</li>
 <li><code>title</code>  {string} The title of the itemID</li>
-<li><code>spacer</code>  {boolean} Sets a spacer item vs text (not clickable)</li>
+<li><code>spacer</code>  {boolean} Sets a spacer item vs text (not clickable) (optional, default <code>false</code>)</li>
 </ul>
 <h4>Examples</h4>
 <pre class="prettyprint source lang-javascript"><code>addItem({&quot;itemID&quot;, &quot;event&quot;, &quot;web&quot;, &quot;something&quot;, false });
@@ -312,11 +333,14 @@
 <h4>Parameters</h4>
 <ul>
 <li><code>id</code>  {string} The id of the itemID</li>
-<li><code>icon</code>  {string} The icon name (webfont)</li>
+<li><code>icon</code>  {string} The icon name (webfont) (optional, default <code>null</code>)</li>
 <li><code>title</code>  {string} The title of the itemID</li>
+<li><code>level</code>  {number} Set the level of the title (1 = h1, 2 = h2, etc. 0 is default and just text) (optional, default <code>0</code>)</li>
 </ul>
 <h4>Examples</h4>
 <pre class="prettyprint source lang-javascript"><code>addLabel({&quot;itemID&quot;, &quot;web&quot;, &quot;something&quot;});
+</code></pre>
+<pre class="prettyprint source lang-javascript"><code>addLabel({&quot;itemID&quot;, &quot;mail&quot;, &quot;something&quot;, 1});
 </code></pre>
 <h3>addSpacer</h3>
 <p>Adds a spacer item to the menu</p>
@@ -329,26 +353,14 @@
 <p>Select an item in the menu</p>
 <h4>Parameters</h4>
 <ul>
-<li><code>id</code> <strong><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></strong> The id</li>
+<li><code>id</code> <strong><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></strong> The id to select</li>
 </ul>
 <h3>getItem</h3>
 <p>Get an item in the menu</p>
 <h4>Parameters</h4>
 <ul>
-<li><code>id</code> <strong><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></strong> The id</li>
+<li><code>id</code> <strong><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></strong> The id to get</li>
 </ul>
-<h2>Menu</h2>
-<p><strong>Extends Presentation.AbstractToolbar</strong></p>
-<p>A Menu</p>
-<h3>Parameters</h3>
-<ul>
-<li><code>options</code></li>
-</ul>
-<h3>render</h3>
-<p>Renders the Menu</p>
-<p>Returns <strong><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">object</a></strong> Returns the view context ('this')</p>
-<h2>toggle</h2>
-<p>Toggle the Hamburger menu view</p>
 <h2>NavigationMenu</h2>
 <p><strong>Extends AbstractToolbar</strong></p>
 <p>A Navigation Menu</p>
@@ -420,7 +432,7 @@
 	</div>
 	<footer>
 				<div class="footer-option"><a href='http://www.augmentedjs.com'>Augmented.js Homepage</a></div>
-			<div class="generated-by">Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.3</a> on Sun Mar 8th 2020 using the <a href="https://github.com/steveush/foodoc">FooDoc template</a>.</div>
+			<div class="generated-by">Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.4</a> on Mon May 4th 2020 using the <a href="https://github.com/steveush/foodoc">FooDoc template</a>.</div>
 	</footer>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
