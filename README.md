@@ -15,46 +15,46 @@ Augmented.js Next Presentation - Navigation Components
     -   [Parameters](#parameters-1)
     -   [render](#render-1)
 -   [toggle](#toggle)
--   [NavigationMenu](#navigationmenu)
+-   [AbstractToolbar](#abstracttoolbar)
     -   [Parameters](#parameters-2)
+    -   [addItem](#additem)
+        -   [Parameters](#parameters-3)
+        -   [Properties](#properties)
+    -   [addItem](#additem-1)
+        -   [Parameters](#parameters-4)
+        -   [Properties](#properties-1)
+    -   [addItem](#additem-2)
+        -   [Parameters](#parameters-5)
+        -   [Properties](#properties-2)
+    -   [addItem](#additem-3)
+        -   [Parameters](#parameters-6)
+        -   [Properties](#properties-3)
+    -   [addItem](#additem-4)
+        -   [Parameters](#parameters-7)
+        -   [Examples](#examples)
+    -   [addLabel](#addlabel)
+        -   [Parameters](#parameters-8)
+        -   [Examples](#examples-1)
+    -   [addSpacer](#addspacer)
+        -   [Examples](#examples-2)
+    -   [clearMenuItems](#clearmenuitems)
+    -   [select](#select)
+        -   [Parameters](#parameters-9)
+    -   [getItem](#getitem)
+        -   [Parameters](#parameters-10)
+-   [NavigationMenu](#navigationmenu)
+    -   [Parameters](#parameters-11)
     -   [render](#render-2)
 -   [NotificationCenter](#notificationcenter)
-    -   [Parameters](#parameters-3)
+    -   [Parameters](#parameters-12)
     -   [notifications](#notifications)
     -   [showNotification](#shownotification)
     -   [hideNotification](#hidenotification)
     -   [clearNotifications](#clearnotifications)
     -   [render](#render-3)
 -   [Toolbar](#toolbar)
-    -   [Parameters](#parameters-4)
+    -   [Parameters](#parameters-13)
     -   [render](#render-4)
--   [AbstractToolbar](#abstracttoolbar)
-    -   [Parameters](#parameters-5)
-    -   [addItem](#additem)
-        -   [Parameters](#parameters-6)
-        -   [Properties](#properties)
-    -   [addItem](#additem-1)
-        -   [Parameters](#parameters-7)
-        -   [Properties](#properties-1)
-    -   [addItem](#additem-2)
-        -   [Parameters](#parameters-8)
-        -   [Properties](#properties-2)
-    -   [addItem](#additem-3)
-        -   [Parameters](#parameters-9)
-        -   [Properties](#properties-3)
-    -   [addItem](#additem-4)
-        -   [Parameters](#parameters-10)
-        -   [Examples](#examples)
-    -   [addLabel](#addlabel)
-        -   [Parameters](#parameters-11)
-        -   [Examples](#examples-1)
-    -   [addSpacer](#addspacer)
-        -   [Examples](#examples-2)
-    -   [clearMenuItems](#clearmenuitems)
-    -   [select](#select)
-        -   [Parameters](#parameters-12)
-    -   [getItem](#getitem)
-        -   [Parameters](#parameters-13)
 -   [Iconbar](#iconbar)
     -   [Parameters](#parameters-14)
     -   [addIcon](#addicon)
@@ -97,68 +97,6 @@ Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/G
 ## toggle
 
 Toggle the Hamburger menu view
-
-## NavigationMenu
-
-**Extends AbstractToolbar**
-
-A Navigation Menu
-
-### Parameters
-
--   `options`  
-
-### render
-
-Renders the Menu
-
-Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Returns the view context ('this')
-
-## NotificationCenter
-
-**Extends AbstractToolbar**
-
-A Notfication Center Component
-
-### Parameters
-
--   `options`  
-
-### notifications
-
-### showNotification
-
-Show the NotificationCenter
-
-### hideNotification
-
-Hide the NotificationCenter
-
-### clearNotifications
-
-Clear the NotificationCenter
-
-### render
-
-Renders the Menu
-
-Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Returns the view context ('this')
-
-## Toolbar
-
-**Extends AbstractToolbar**
-
-A Toolbar View
-
-### Parameters
-
--   `options`  
-
-### render
-
-Render the Toolbar
-
-Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Returns the view context ('this')
 
 ## AbstractToolbar
 
@@ -316,6 +254,68 @@ Get an item in the menu
 #### Parameters
 
 -   `id` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The id to get
+
+## NavigationMenu
+
+**Extends AbstractToolbar**
+
+A Navigation Menu
+
+### Parameters
+
+-   `options`  
+
+### render
+
+Renders the Menu
+
+Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Returns the view context ('this')
+
+## NotificationCenter
+
+**Extends AbstractToolbar**
+
+A Notfication Center Component
+
+### Parameters
+
+-   `options`  
+
+### notifications
+
+### showNotification
+
+Show the NotificationCenter
+
+### hideNotification
+
+Hide the NotificationCenter
+
+### clearNotifications
+
+Clear the NotificationCenter
+
+### render
+
+Renders the Menu
+
+Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Returns the view context ('this')
+
+## Toolbar
+
+**Extends AbstractToolbar**
+
+A Toolbar View
+
+### Parameters
+
+-   `options`  
+
+### render
+
+Render the Toolbar
+
+Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Returns the view context ('this')
 
 ## Iconbar
 
