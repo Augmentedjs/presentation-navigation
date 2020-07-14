@@ -1,4 +1,4 @@
-import Dom from "presentation-dom";
+import { Dom } from "presentation-dom";
 import AbstractToolbar from "./abstractToolbar.js";
 import buildIconItems from "../functions/buildIconItems.js";
 

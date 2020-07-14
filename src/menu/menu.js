@@ -1,4 +1,4 @@
-import Dom from "presentation-dom";
+import { Dom } from "presentation-dom";
 import AbstractToolbar from "../toolbar/abstractToolbar.js";
 import buildNavItems from "../functions/buildNavItems.js";
 
@@ -11,8 +11,7 @@ const buildMenu = (name, menuItems) => {
 
 /**
  * A Menu
- * @memberof Presentation.Component
- * @extends Presentation.AbstractToolbar
+ * @extends AbstractToolbar
  */
 class Menu extends AbstractToolbar {
   constructor(options) {
