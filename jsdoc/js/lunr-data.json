@@ -380,19 +380,74 @@
           "menu",
           "toolbar#getitem"
         ],
-        "Presentation.Component.Menu.html": [
+        "Menu.html": [
           "class",
-          "component.menu",
-          "menu",
-          "presentation.component.menu"
+          "menu"
         ],
-        "Presentation.Component.Menu.html#render": [
-          "component.menu#rend",
+        "Menu.html#render": [
           "function",
           "menu",
           "menu#rend",
-          "presentation.component.menu#rend",
           "render"
+        ],
+        "Menu.html#addItem": [
+          "add",
+          "additem",
+          "click",
+          "function",
+          "icon",
+          "id",
+          "item",
+          "menu",
+          "menu#additem",
+          "spacer",
+          "titl"
+        ],
+        "Menu.html#addLabel": [
+          "add",
+          "addlabel",
+          "click",
+          "function",
+          "icon",
+          "id",
+          "label",
+          "level",
+          "menu",
+          "menu#addlabel",
+          "titl"
+        ],
+        "Menu.html#addSpacer": [
+          "add",
+          "addspac",
+          "function",
+          "item",
+          "menu",
+          "menu#addspac",
+          "spacer"
+        ],
+        "Menu.html#clearMenuItems": [
+          "clear",
+          "clearmenuitem",
+          "function",
+          "item",
+          "menu",
+          "menu#clearmenuitem"
+        ],
+        "Menu.html#select": [
+          "function",
+          "id",
+          "item",
+          "menu",
+          "menu#select",
+          "select"
+        ],
+        "Menu.html#getItem": [
+          "function",
+          "getitem",
+          "id",
+          "item",
+          "menu",
+          "menu#getitem"
         ],
         "AbstractToolbar.html": [
           "abstract",
@@ -483,17 +538,74 @@
           "item",
           "menu"
         ],
-        "Presentation.Component.HamburgerMenu.html": [
+        "HamburgerMenu.html": [
           "class",
-          "component.hamburgermenu",
           "hamburg",
           "hamburgermenu",
           "menu",
-          "presentation.component.hamburgermenu",
           "view"
+        ],
+        "HamburgerMenu.html#addItem": [
+          "add",
+          "additem",
+          "click",
+          "function",
+          "hamburgermenu#additem",
+          "icon",
+          "id",
+          "item",
+          "menu",
+          "spacer",
+          "titl"
+        ],
+        "HamburgerMenu.html#addLabel": [
+          "add",
+          "addlabel",
+          "click",
+          "function",
+          "hamburgermenu#addlabel",
+          "icon",
+          "id",
+          "label",
+          "level",
+          "menu",
+          "titl"
+        ],
+        "HamburgerMenu.html#addSpacer": [
+          "add",
+          "addspac",
+          "function",
+          "hamburgermenu#addspac",
+          "item",
+          "menu",
+          "spacer"
+        ],
+        "HamburgerMenu.html#clearMenuItems": [
+          "clear",
+          "clearmenuitem",
+          "function",
+          "hamburgermenu#clearmenuitem",
+          "item",
+          "menu"
+        ],
+        "HamburgerMenu.html#select": [
+          "function",
+          "hamburgermenu#select",
+          "id",
+          "item",
+          "menu",
+          "select"
+        ],
+        "HamburgerMenu.html#getItem": [
+          "function",
+          "getitem",
+          "hamburgermenu#getitem",
+          "id",
+          "item",
+          "menu"
         ]
       },
-      "length": 50
+      "length": 62
     },
     "tokenStore": {
       "root": {
@@ -591,6 +703,18 @@
                   "ref": "Toolbar.html#addSpacer",
                   "tf": 12.5
                 },
+                "Menu.html#addItem": {
+                  "ref": "Menu.html#addItem",
+                  "tf": 16.666666666666664
+                },
+                "Menu.html#addLabel": {
+                  "ref": "Menu.html#addLabel",
+                  "tf": 12.5
+                },
+                "Menu.html#addSpacer": {
+                  "ref": "Menu.html#addSpacer",
+                  "tf": 12.5
+                },
                 "AbstractToolbar.html": {
                   "ref": "AbstractToolbar.html",
                   "tf": 1.4705882352941175
@@ -605,6 +729,18 @@
                 },
                 "AbstractToolbar.html#addSpacer": {
                   "ref": "AbstractToolbar.html#addSpacer",
+                  "tf": 12.5
+                },
+                "HamburgerMenu.html#addItem": {
+                  "ref": "HamburgerMenu.html#addItem",
+                  "tf": 16.666666666666664
+                },
+                "HamburgerMenu.html#addLabel": {
+                  "ref": "HamburgerMenu.html#addLabel",
+                  "tf": 12.5
+                },
+                "HamburgerMenu.html#addSpacer": {
+                  "ref": "HamburgerMenu.html#addSpacer",
                   "tf": 12.5
                 }
               },
@@ -632,8 +768,16 @@
                           "ref": "Toolbar.html#addItem",
                           "tf": 666.6666666666666
                         },
+                        "Menu.html#addItem": {
+                          "ref": "Menu.html#addItem",
+                          "tf": 666.6666666666666
+                        },
                         "AbstractToolbar.html#addItem": {
                           "ref": "AbstractToolbar.html#addItem",
+                          "tf": 666.6666666666666
+                        },
+                        "HamburgerMenu.html#addItem": {
+                          "ref": "HamburgerMenu.html#addItem",
                           "tf": 666.6666666666666
                         }
                       }
@@ -681,8 +825,16 @@
                             "ref": "Toolbar.html#addLabel",
                             "tf": 670
                           },
+                          "Menu.html#addLabel": {
+                            "ref": "Menu.html#addLabel",
+                            "tf": 670
+                          },
                           "AbstractToolbar.html#addLabel": {
                             "ref": "AbstractToolbar.html#addLabel",
+                            "tf": 670
+                          },
+                          "HamburgerMenu.html#addLabel": {
+                            "ref": "HamburgerMenu.html#addLabel",
                             "tf": 670
                           }
                         }
@@ -715,8 +867,16 @@
                           "ref": "Toolbar.html#addSpacer",
                           "tf": 750
                         },
+                        "Menu.html#addSpacer": {
+                          "ref": "Menu.html#addSpacer",
+                          "tf": 750
+                        },
                         "AbstractToolbar.html#addSpacer": {
                           "ref": "AbstractToolbar.html#addSpacer",
+                          "tf": 750
+                        },
+                        "HamburgerMenu.html#addSpacer": {
+                          "ref": "HamburgerMenu.html#addSpacer",
                           "tf": 750
                         }
                       }
@@ -1160,12 +1320,28 @@
                     "ref": "Toolbar.html#addLabel",
                     "tf": 20
                   },
+                  "Menu.html#addItem": {
+                    "ref": "Menu.html#addItem",
+                    "tf": 16.666666666666664
+                  },
+                  "Menu.html#addLabel": {
+                    "ref": "Menu.html#addLabel",
+                    "tf": 20
+                  },
                   "AbstractToolbar.html#addItem": {
                     "ref": "AbstractToolbar.html#addItem",
                     "tf": 16.666666666666664
                   },
                   "AbstractToolbar.html#addLabel": {
                     "ref": "AbstractToolbar.html#addLabel",
+                    "tf": 20
+                  },
+                  "HamburgerMenu.html#addItem": {
+                    "ref": "HamburgerMenu.html#addItem",
+                    "tf": 16.666666666666664
+                  },
+                  "HamburgerMenu.html#addLabel": {
+                    "ref": "HamburgerMenu.html#addLabel",
                     "tf": 20
                   }
                 },
@@ -1446,6 +1622,22 @@
                 "ref": "Toolbar.html#getItem",
                 "tf": 50
               },
+              "Menu.html#addItem": {
+                "ref": "Menu.html#addItem",
+                "tf": 16.666666666666664
+              },
+              "Menu.html#addLabel": {
+                "ref": "Menu.html#addLabel",
+                "tf": 20
+              },
+              "Menu.html#select": {
+                "ref": "Menu.html#select",
+                "tf": 50
+              },
+              "Menu.html#getItem": {
+                "ref": "Menu.html#getItem",
+                "tf": 50
+              },
               "AbstractToolbar.html#addItem": {
                 "ref": "AbstractToolbar.html#addItem",
                 "tf": 16.666666666666664
@@ -1460,6 +1652,22 @@
               },
               "AbstractToolbar.html#getItem": {
                 "ref": "AbstractToolbar.html#getItem",
+                "tf": 50
+              },
+              "HamburgerMenu.html#addItem": {
+                "ref": "HamburgerMenu.html#addItem",
+                "tf": 16.666666666666664
+              },
+              "HamburgerMenu.html#addLabel": {
+                "ref": "HamburgerMenu.html#addLabel",
+                "tf": 20
+              },
+              "HamburgerMenu.html#select": {
+                "ref": "HamburgerMenu.html#select",
+                "tf": 50
+              },
+              "HamburgerMenu.html#getItem": {
+                "ref": "HamburgerMenu.html#getItem",
                 "tf": 50
               }
             }
@@ -1554,6 +1762,26 @@
                     "ref": "Toolbar.html#getItem",
                     "tf": 25
                   },
+                  "Menu.html#addItem": {
+                    "ref": "Menu.html#addItem",
+                    "tf": 16.666666666666664
+                  },
+                  "Menu.html#addSpacer": {
+                    "ref": "Menu.html#addSpacer",
+                    "tf": 12.5
+                  },
+                  "Menu.html#clearMenuItems": {
+                    "ref": "Menu.html#clearMenuItems",
+                    "tf": 16.666666666666664
+                  },
+                  "Menu.html#select": {
+                    "ref": "Menu.html#select",
+                    "tf": 16.666666666666664
+                  },
+                  "Menu.html#getItem": {
+                    "ref": "Menu.html#getItem",
+                    "tf": 25
+                  },
                   "AbstractToolbar.html#addItem": {
                     "ref": "AbstractToolbar.html#addItem",
                     "tf": 16.666666666666664
@@ -1572,6 +1800,26 @@
                   },
                   "AbstractToolbar.html#getItem": {
                     "ref": "AbstractToolbar.html#getItem",
+                    "tf": 25
+                  },
+                  "HamburgerMenu.html#addItem": {
+                    "ref": "HamburgerMenu.html#addItem",
+                    "tf": 16.666666666666664
+                  },
+                  "HamburgerMenu.html#addSpacer": {
+                    "ref": "HamburgerMenu.html#addSpacer",
+                    "tf": 12.5
+                  },
+                  "HamburgerMenu.html#clearMenuItems": {
+                    "ref": "HamburgerMenu.html#clearMenuItems",
+                    "tf": 16.666666666666664
+                  },
+                  "HamburgerMenu.html#select": {
+                    "ref": "HamburgerMenu.html#select",
+                    "tf": 16.666666666666664
+                  },
+                  "HamburgerMenu.html#getItem": {
+                    "ref": "HamburgerMenu.html#getItem",
                     "tf": 25
                   }
                 }
@@ -2257,135 +2505,6 @@
                           "ref": "index.html",
                           "tf": 214
                         }
-                      },
-                      "a": {
-                        "docs": {},
-                        "t": {
-                          "docs": {},
-                          "i": {
-                            "docs": {},
-                            "o": {
-                              "docs": {},
-                              "n": {
-                                "docs": {},
-                                ".": {
-                                  "docs": {},
-                                  "c": {
-                                    "docs": {},
-                                    "o": {
-                                      "docs": {},
-                                      "m": {
-                                        "docs": {},
-                                        "p": {
-                                          "docs": {},
-                                          "o": {
-                                            "docs": {},
-                                            "n": {
-                                              "docs": {},
-                                              "e": {
-                                                "docs": {},
-                                                "n": {
-                                                  "docs": {},
-                                                  "t": {
-                                                    "docs": {},
-                                                    ".": {
-                                                      "docs": {},
-                                                      "m": {
-                                                        "docs": {},
-                                                        "e": {
-                                                          "docs": {},
-                                                          "n": {
-                                                            "docs": {},
-                                                            "u": {
-                                                              "docs": {
-                                                                "Presentation.Component.Menu.html": {
-                                                                  "ref": "Presentation.Component.Menu.html",
-                                                                  "tf": 1100
-                                                                }
-                                                              },
-                                                              "#": {
-                                                                "docs": {},
-                                                                "r": {
-                                                                  "docs": {},
-                                                                  "e": {
-                                                                    "docs": {},
-                                                                    "n": {
-                                                                      "docs": {},
-                                                                      "d": {
-                                                                        "docs": {
-                                                                          "Presentation.Component.Menu.html#render": {
-                                                                            "ref": "Presentation.Component.Menu.html#render",
-                                                                            "tf": 1075
-                                                                          }
-                                                                        }
-                                                                      }
-                                                                    }
-                                                                  }
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      },
-                                                      "h": {
-                                                        "docs": {},
-                                                        "a": {
-                                                          "docs": {},
-                                                          "m": {
-                                                            "docs": {},
-                                                            "b": {
-                                                              "docs": {},
-                                                              "u": {
-                                                                "docs": {},
-                                                                "r": {
-                                                                  "docs": {},
-                                                                  "g": {
-                                                                    "docs": {},
-                                                                    "e": {
-                                                                      "docs": {},
-                                                                      "r": {
-                                                                        "docs": {},
-                                                                        "m": {
-                                                                          "docs": {},
-                                                                          "e": {
-                                                                            "docs": {},
-                                                                            "n": {
-                                                                              "docs": {},
-                                                                              "u": {
-                                                                                "docs": {
-                                                                                  "Presentation.Component.HamburgerMenu.html": {
-                                                                                    "ref": "Presentation.Component.HamburgerMenu.html",
-                                                                                    "tf": 1100
-                                                                                  }
-                                                                                }
-                                                                              }
-                                                                            }
-                                                                          }
-                                                                        }
-                                                                      }
-                                                                    }
-                                                                  }
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
                       }
                     }
                   }
@@ -2450,9 +2569,9 @@
                         "ref": "Toolbar.html#render",
                         "tf": 775
                       },
-                      "Presentation.Component.Menu.html#render": {
-                        "ref": "Presentation.Component.Menu.html#render",
-                        "tf": 700
+                      "Menu.html#render": {
+                        "ref": "Menu.html#render",
+                        "tf": 775
                       }
                     }
                   }
@@ -2525,12 +2644,28 @@
                         "ref": "Toolbar.html#addSpacer",
                         "tf": 12.5
                       },
+                      "Menu.html#addItem": {
+                        "ref": "Menu.html#addItem",
+                        "tf": 16.666666666666664
+                      },
+                      "Menu.html#addSpacer": {
+                        "ref": "Menu.html#addSpacer",
+                        "tf": 12.5
+                      },
                       "AbstractToolbar.html#addItem": {
                         "ref": "AbstractToolbar.html#addItem",
                         "tf": 16.666666666666664
                       },
                       "AbstractToolbar.html#addSpacer": {
                         "ref": "AbstractToolbar.html#addSpacer",
+                        "tf": 12.5
+                      },
+                      "HamburgerMenu.html#addItem": {
+                        "ref": "HamburgerMenu.html#addItem",
+                        "tf": 16.666666666666664
+                      },
+                      "HamburgerMenu.html#addSpacer": {
+                        "ref": "HamburgerMenu.html#addSpacer",
                         "tf": 12.5
                       }
                     }
@@ -2565,8 +2700,16 @@
                         "ref": "Toolbar.html#select",
                         "tf": 716.6666666666666
                       },
+                      "Menu.html#select": {
+                        "ref": "Menu.html#select",
+                        "tf": 716.6666666666666
+                      },
                       "AbstractToolbar.html#select": {
                         "ref": "AbstractToolbar.html#select",
+                        "tf": 716.6666666666666
+                      },
+                      "HamburgerMenu.html#select": {
+                        "ref": "HamburgerMenu.html#select",
                         "tf": 716.6666666666666
                       }
                     }
@@ -2683,8 +2826,16 @@
                           "ref": "Toolbar.html#getItem",
                           "tf": 700
                         },
+                        "Menu.html#getItem": {
+                          "ref": "Menu.html#getItem",
+                          "tf": 700
+                        },
                         "AbstractToolbar.html#getItem": {
                           "ref": "AbstractToolbar.html#getItem",
+                          "tf": 700
+                        },
+                        "HamburgerMenu.html#getItem": {
+                          "ref": "HamburgerMenu.html#getItem",
                           "tf": 700
                         }
                       }
@@ -2725,16 +2876,16 @@
                       "ref": "Toolbar.html",
                       "tf": 110
                     },
-                    "Presentation.Component.Menu.html": {
-                      "ref": "Presentation.Component.Menu.html",
+                    "Menu.html": {
+                      "ref": "Menu.html",
                       "tf": 110
                     },
                     "AbstractToolbar.html": {
                       "ref": "AbstractToolbar.html",
                       "tf": 110
                     },
-                    "Presentation.Component.HamburgerMenu.html": {
-                      "ref": "Presentation.Component.HamburgerMenu.html",
+                    "HamburgerMenu.html": {
+                      "ref": "HamburgerMenu.html",
                       "tf": 110
                     }
                   }
@@ -2783,12 +2934,28 @@
                       "ref": "Toolbar.html#addLabel",
                       "tf": 12.5
                     },
+                    "Menu.html#addItem": {
+                      "ref": "Menu.html#addItem",
+                      "tf": 16.666666666666664
+                    },
+                    "Menu.html#addLabel": {
+                      "ref": "Menu.html#addLabel",
+                      "tf": 12.5
+                    },
                     "AbstractToolbar.html#addItem": {
                       "ref": "AbstractToolbar.html#addItem",
                       "tf": 16.666666666666664
                     },
                     "AbstractToolbar.html#addLabel": {
                       "ref": "AbstractToolbar.html#addLabel",
+                      "tf": 12.5
+                    },
+                    "HamburgerMenu.html#addItem": {
+                      "ref": "HamburgerMenu.html#addItem",
+                      "tf": 16.666666666666664
+                    },
+                    "HamburgerMenu.html#addLabel": {
+                      "ref": "HamburgerMenu.html#addLabel",
                       "tf": 12.5
                     }
                   }
@@ -2821,8 +2988,16 @@
                       "ref": "Toolbar.html#clearMenuItems",
                       "tf": 16.666666666666664
                     },
+                    "Menu.html#clearMenuItems": {
+                      "ref": "Menu.html#clearMenuItems",
+                      "tf": 16.666666666666664
+                    },
                     "AbstractToolbar.html#clearMenuItems": {
                       "ref": "AbstractToolbar.html#clearMenuItems",
+                      "tf": 16.666666666666664
+                    },
+                    "HamburgerMenu.html#clearMenuItems": {
+                      "ref": "HamburgerMenu.html#clearMenuItems",
                       "tf": 16.666666666666664
                     }
                   },
@@ -2858,8 +3033,16 @@
                                       "ref": "Toolbar.html#clearMenuItems",
                                       "tf": 750
                                     },
+                                    "Menu.html#clearMenuItems": {
+                                      "ref": "Menu.html#clearMenuItems",
+                                      "tf": 750
+                                    },
                                     "AbstractToolbar.html#clearMenuItems": {
                                       "ref": "AbstractToolbar.html#clearMenuItems",
+                                      "tf": 750
+                                    },
+                                    "HamburgerMenu.html#clearMenuItems": {
+                                      "ref": "HamburgerMenu.html#clearMenuItems",
                                       "tf": 750
                                     }
                                   }
@@ -2932,99 +3115,6 @@
                       "AbstractToolbar.html": {
                         "ref": "AbstractToolbar.html",
                         "tf": 1.4705882352941175
-                      }
-                    },
-                    "e": {
-                      "docs": {},
-                      "n": {
-                        "docs": {},
-                        "t": {
-                          "docs": {},
-                          ".": {
-                            "docs": {},
-                            "m": {
-                              "docs": {},
-                              "e": {
-                                "docs": {},
-                                "n": {
-                                  "docs": {},
-                                  "u": {
-                                    "docs": {
-                                      "Presentation.Component.Menu.html": {
-                                        "ref": "Presentation.Component.Menu.html",
-                                        "tf": 100
-                                      }
-                                    },
-                                    "#": {
-                                      "docs": {},
-                                      "r": {
-                                        "docs": {},
-                                        "e": {
-                                          "docs": {},
-                                          "n": {
-                                            "docs": {},
-                                            "d": {
-                                              "docs": {
-                                                "Presentation.Component.Menu.html#render": {
-                                                  "ref": "Presentation.Component.Menu.html#render",
-                                                  "tf": 75
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "h": {
-                              "docs": {},
-                              "a": {
-                                "docs": {},
-                                "m": {
-                                  "docs": {},
-                                  "b": {
-                                    "docs": {},
-                                    "u": {
-                                      "docs": {},
-                                      "r": {
-                                        "docs": {},
-                                        "g": {
-                                          "docs": {},
-                                          "e": {
-                                            "docs": {},
-                                            "r": {
-                                              "docs": {},
-                                              "m": {
-                                                "docs": {},
-                                                "e": {
-                                                  "docs": {},
-                                                  "n": {
-                                                    "docs": {},
-                                                    "u": {
-                                                      "docs": {
-                                                        "Presentation.Component.HamburgerMenu.html": {
-                                                          "ref": "Presentation.Component.HamburgerMenu.html",
-                                                          "tf": 100
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
                       }
                     }
                   }
@@ -3159,8 +3249,16 @@
                       "ref": "Toolbar.html#addLabel",
                       "tf": 12.5
                     },
+                    "Menu.html#addLabel": {
+                      "ref": "Menu.html#addLabel",
+                      "tf": 12.5
+                    },
                     "AbstractToolbar.html#addLabel": {
                       "ref": "AbstractToolbar.html#addLabel",
+                      "tf": 12.5
+                    },
+                    "HamburgerMenu.html#addLabel": {
+                      "ref": "HamburgerMenu.html#addLabel",
                       "tf": 12.5
                     }
                   }
@@ -3192,8 +3290,16 @@
                       "ref": "Toolbar.html#addLabel",
                       "tf": 20
                     },
+                    "Menu.html#addLabel": {
+                      "ref": "Menu.html#addLabel",
+                      "tf": 20
+                    },
                     "AbstractToolbar.html#addLabel": {
                       "ref": "AbstractToolbar.html#addLabel",
+                      "tf": 20
+                    },
+                    "HamburgerMenu.html#addLabel": {
+                      "ref": "HamburgerMenu.html#addLabel",
                       "tf": 20
                     }
                   }
@@ -3366,12 +3472,36 @@
                     "ref": "Toolbar.html#getItem",
                     "tf": 25
                   },
-                  "Presentation.Component.Menu.html": {
-                    "ref": "Presentation.Component.Menu.html",
-                    "tf": 750
+                  "Menu.html": {
+                    "ref": "Menu.html",
+                    "tf": 1950
                   },
-                  "Presentation.Component.Menu.html#render": {
-                    "ref": "Presentation.Component.Menu.html#render",
+                  "Menu.html#render": {
+                    "ref": "Menu.html#render",
+                    "tf": 25
+                  },
+                  "Menu.html#addItem": {
+                    "ref": "Menu.html#addItem",
+                    "tf": 16.666666666666664
+                  },
+                  "Menu.html#addLabel": {
+                    "ref": "Menu.html#addLabel",
+                    "tf": 12.5
+                  },
+                  "Menu.html#addSpacer": {
+                    "ref": "Menu.html#addSpacer",
+                    "tf": 12.5
+                  },
+                  "Menu.html#clearMenuItems": {
+                    "ref": "Menu.html#clearMenuItems",
+                    "tf": 16.666666666666664
+                  },
+                  "Menu.html#select": {
+                    "ref": "Menu.html#select",
+                    "tf": 16.666666666666664
+                  },
+                  "Menu.html#getItem": {
+                    "ref": "Menu.html#getItem",
                     "tf": 25
                   },
                   "AbstractToolbar.html#addItem": {
@@ -3398,9 +3528,33 @@
                     "ref": "AbstractToolbar.html#getItem",
                     "tf": 25
                   },
-                  "Presentation.Component.HamburgerMenu.html": {
-                    "ref": "Presentation.Component.HamburgerMenu.html",
+                  "HamburgerMenu.html": {
+                    "ref": "HamburgerMenu.html",
                     "tf": 16.666666666666664
+                  },
+                  "HamburgerMenu.html#addItem": {
+                    "ref": "HamburgerMenu.html#addItem",
+                    "tf": 16.666666666666664
+                  },
+                  "HamburgerMenu.html#addLabel": {
+                    "ref": "HamburgerMenu.html#addLabel",
+                    "tf": 12.5
+                  },
+                  "HamburgerMenu.html#addSpacer": {
+                    "ref": "HamburgerMenu.html#addSpacer",
+                    "tf": 12.5
+                  },
+                  "HamburgerMenu.html#clearMenuItems": {
+                    "ref": "HamburgerMenu.html#clearMenuItems",
+                    "tf": 16.666666666666664
+                  },
+                  "HamburgerMenu.html#select": {
+                    "ref": "HamburgerMenu.html#select",
+                    "tf": 16.666666666666664
+                  },
+                  "HamburgerMenu.html#getItem": {
+                    "ref": "HamburgerMenu.html#getItem",
+                    "tf": 25
                   }
                 },
                 "#": {
@@ -3413,9 +3567,165 @@
                         "docs": {},
                         "d": {
                           "docs": {
-                            "Presentation.Component.Menu.html#render": {
-                              "ref": "Presentation.Component.Menu.html#render",
-                              "tf": 75
+                            "Menu.html#render": {
+                              "ref": "Menu.html#render",
+                              "tf": 1150
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "a": {
+                    "docs": {},
+                    "d": {
+                      "docs": {},
+                      "d": {
+                        "docs": {},
+                        "i": {
+                          "docs": {},
+                          "t": {
+                            "docs": {},
+                            "e": {
+                              "docs": {},
+                              "m": {
+                                "docs": {
+                                  "Menu.html#addItem": {
+                                    "ref": "Menu.html#addItem",
+                                    "tf": 1150
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "l": {
+                          "docs": {},
+                          "a": {
+                            "docs": {},
+                            "b": {
+                              "docs": {},
+                              "e": {
+                                "docs": {},
+                                "l": {
+                                  "docs": {
+                                    "Menu.html#addLabel": {
+                                      "ref": "Menu.html#addLabel",
+                                      "tf": 1150
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "s": {
+                          "docs": {},
+                          "p": {
+                            "docs": {},
+                            "a": {
+                              "docs": {},
+                              "c": {
+                                "docs": {
+                                  "Menu.html#addSpacer": {
+                                    "ref": "Menu.html#addSpacer",
+                                    "tf": 1150
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "c": {
+                    "docs": {},
+                    "l": {
+                      "docs": {},
+                      "e": {
+                        "docs": {},
+                        "a": {
+                          "docs": {},
+                          "r": {
+                            "docs": {},
+                            "m": {
+                              "docs": {},
+                              "e": {
+                                "docs": {},
+                                "n": {
+                                  "docs": {},
+                                  "u": {
+                                    "docs": {},
+                                    "i": {
+                                      "docs": {},
+                                      "t": {
+                                        "docs": {},
+                                        "e": {
+                                          "docs": {},
+                                          "m": {
+                                            "docs": {
+                                              "Menu.html#clearMenuItems": {
+                                                "ref": "Menu.html#clearMenuItems",
+                                                "tf": 1150
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "s": {
+                    "docs": {},
+                    "e": {
+                      "docs": {},
+                      "l": {
+                        "docs": {},
+                        "e": {
+                          "docs": {},
+                          "c": {
+                            "docs": {},
+                            "t": {
+                              "docs": {
+                                "Menu.html#select": {
+                                  "ref": "Menu.html#select",
+                                  "tf": 1150
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "g": {
+                    "docs": {},
+                    "e": {
+                      "docs": {},
+                      "t": {
+                        "docs": {},
+                        "i": {
+                          "docs": {},
+                          "t": {
+                            "docs": {},
+                            "e": {
+                              "docs": {},
+                              "m": {
+                                "docs": {
+                                  "Menu.html#getItem": {
+                                    "ref": "Menu.html#getItem",
+                                    "tf": 1150
+                                  }
+                                }
+                              }
                             }
                           }
                         }
@@ -3605,8 +3915,32 @@
                             "ref": "Toolbar.html#getItem",
                             "tf": 110
                           },
-                          "Presentation.Component.Menu.html#render": {
-                            "ref": "Presentation.Component.Menu.html#render",
+                          "Menu.html#render": {
+                            "ref": "Menu.html#render",
+                            "tf": 110
+                          },
+                          "Menu.html#addItem": {
+                            "ref": "Menu.html#addItem",
+                            "tf": 110
+                          },
+                          "Menu.html#addLabel": {
+                            "ref": "Menu.html#addLabel",
+                            "tf": 110
+                          },
+                          "Menu.html#addSpacer": {
+                            "ref": "Menu.html#addSpacer",
+                            "tf": 110
+                          },
+                          "Menu.html#clearMenuItems": {
+                            "ref": "Menu.html#clearMenuItems",
+                            "tf": 110
+                          },
+                          "Menu.html#select": {
+                            "ref": "Menu.html#select",
+                            "tf": 110
+                          },
+                          "Menu.html#getItem": {
+                            "ref": "Menu.html#getItem",
                             "tf": 110
                           },
                           "AbstractToolbar.html#addItem": {
@@ -3631,6 +3965,30 @@
                           },
                           "AbstractToolbar.html#getItem": {
                             "ref": "AbstractToolbar.html#getItem",
+                            "tf": 110
+                          },
+                          "HamburgerMenu.html#addItem": {
+                            "ref": "HamburgerMenu.html#addItem",
+                            "tf": 110
+                          },
+                          "HamburgerMenu.html#addLabel": {
+                            "ref": "HamburgerMenu.html#addLabel",
+                            "tf": 110
+                          },
+                          "HamburgerMenu.html#addSpacer": {
+                            "ref": "HamburgerMenu.html#addSpacer",
+                            "tf": 110
+                          },
+                          "HamburgerMenu.html#clearMenuItems": {
+                            "ref": "HamburgerMenu.html#clearMenuItems",
+                            "tf": 110
+                          },
+                          "HamburgerMenu.html#select": {
+                            "ref": "HamburgerMenu.html#select",
+                            "tf": 110
+                          },
+                          "HamburgerMenu.html#getItem": {
+                            "ref": "HamburgerMenu.html#getItem",
                             "tf": 110
                           }
                         }
@@ -3682,6 +4040,14 @@
                     "ref": "Toolbar.html#addLabel",
                     "tf": 20
                   },
+                  "Menu.html#addItem": {
+                    "ref": "Menu.html#addItem",
+                    "tf": 16.666666666666664
+                  },
+                  "Menu.html#addLabel": {
+                    "ref": "Menu.html#addLabel",
+                    "tf": 20
+                  },
                   "AbstractToolbar.html": {
                     "ref": "AbstractToolbar.html",
                     "tf": 2.941176470588235
@@ -3692,6 +4058,14 @@
                   },
                   "AbstractToolbar.html#addLabel": {
                     "ref": "AbstractToolbar.html#addLabel",
+                    "tf": 20
+                  },
+                  "HamburgerMenu.html#addItem": {
+                    "ref": "HamburgerMenu.html#addItem",
+                    "tf": 16.666666666666664
+                  },
+                  "HamburgerMenu.html#addLabel": {
+                    "ref": "HamburgerMenu.html#addLabel",
                     "tf": 20
                   }
                 }
@@ -3993,8 +4367,8 @@
                     "docs": {},
                     "g": {
                       "docs": {
-                        "Presentation.Component.HamburgerMenu.html": {
-                          "ref": "Presentation.Component.HamburgerMenu.html",
+                        "HamburgerMenu.html": {
+                          "ref": "HamburgerMenu.html",
                           "tf": 16.666666666666664
                         }
                       },
@@ -4010,9 +4384,168 @@
                                 "docs": {},
                                 "u": {
                                   "docs": {
-                                    "Presentation.Component.HamburgerMenu.html": {
-                                      "ref": "Presentation.Component.HamburgerMenu.html",
-                                      "tf": 700
+                                    "HamburgerMenu.html": {
+                                      "ref": "HamburgerMenu.html",
+                                      "tf": 1900
+                                    }
+                                  },
+                                  "#": {
+                                    "docs": {},
+                                    "a": {
+                                      "docs": {},
+                                      "d": {
+                                        "docs": {},
+                                        "d": {
+                                          "docs": {},
+                                          "i": {
+                                            "docs": {},
+                                            "t": {
+                                              "docs": {},
+                                              "e": {
+                                                "docs": {},
+                                                "m": {
+                                                  "docs": {
+                                                    "HamburgerMenu.html#addItem": {
+                                                      "ref": "HamburgerMenu.html#addItem",
+                                                      "tf": 1150
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "l": {
+                                            "docs": {},
+                                            "a": {
+                                              "docs": {},
+                                              "b": {
+                                                "docs": {},
+                                                "e": {
+                                                  "docs": {},
+                                                  "l": {
+                                                    "docs": {
+                                                      "HamburgerMenu.html#addLabel": {
+                                                        "ref": "HamburgerMenu.html#addLabel",
+                                                        "tf": 1150
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "s": {
+                                            "docs": {},
+                                            "p": {
+                                              "docs": {},
+                                              "a": {
+                                                "docs": {},
+                                                "c": {
+                                                  "docs": {
+                                                    "HamburgerMenu.html#addSpacer": {
+                                                      "ref": "HamburgerMenu.html#addSpacer",
+                                                      "tf": 1150
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "c": {
+                                      "docs": {},
+                                      "l": {
+                                        "docs": {},
+                                        "e": {
+                                          "docs": {},
+                                          "a": {
+                                            "docs": {},
+                                            "r": {
+                                              "docs": {},
+                                              "m": {
+                                                "docs": {},
+                                                "e": {
+                                                  "docs": {},
+                                                  "n": {
+                                                    "docs": {},
+                                                    "u": {
+                                                      "docs": {},
+                                                      "i": {
+                                                        "docs": {},
+                                                        "t": {
+                                                          "docs": {},
+                                                          "e": {
+                                                            "docs": {},
+                                                            "m": {
+                                                              "docs": {
+                                                                "HamburgerMenu.html#clearMenuItems": {
+                                                                  "ref": "HamburgerMenu.html#clearMenuItems",
+                                                                  "tf": 1150
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "s": {
+                                      "docs": {},
+                                      "e": {
+                                        "docs": {},
+                                        "l": {
+                                          "docs": {},
+                                          "e": {
+                                            "docs": {},
+                                            "c": {
+                                              "docs": {},
+                                              "t": {
+                                                "docs": {
+                                                  "HamburgerMenu.html#select": {
+                                                    "ref": "HamburgerMenu.html#select",
+                                                    "tf": 1150
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "g": {
+                                      "docs": {},
+                                      "e": {
+                                        "docs": {},
+                                        "t": {
+                                          "docs": {},
+                                          "i": {
+                                            "docs": {},
+                                            "t": {
+                                              "docs": {},
+                                              "e": {
+                                                "docs": {},
+                                                "m": {
+                                                  "docs": {
+                                                    "HamburgerMenu.html#getItem": {
+                                                      "ref": "HamburgerMenu.html#getItem",
+                                                      "tf": 1150
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
                                     }
                                   }
                                 }
@@ -4044,8 +4577,8 @@
                     "ref": "Toolbar.html",
                     "tf": 25
                   },
-                  "Presentation.Component.HamburgerMenu.html": {
-                    "ref": "Presentation.Component.HamburgerMenu.html",
+                  "HamburgerMenu.html": {
+                    "ref": "HamburgerMenu.html",
                     "tf": 16.666666666666664
                   }
                 }
@@ -4131,7 +4664,7 @@
           }
         }
       },
-      "length": 353
+      "length": 441
     },
     "corpusTokens": [
       "abstract",
@@ -4157,9 +4690,6 @@
       "clearnotif",
       "click",
       "compon",
-      "component.hamburgermenu",
-      "component.menu",
-      "component.menu#rend",
       "constructor",
       "creat",
       "data",
@@ -4174,6 +4704,12 @@
       "global",
       "hamburg",
       "hamburgermenu",
+      "hamburgermenu#additem",
+      "hamburgermenu#addlabel",
+      "hamburgermenu#addspac",
+      "hamburgermenu#clearmenuitem",
+      "hamburgermenu#getitem",
+      "hamburgermenu#select",
       "hide",
       "hidenotif",
       "icon",
@@ -4199,7 +4735,13 @@
       "lt;abstract&gt",
       "member",
       "menu",
+      "menu#additem",
+      "menu#addlabel",
+      "menu#addspac",
+      "menu#clearmenuitem",
+      "menu#getitem",
       "menu#rend",
+      "menu#select",
       "menuitem",
       "navig",
       "navigationmenu",
@@ -4230,9 +4772,6 @@
       "option",
       "pass",
       "present",
-      "presentation.component.hamburgermenu",
-      "presentation.component.menu",
-      "presentation.component.menu#rend",
       "readm",
       "render",
       "select",
@@ -4669,26 +5208,86 @@
       "summary": "",
       "description": "Get an item in the menu"
     },
-    "Presentation.Component.Menu.html": {
-      "id": "Presentation.Component.Menu.html",
+    "Menu.html": {
+      "id": "Menu.html",
       "kind": "class",
       "title": "Menu",
-      "longname": "Presentation.Component.Menu",
+      "longname": "Menu",
       "name": "Menu",
-      "tags": "Presentation.Component.Menu Component.Menu Menu",
+      "tags": "Menu",
       "summary": "",
       "description": "A Menu",
       "body": ""
     },
-    "Presentation.Component.Menu.html#render": {
-      "id": "Presentation.Component.Menu.html#render",
+    "Menu.html#render": {
+      "id": "Menu.html#render",
       "kind": "function",
       "title": "render()",
-      "longname": "Presentation.Component.Menu#render",
+      "longname": "Menu#render",
       "name": "render",
-      "tags": "Presentation.Component.Menu#render Component.Menu#render Menu#render render",
+      "tags": "Menu#render render",
       "summary": "",
       "description": "Renders the Menu"
+    },
+    "Menu.html#addItem": {
+      "id": "Menu.html#addItem",
+      "kind": "function",
+      "title": "addItem( id, click, icon, title, spacer )",
+      "longname": "Menu#addItem",
+      "name": "addItem",
+      "tags": "Menu#addItem addItem",
+      "summary": "",
+      "description": "Adds an item to the menu"
+    },
+    "Menu.html#addLabel": {
+      "id": "Menu.html#addLabel",
+      "kind": "function",
+      "title": "addLabel( id, icon, title, level )",
+      "longname": "Menu#addLabel",
+      "name": "addLabel",
+      "tags": "Menu#addLabel addLabel",
+      "summary": "",
+      "description": "Adds a label (no click) to the menu"
+    },
+    "Menu.html#addSpacer": {
+      "id": "Menu.html#addSpacer",
+      "kind": "function",
+      "title": "addSpacer()",
+      "longname": "Menu#addSpacer",
+      "name": "addSpacer",
+      "tags": "Menu#addSpacer addSpacer",
+      "summary": "",
+      "description": "Adds a spacer item to the menu"
+    },
+    "Menu.html#clearMenuItems": {
+      "id": "Menu.html#clearMenuItems",
+      "kind": "function",
+      "title": "clearMenuItems()",
+      "longname": "Menu#clearMenuItems",
+      "name": "clearMenuItems",
+      "tags": "Menu#clearMenuItems clearMenuItems",
+      "summary": "",
+      "description": "Clear all items in the menu"
+    },
+    "Menu.html#select": {
+      "id": "Menu.html#select",
+      "kind": "function",
+      "title": "select( id )",
+      "longname": "Menu#select",
+      "name": "select",
+      "tags": "Menu#select select",
+      "summary": "",
+      "description": "Select an item in the menu"
+    },
+    "Menu.html#getItem": {
+      "id": "Menu.html#getItem",
+      "kind": "function",
+      "title": "getItem( id )",
+      "longname": "Menu#getItem",
+      "name": "getItem",
+      "tags": "Menu#getItem getItem",
+      "summary": "",
+      "description": "Get an item in the menu"
     },
     "AbstractToolbar.html": {
       "id": "AbstractToolbar.html",
@@ -4761,16 +5360,76 @@
       "summary": "",
       "description": "Get an item in the menu"
     },
-    "Presentation.Component.HamburgerMenu.html": {
-      "id": "Presentation.Component.HamburgerMenu.html",
+    "HamburgerMenu.html": {
+      "id": "HamburgerMenu.html",
       "kind": "class",
       "title": "HamburgerMenu",
-      "longname": "Presentation.Component.HamburgerMenu",
+      "longname": "HamburgerMenu",
       "name": "HamburgerMenu",
-      "tags": "Presentation.Component.HamburgerMenu Component.HamburgerMenu HamburgerMenu",
+      "tags": "HamburgerMenu",
       "summary": "",
       "description": "A Hamburger Menu View",
       "body": ""
+    },
+    "HamburgerMenu.html#addItem": {
+      "id": "HamburgerMenu.html#addItem",
+      "kind": "function",
+      "title": "addItem( id, click, icon, title, spacer )",
+      "longname": "HamburgerMenu#addItem",
+      "name": "addItem",
+      "tags": "HamburgerMenu#addItem addItem",
+      "summary": "",
+      "description": "Adds an item to the menu"
+    },
+    "HamburgerMenu.html#addLabel": {
+      "id": "HamburgerMenu.html#addLabel",
+      "kind": "function",
+      "title": "addLabel( id, icon, title, level )",
+      "longname": "HamburgerMenu#addLabel",
+      "name": "addLabel",
+      "tags": "HamburgerMenu#addLabel addLabel",
+      "summary": "",
+      "description": "Adds a label (no click) to the menu"
+    },
+    "HamburgerMenu.html#addSpacer": {
+      "id": "HamburgerMenu.html#addSpacer",
+      "kind": "function",
+      "title": "addSpacer()",
+      "longname": "HamburgerMenu#addSpacer",
+      "name": "addSpacer",
+      "tags": "HamburgerMenu#addSpacer addSpacer",
+      "summary": "",
+      "description": "Adds a spacer item to the menu"
+    },
+    "HamburgerMenu.html#clearMenuItems": {
+      "id": "HamburgerMenu.html#clearMenuItems",
+      "kind": "function",
+      "title": "clearMenuItems()",
+      "longname": "HamburgerMenu#clearMenuItems",
+      "name": "clearMenuItems",
+      "tags": "HamburgerMenu#clearMenuItems clearMenuItems",
+      "summary": "",
+      "description": "Clear all items in the menu"
+    },
+    "HamburgerMenu.html#select": {
+      "id": "HamburgerMenu.html#select",
+      "kind": "function",
+      "title": "select( id )",
+      "longname": "HamburgerMenu#select",
+      "name": "select",
+      "tags": "HamburgerMenu#select select",
+      "summary": "",
+      "description": "Select an item in the menu"
+    },
+    "HamburgerMenu.html#getItem": {
+      "id": "HamburgerMenu.html#getItem",
+      "kind": "function",
+      "title": "getItem( id )",
+      "longname": "HamburgerMenu#getItem",
+      "name": "getItem",
+      "tags": "HamburgerMenu#getItem getItem",
+      "summary": "",
+      "description": "Get an item in the menu"
     }
   }
 }

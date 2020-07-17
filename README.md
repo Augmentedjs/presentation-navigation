@@ -11,37 +11,37 @@ Augmented.js Next Presentation - Navigation Components
 -   [HamburgerMenu](#hamburgermenu)
     -   [Parameters](#parameters)
     -   [render](#render)
--   [Menu](#menu)
-    -   [Parameters](#parameters-1)
-    -   [render](#render-1)
 -   [toggle](#toggle)
 -   [AbstractToolbar](#abstracttoolbar)
-    -   [Parameters](#parameters-2)
+    -   [Parameters](#parameters-1)
     -   [addItem](#additem)
-        -   [Parameters](#parameters-3)
+        -   [Parameters](#parameters-2)
         -   [Properties](#properties)
     -   [addItem](#additem-1)
-        -   [Parameters](#parameters-4)
+        -   [Parameters](#parameters-3)
         -   [Properties](#properties-1)
     -   [addItem](#additem-2)
-        -   [Parameters](#parameters-5)
+        -   [Parameters](#parameters-4)
         -   [Properties](#properties-2)
     -   [addItem](#additem-3)
-        -   [Parameters](#parameters-6)
+        -   [Parameters](#parameters-5)
         -   [Properties](#properties-3)
     -   [addItem](#additem-4)
-        -   [Parameters](#parameters-7)
+        -   [Parameters](#parameters-6)
         -   [Examples](#examples)
     -   [addLabel](#addlabel)
-        -   [Parameters](#parameters-8)
+        -   [Parameters](#parameters-7)
         -   [Examples](#examples-1)
     -   [addSpacer](#addspacer)
         -   [Examples](#examples-2)
     -   [clearMenuItems](#clearmenuitems)
     -   [select](#select)
-        -   [Parameters](#parameters-9)
+        -   [Parameters](#parameters-8)
     -   [getItem](#getitem)
-        -   [Parameters](#parameters-10)
+        -   [Parameters](#parameters-9)
+-   [Menu](#menu)
+    -   [Parameters](#parameters-10)
+    -   [render](#render-1)
 -   [NavigationMenu](#navigationmenu)
     -   [Parameters](#parameters-11)
     -   [render](#render-2)
@@ -64,7 +64,7 @@ Augmented.js Next Presentation - Navigation Components
 
 ## HamburgerMenu
 
-**Extends Presentation.AbstractToolbar**
+**Extends AbstractToolbar**
 
 A Hamburger Menu View
 
@@ -75,22 +75,6 @@ A Hamburger Menu View
 ### render
 
 Render the Hamburger Menu
-
-Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Returns the view context ('this')
-
-## Menu
-
-**Extends Presentation.AbstractToolbar**
-
-A Menu
-
-### Parameters
-
--   `options`  
-
-### render
-
-Renders the Menu
 
 Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Returns the view context ('this')
 
@@ -254,6 +238,22 @@ Get an item in the menu
 #### Parameters
 
 -   `id` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The id to get
+
+## Menu
+
+**Extends AbstractToolbar**
+
+A Menu
+
+### Parameters
+
+-   `options`  
+
+### render
+
+Renders the Menu
+
+Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Returns the view context ('this')
 
 ## NavigationMenu
 
