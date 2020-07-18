@@ -1,6 +1,6 @@
 {
   "name": "presentation-navigation",
-  "version": "3.0.7",
+  "version": "3.0.8",
   "description": "The Augmented.js Next - Presentation Application Module.",
   "main": "dist/presentation-navigation.js",
   "scripts": {
@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "next-core-utilities": "^2.9.0",
-    "presentation-decorator": "^3.2.0",
+    "presentation-decorator": "^3.2.1",
     "presentation-dom": "^3.0.3"
   },
   "bugs": {
