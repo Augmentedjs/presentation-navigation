@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "next-core-utilities": "^2.9.0",
-    "presentation-decorator": "^3.2.2",
+    "presentation-decorator": "^3.2.3",
     "presentation-dom": "^3.0.3"
   },
   "bugs": {
