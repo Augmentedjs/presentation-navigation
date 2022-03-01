@@ -8,59 +8,59 @@ Augmented.js Next Presentation - Navigation Components
 
 ### Table of Contents
 
--   [HamburgerMenu](#hamburgermenu)
-    -   [Parameters](#parameters)
-    -   [render](#render)
--   [toggle](#toggle)
--   [AbstractToolbar](#abstracttoolbar)
-    -   [Parameters](#parameters-1)
-    -   [addItem](#additem)
-        -   [Parameters](#parameters-2)
-        -   [Properties](#properties)
-    -   [addItem](#additem-1)
-        -   [Parameters](#parameters-3)
-        -   [Properties](#properties-1)
-    -   [addItem](#additem-2)
-        -   [Parameters](#parameters-4)
-        -   [Properties](#properties-2)
-    -   [addItem](#additem-3)
-        -   [Parameters](#parameters-5)
-        -   [Properties](#properties-3)
-    -   [addItem](#additem-4)
-        -   [Parameters](#parameters-6)
-        -   [Examples](#examples)
-    -   [addLabel](#addlabel)
-        -   [Parameters](#parameters-7)
-        -   [Examples](#examples-1)
-    -   [addSpacer](#addspacer)
-        -   [Examples](#examples-2)
-    -   [clearMenuItems](#clearmenuitems)
-    -   [select](#select)
-        -   [Parameters](#parameters-8)
-    -   [getItem](#getitem)
-        -   [Parameters](#parameters-9)
--   [Menu](#menu)
-    -   [Parameters](#parameters-10)
-    -   [render](#render-1)
--   [NavigationMenu](#navigationmenu)
-    -   [Parameters](#parameters-11)
-    -   [render](#render-2)
--   [NotificationCenter](#notificationcenter)
-    -   [Parameters](#parameters-12)
-    -   [notifications](#notifications)
-    -   [showNotification](#shownotification)
-    -   [hideNotification](#hidenotification)
-    -   [clearNotifications](#clearnotifications)
-    -   [render](#render-3)
--   [Toolbar](#toolbar)
-    -   [Parameters](#parameters-13)
-    -   [render](#render-4)
--   [Iconbar](#iconbar)
-    -   [Parameters](#parameters-14)
-    -   [addIcon](#addicon)
-        -   [Parameters](#parameters-15)
-        -   [Examples](#examples-3)
-    -   [render](#render-5)
+*   [HamburgerMenu](#hamburgermenu)
+    *   [Parameters](#parameters)
+    *   [render](#render)
+*   [toggle](#toggle)
+*   [AbstractToolbar](#abstracttoolbar)
+    *   [Parameters](#parameters-1)
+    *   [addItem](#additem)
+        *   [Parameters](#parameters-2)
+        *   [Properties](#properties)
+    *   [addItem](#additem-1)
+        *   [Parameters](#parameters-3)
+        *   [Properties](#properties-1)
+    *   [addItem](#additem-2)
+        *   [Parameters](#parameters-4)
+        *   [Properties](#properties-2)
+    *   [addItem](#additem-3)
+        *   [Parameters](#parameters-5)
+        *   [Properties](#properties-3)
+    *   [addItem](#additem-4)
+        *   [Parameters](#parameters-6)
+        *   [Examples](#examples)
+    *   [addLabel](#addlabel)
+        *   [Parameters](#parameters-7)
+        *   [Examples](#examples-1)
+    *   [addSpacer](#addspacer)
+        *   [Examples](#examples-2)
+    *   [clearMenuItems](#clearmenuitems)
+    *   [select](#select)
+        *   [Parameters](#parameters-8)
+    *   [getItem](#getitem)
+        *   [Parameters](#parameters-9)
+*   [Menu](#menu)
+    *   [Parameters](#parameters-10)
+    *   [render](#render-1)
+*   [NavigationMenu](#navigationmenu)
+    *   [Parameters](#parameters-11)
+    *   [render](#render-2)
+*   [NotificationCenter](#notificationcenter)
+    *   [Parameters](#parameters-12)
+    *   [notifications](#notifications)
+    *   [showNotification](#shownotification)
+    *   [hideNotification](#hidenotification)
+    *   [clearNotifications](#clearnotifications)
+    *   [render](#render-3)
+*   [Toolbar](#toolbar)
+    *   [Parameters](#parameters-13)
+    *   [render](#render-4)
+*   [Iconbar](#iconbar)
+    *   [Parameters](#parameters-14)
+    *   [addIcon](#addicon)
+        *   [Parameters](#parameters-15)
+        *   [Examples](#examples-3)
+    *   [render](#render-5)
 
 ## HamburgerMenu
 
@@ -70,7 +70,7 @@ A Hamburger Menu View
 
 ### Parameters
 
--   `options`  
+*   `options`  
 
 ### render
 
@@ -100,7 +100,7 @@ Supported Options: <br/>
 
 ### Parameters
 
--   `options` **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Options to pass
+*   `options` **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Options to pass
 
 ### addItem
 
@@ -108,15 +108,15 @@ The model property
 
 #### Parameters
 
--   `id`  
--   `click`  
--   `icon`  
--   `title`  
--   `spacer`   (optional, default `false`)
+*   `id`  
+*   `click`  
+*   `icon`  
+*   `title`  
+*   `spacer`   (optional, default `false`)
 
 #### Properties
 
--   `model` **Model** The model property
+*   `model` **Model** The model property
 
 ### addItem
 
@@ -124,15 +124,15 @@ The initialized property
 
 #### Parameters
 
--   `id`  
--   `click`  
--   `icon`  
--   `title`  
--   `spacer`   (optional, default `false`)
+*   `id`  
+*   `click`  
+*   `icon`  
+*   `title`  
+*   `spacer`   (optional, default `false`)
 
 #### Properties
 
--   `isInitalized` **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** The initialized property
+*   `isInitalized` **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** The initialized property
 
 ### addItem
 
@@ -140,15 +140,15 @@ The menuItems property
 
 #### Parameters
 
--   `id`  
--   `click`  
--   `icon`  
--   `title`  
--   `spacer`   (optional, default `false`)
+*   `id`  
+*   `click`  
+*   `icon`  
+*   `title`  
+*   `spacer`   (optional, default `false`)
 
 #### Properties
 
--   `menuItems` **[array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)** The initialized property
+*   `menuItems` **[array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)** The initialized property
 
 ### addItem
 
@@ -156,15 +156,15 @@ The title property
 
 #### Parameters
 
--   `id`  
--   `click`  
--   `icon`  
--   `title`  
--   `spacer`   (optional, default `false`)
+*   `id`  
+*   `click`  
+*   `icon`  
+*   `title`  
+*   `spacer`   (optional, default `false`)
 
 #### Properties
 
--   `title` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The title property
+*   `title` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The title property
 
 ### addItem
 
@@ -172,11 +172,11 @@ Adds an item to the menu
 
 #### Parameters
 
--   `id`  {string} The id of the itemID
--   `click`  {string} The bound click method to call
--   `icon`  {string} The icon name (webfont)
--   `title`  {string} The title of the itemID
--   `spacer`  {boolean} Sets a spacer item vs text (not clickable) (optional, default `false`)
+*   `id`  {string} The id of the itemID
+*   `click`  {string} The bound click method to call
+*   `icon`  {string} The icon name (webfont)
+*   `title`  {string} The title of the itemID
+*   `spacer`  {boolean} Sets a spacer item vs text (not clickable) (optional, default `false`)
 
 #### Examples
 
@@ -194,10 +194,10 @@ Adds a label (no click) to the menu
 
 #### Parameters
 
--   `id`  {string} The id of the itemID
--   `icon`  {string} The icon name (webfont) (optional, default `null`)
--   `title`  {string} The title of the itemID
--   `level`  {number} Set the level of the title (1 = h1, 2 = h2, etc. 0 is default and just text) (optional, default `0`)
+*   `id`  {string} The id of the itemID
+*   `icon`  {string} The icon name (webfont) (optional, default `null`)
+*   `title`  {string} The title of the itemID
+*   `level`  {number} Set the level of the title (1 = h1, 2 = h2, etc. 0 is default and just text) (optional, default `0`)
 
 #### Examples
 
@@ -229,7 +229,7 @@ Select an item in the menu
 
 #### Parameters
 
--   `id` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The id to select
+*   `id` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The id to select
 
 ### getItem
 
@@ -237,7 +237,7 @@ Get an item in the menu
 
 #### Parameters
 
--   `id` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The id to get
+*   `id` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The id to get
 
 ## Menu
 
@@ -247,7 +247,7 @@ A Menu
 
 ### Parameters
 
--   `options`  
+*   `options`  
 
 ### render
 
@@ -263,7 +263,7 @@ A Navigation Menu
 
 ### Parameters
 
--   `options`  
+*   `options`  
 
 ### render
 
@@ -279,7 +279,7 @@ A Notfication Center Component
 
 ### Parameters
 
--   `options`  
+*   `options`  
 
 ### notifications
 
@@ -309,7 +309,7 @@ A Toolbar View
 
 ### Parameters
 
--   `options`  
+*   `options`  
 
 ### render
 
@@ -325,7 +325,7 @@ An Iconbar View
 
 ### Parameters
 
--   `options`  
+*   `options`  
 
 ### addIcon
 
@@ -333,11 +333,11 @@ Adds an item to the menu
 
 #### Parameters
 
--   `id`  {string} The id of the itemID
--   `click`  {string} The bound click method to call
--   `icon`  {string} The icon name (webfont) or image src uri
--   `toolTip`  {string} The toolTip of the itemID
--   `isImageLink`  {boolean} Sets is icon is an image link vs web font
+*   `id`  {string} The id of the itemID
+*   `click`  {string} The bound click method to call
+*   `icon`  {string} The icon name (webfont) or image src uri
+*   `toolTip`  {string} The toolTip of the itemID
+*   `isImageLink`  {boolean} Sets is icon is an image link vs web font
 
 #### Examples
 
